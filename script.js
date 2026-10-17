@@ -161,10 +161,54 @@ const SONGS = [
                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 01.26, end: 01.29 }
                  ]
            },
-         
+             {
+            time: 01.30,
+               segments: [
+           {
+          color: "#ff962d",
+              words: [
+                 { text: "매일 이\n未姨呢(ne1)\n每個日子", start: 01.30, end: 01.39 }
+                 { text: "렇게\n囉茄\n裏", start: 01.31, end: 01.39 }
+                 { text: "난 늘\nna攣\n我總", start: 01.32, end: 01.39 }
+                 { text: "혼잣말\n胸炸 媽\n是自言", start: 01.33, end: 01.39 }
+                 { text: "을 해\n攣呢\n自語", start: 01.34, end: 01.39 }
+                 ]
+                 },
+                  {
+                  color: "#cfa7eb",
+              words: [
+                 { text: "Always\n \nAlways", start: 01.35, end: 01.39 }
+                  ]
+                 }
+                  ]
+             },
+           {
+          color: "#ff962d",
+              words:[
+                { text: "Whoa-oa, whoa", start: 01.40, end: 01.42 }
+                 ]
+           },
+          {
+          color: "#ffafcf",
+              words:[
+                { text: "Wait for you", start: 01.43, end: 01.45 }
+                 ]
+           },
+          {
+          color: "#ff962d",
+              words:[
+                { text: "Whoa-oa", start: 01.45, end: 01.47 }
+                 ]
+           },
+          {
+          color: "#ffafcf",
+              words:[
+                { text: "Yeah wait for you", start: 01.48, end: 01.50 }
+                 ]
+           },
          {       
     advanced: {
-      videoId: "",
+      videoId: "T_gJpnjJsnk",
       lyrics: [
         {
           time: 12.40,
