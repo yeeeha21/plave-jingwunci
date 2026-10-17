@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f6fc">
+
+  <title>LYRICS CLUB｜K-pop 應援練習室</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    YouTube IFrame API 由 script.js 動態載入。
+    這樣可以確保 API 載入時，回呼函式已準備好。
+  -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="app">
+
+    <!-- =========================
+         共用頁首
+         ========================= -->
+    <header class="header">
+      <a href="#" id="home-logo" class="brand">
+        <span class="brand-icon">♫</span>
+        <span>LYRICS<span class="brand-accent"> CLUB</span></span>
+      </a>
+
+      <span class="header-tag">K-POP FAN PROJECT</span>
+    </header>
+
+    <main>
+
+      <!-- =========================
+           頁面一：歌曲列表
+           ========================= -->
+      <section id="home-page">
+
+        <section class="intro">
+          <p class="eyebrow">SING IT TOGETHER ✦</p>
+          <h1>選一首歌，<span>開始練習。</span></h1>
+          <p class="intro-text">
+            選擇普通版或進階版，跟著同步歌詞練習應援。
+          </p>
+        </section>
+
+        <!-- 歌曲總數與說明 -->
+        <div class="list-toolbar">
+          <div>
+            <span class="section-number">YOUR PLAYLIST</span>
+            <h2>歌曲列表</h2>
+          </div>
+
+          <span id="song-total" class="count-badge">12 SONGS</span>
+        </div>
+
+        <!--
+          JavaScript 會根據 SONGS 陣列，
+          自動產生 12 張歌曲卡片。
+        -->
+        <div id="song-list" class="song-grid"></div>
+
+        <p class="list-note">
+          ✦ 選擇版本即可進入同步歌詞播放器
+        </p>
+      </section>
+
+
+      <!-- =========================
+           頁面二：同步歌詞播放器
+           預設隱藏
+           ========================= -->
+      <section id="player-page" hidden>
+
+        <!-- 返回按鈕 -->
+        <button id="back-to-list" class="back-button" type="button">
+          <span aria-hidden="true">←</span>
+          返回歌曲列表
+        </button>
+
+        <!-- 播放頁標題 -->
+        <section class="intro player-intro">
+          <p class="eyebrow">NOW PRACTICING ✦</p>
+          <h1 id="current-song-title">歌曲名稱</h1>
+          <p id="current-song-subtitle" class="intro-text">
+            普通版 · 應援練習
+          </p>
+        </section>
+
+        <!-- YouTube 播放器 -->
+        <section class="card player-card">
+          <div class="section-heading">
+            <div>
+              <span class="section-number">01 / PLAYER</span>
+              <h2>影片播放</h2>
+            </div>
+
+            <span id="player-badge" class="version-badge">
+              普通版
+            </span>
+          </div>
+
+          <!-- 方便切換影片或更新影片 ID -->
+          <form id="video-form" class="video-form">
+            <label for="video-url">YouTube 影片網址 / ID</label>
+
+            <div class="input-row">
+              <input
+                id="video-url"
+                type="text"
+                placeholder="輸入 YouTube 網址或影片 ID"
+                autocomplete="url"
+                required
+              >
+
+              <button type="submit" class="primary-button">
+                載入影片
+              </button>
+            </div>
+          </form>
+
+          <!-- YouTube API 會在此建立 iframe -->
+          <div class="video-frame">
+            <div id="youtube-player"></div>
+          </div>
+
+          <p id="player-status" class="status-text" role="status">
+            正在準備播放器……
+          </p>
+
+          <!-- 播放控制 -->
+          <div class="playback-row">
+            <button
+              id="back-button"
+              class="control-button"
+              type="button"
+              aria-label="倒退五秒"
+            >−5s</button>
+
+            <button
+              id="play-button"
+              class="play-button"
+              type="button"
+              aria-label="播放或暫停"
+            >▶</button>
+
+            <button
+              id="forward-button"
+              class="control-button"
+              type="button"
+              aria-label="前進五秒"
+            >+5s</button>
+
+            <span id="time-display" class="time-display">
+              00:00 / 00:00
+            </span>
+          </div>
+
+          <input
+            id="seek-bar"
+            class="seek-bar"
+            type="range"
+            min="0"
+            max="1000"
+            value="0"
+            step="1"
+            aria-label="影片播放進度"
+          >
+        </section>
+
+
+        <!-- 歌詞面板 -->
+        <section class="card lyrics-card">
+          <div class="section-heading">
+            <div>
+              <span class="section-number">02 / LYRICS</span>
+              <h2>同步歌詞</h2>
+            </div>
+
+            <span id="lyrics-count" class="count-badge">
+              0 LINES
+            </span>
+          </div>
+
+          <!-- 歌曲資訊 -->
+          <div class="song-info">
+            <div class="song-art" aria-hidden="true">♪</div>
+
+            <div class="song-details">
+              <h3 id="lyrics-song-title">歌曲名稱</h3>
+              <p id="lyrics-song-subtitle">應援練習</p>
+            </div>
+
+            <span class="sync-indicator">
+              <span class="sync-dot"></span>
+              SYNC
+            </span>
+          </div>
+
+          <!-- 歌詞工具 -->
+          <div class="lyrics-tools">
+            <label for="lrc-file" class="upload-button">
+              <span aria-hidden="true">↑</span>
+              匯入 LRC 歌詞
+            </label>
+
+            <input
+              id="lrc-file"
+              type="file"
+              accept=".lrc,text/plain"
+              hidden
+            >
+
+            <button
+              id="restore-song-lyrics"
+              type="button"
+              class="text-button"
+            >
+              恢復歌曲歌詞
+            </button>
+          </div>
+
+          <p id="lyrics-status" class="status-text" role="status">
+            已載入歌曲歌詞。
+          </p>
+
+          <!-- 歌詞由 JavaScript 動態建立 -->
+          <div
+            id="lyrics-list"
+            class="lyrics-list"
+            aria-label="同步歌詞列表"
+          ></div>
+
+          <p class="lyrics-hint">
+            ✦ 點擊歌詞即可跳到對應的影片時間
+          </p>
+        </section>
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>MADE FOR EVERY FAN ♡</p>
+      <p>請替換範例歌曲資料及影片 ID，設定自己的歌詞。</p>
+    </footer>
+
+  </div>
+</body>
+</html>

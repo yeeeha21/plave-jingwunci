@@ -1,0 +1,866 @@
+
+/* =========================================
+   LYRICS CLUB
+   全站共用樣式
+   ========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f8f6fc;
+  --surface: #ffffff;
+  --text: #28243b;
+  --muted: #8d879f;
+  --primary: #8064d8;
+  --primary-dark: #6d50c7;
+  --primary-light: #eee8ff;
+  --pink: #e78eb5;
+  --pink-light: #fff0f6;
+  --border: #eeeaf5;
+  --radius: 21px;
+  --shadow: 0 12px 40px rgba(66, 45, 115, 0.06);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 85% 5%,
+      rgba(232, 216, 255, 0.45),
+      transparent 27rem
+    ),
+    var(--bg);
+
+  color: var(--text);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Noto Sans TC",
+    "Microsoft JhengHei",
+    sans-serif;
+
+  line-height: 1.6;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+button:focus-visible,
+input:focus-visible,
+a:focus-visible,
+.upload-button:focus-within {
+  outline: 3px solid rgba(128, 100, 216, 0.35);
+  outline-offset: 3px;
+}
+
+.app {
+  width: min(100% - 40px, 1000px);
+  margin: 0 auto;
+}
+
+/* =========================================
+   頁首
+   ========================================= */
+
+.header {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid rgba(128, 100, 216, 0.1);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  font-size: 17px;
+  font-weight: 850;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+}
+
+.brand-icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  color: white;
+  background: var(--primary);
+  border-radius: 12px;
+  font-size: 22px;
+}
+
+.brand-accent {
+  color: var(--primary);
+}
+
+.header-tag {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  font-weight: 750;
+}
+
+/* =========================================
+   標題
+   ========================================= */
+
+.intro {
+  padding: 43px 0 30px;
+}
+
+.eyebrow,
+.section-number {
+  color: var(--primary);
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 850;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+}
+
+.intro h1 {
+  margin: 0;
+  font-size: clamp(28px, 5vw, 42px);
+  line-height: 1.3;
+  letter-spacing: -1.5px;
+  overflow-wrap: anywhere;
+}
+
+.intro h1 span {
+  color: var(--primary);
+}
+
+.intro-text {
+  margin: 13px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* =========================================
+   歌曲列表工具列
+   ========================================= */
+
+.list-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.list-toolbar h2 {
+  margin: 3px 0 0;
+  font-size: 22px;
+}
+
+.count-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 11px;
+  border-radius: 20px;
+  color: var(--primary);
+  background: var(--primary-light);
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+/* =========================================
+   首頁：歌曲卡片
+   ========================================= */
+
+.song-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.song-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 19px;
+  background: var(--surface);
+  border: 1px solid rgba(128, 100, 216, 0.09);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s,
+    border-color 0.2s;
+}
+
+.song-card:hover {
+  transform: translateY(-3px);
+  border-color: #ded3fb;
+  box-shadow: 0 17px 42px rgba(66, 45, 115, 0.1);
+}
+
+.song-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.song-number {
+  color: #b6adca;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 850;
+}
+
+.song-symbol {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #c4b0ff, #f7b7d2);
+  color: white;
+  font-size: 21px;
+}
+
+.song-card h3 {
+  margin: 16px 0 5px;
+  font-size: 17px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.song-description {
+  min-height: 38px;
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+/* 每張卡片的兩個版本按鈕 */
+.version-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  margin-top: auto;
+}
+
+.version-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-width: 0;
+  padding: 10px 5px;
+  border: 1px solid transparent;
+  border-radius: 11px;
+  font-size: 12px;
+  font-weight: 800;
+  transition:
+    transform 0.15s,
+    background 0.15s;
+}
+
+.version-button:hover {
+  transform: translateY(-1px);
+}
+
+.version-button.normal {
+  color: var(--primary);
+  background: var(--primary-light);
+}
+
+.version-button.normal:hover {
+  background: #e3d9ff;
+}
+
+.version-button.advanced {
+  color: #bc5487;
+  background: var(--pink-light);
+}
+
+.version-button.advanced:hover {
+  background: #ffe2ee;
+}
+
+.list-note {
+  margin: 22px 0 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+/* =========================================
+   共用卡片與區塊標題
+   ========================================= */
+
+.card {
+  margin-bottom: 22px;
+  padding: 26px;
+  background: var(--surface);
+  border: 1px solid rgba(128, 100, 216, 0.07);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+
+.section-heading h2 {
+  margin: 3px 0 0;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+}
+
+.version-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: var(--primary);
+  background: var(--primary-light);
+  font-size: 11px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.version-badge.advanced {
+  color: #bc5487;
+  background: var(--pink-light);
+}
+
+/* =========================================
+   播放頁返回按鈕
+   ========================================= */
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 24px;
+  padding: 9px 13px;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  color: var(--text);
+  background: white;
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.back-button:hover {
+  color: var(--primary);
+  border-color: #d9cdf8;
+}
+
+.player-intro {
+  padding-top: 25px;
+}
+
+/* =========================================
+   YouTube 播放器
+   ========================================= */
+
+.video-form {
+  margin-bottom: 20px;
+}
+
+.video-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-row input {
+  min-width: 0;
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fcfbfe;
+  color: var(--text);
+  font-size: 13px;
+}
+
+.input-row input:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+.primary-button {
+  padding: 11px 17px;
+  border: none;
+  border-radius: 12px;
+  background: var(--primary);
+  color: white;
+  font-size: 13px;
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+.primary-button:hover {
+  background: var(--primary-dark);
+}
+
+.video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #171522;
+  border-radius: 15px;
+}
+
+#youtube-player {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#youtube-player iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.status-text {
+  margin: 9px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+/* 播放控制 */
+.playback-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.control-button,
+.play-button {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border: none;
+  transition: transform 0.15s, background 0.15s;
+}
+
+.control-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 13px;
+  color: var(--text);
+  background: #f4f1fa;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.control-button:hover {
+  background: var(--primary-light);
+}
+
+.play-button {
+  width: 49px;
+  height: 49px;
+  border-radius: 17px;
+  background: var(--primary);
+  color: white;
+  font-size: 17px;
+}
+
+.play-button:hover {
+  transform: scale(1.05);
+}
+
+.time-display {
+  min-width: 100px;
+  color: var(--muted);
+  text-align: right;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.seek-bar {
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin: 15px 0 0;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+/* =========================================
+   歌曲資訊
+   ========================================= */
+
+.song-info {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 15px;
+  background: #faf8ff;
+  border: 1px solid #f0ebfb;
+  border-radius: 15px;
+}
+
+.song-art {
+  display: grid;
+  place-items: center;
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: linear-gradient(135deg, #c3a7ff, #f7b6d0);
+  color: white;
+  font-size: 25px;
+}
+
+.song-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.song-details h3 {
+  margin: 0;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.song-details p {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.sync-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--primary);
+  font-size: 9px;
+  letter-spacing: 1px;
+  font-weight: 850;
+}
+
+.sync-dot {
+  width: 6px;
+  height: 6px;
+  background: #9c80ef;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #ece4ff;
+}
+
+/* =========================================
+   歌詞工具列與歌詞列表
+   ========================================= */
+
+.lyrics-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 19px 0 5px;
+}
+
+.upload-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 13px;
+  border: 1px dashed #c9b8f5;
+  border-radius: 11px;
+  color: var(--primary);
+  background: #fcfaff;
+  font-size: 12px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background: var(--primary-light);
+}
+
+.text-button {
+  border: none;
+  padding: 8px 0;
+  color: var(--muted);
+  background: transparent;
+  font-size: 11px;
+}
+
+.text-button:hover {
+  color: var(--primary);
+}
+
+.lyrics-list {
+  position: relative;
+  max-height: 430px;
+  min-height: 180px;
+  margin-top: 13px;
+  padding: 45px 4px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #ddd2f8 transparent;
+}
+
+.lyric-line {
+  display: block;
+  width: 100%;
+  padding: 11px 12px;
+  margin: 3px 0;
+  border: none;
+  border-radius: 12px;
+  background: transparent;
+  color: #a29caf;
+  text-align: center;
+  font-size: clamp(14px, 2.7vw, 17px);
+  font-weight: 550;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+  transition:
+    color 0.2s,
+    background 0.2s,
+    transform 0.2s;
+}
+
+.lyric-line:hover {
+  background: #faf8ff;
+  color: var(--primary);
+}
+
+.lyric-line.active {
+  background: linear-gradient(
+    90deg,
+    rgba(239, 232, 255, 0.15),
+    rgba(239, 232, 255, 0.85),
+    rgba(239, 232, 255, 0.15)
+  );
+  color: #7253ce;
+  font-size: clamp(16px, 3vw, 20px);
+  font-weight: 850;
+  transform: scale(1.015);
+}
+
+.lyric-line.past {
+  color: #c2bdcd;
+}
+
+.lyric-time {
+  display: block;
+  margin-top: 2px;
+  color: #aaa2bc;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.lyric-line.active .lyric-time {
+  color: #967ee0;
+}
+
+.lyrics-hint {
+  margin: 12px 0 0;
+  color: #a39aae;
+  text-align: center;
+  font-size: 10px;
+}
+
+/* =========================================
+   頁尾
+   ========================================= */
+
+.footer {
+  padding: 28px 0 35px;
+  text-align: center;
+  color: #aaa4b7;
+  font-size: 10px;
+}
+
+.footer p {
+  margin: 4px 0;
+}
+
+.footer p:first-child {
+  font-weight: 800;
+  letter-spacing: 1.8px;
+}
+
+/* =========================================
+   平板：每行兩張歌曲卡片
+   ========================================= */
+
+@media (max-width: 800px) {
+  .song-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
+
+/* =========================================
+   手機：每行一張歌曲卡片
+   ========================================= */
+
+@media (max-width: 520px) {
+  .app {
+    width: calc(100% - 24px);
+  }
+
+  .header {
+    min-height: 67px;
+  }
+
+  .brand {
+    font-size: 14px;
+  }
+
+  .header-tag {
+    max-width: 110px;
+    text-align: right;
+    font-size: 8px;
+    letter-spacing: 0.8px;
+  }
+
+  .intro {
+    padding: 32px 2px 24px;
+  }
+
+  .intro-text {
+    font-size: 12px;
+  }
+
+  .song-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 13px;
+  }
+
+  .song-card {
+    padding: 17px;
+  }
+
+  .song-card h3 {
+    margin-top: 12px;
+  }
+
+  .song-description {
+    min-height: 0;
+  }
+
+  .card {
+    padding: 17px;
+    margin-bottom: 15px;
+    border-radius: 19px;
+  }
+
+  .section-heading {
+    margin-bottom: 17px;
+  }
+
+  .section-heading h2 {
+    font-size: 18px;
+  }
+
+  .input-row {
+    flex-direction: column;
+  }
+
+  .input-row input,
+  .primary-button {
+    width: 100%;
+  }
+
+  .primary-button {
+    padding: 12px;
+  }
+
+  .playback-row {
+    gap: 11px;
+  }
+
+  .time-display {
+    min-width: 83px;
+    font-size: 10px;
+  }
+
+  .lyrics-list {
+    max-height: 55vh;
+    min-height: 170px;
+    padding: 35px 0;
+  }
+
+  .lyric-line {
+    padding: 12px 8px;
+  }
+
+  .song-info {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .song-art {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sync-indicator {
+    font-size: 8px;
+  }
+
+  .lyrics-tools {
+    align-items: center;
+  }
+}
+
+/* 尊重使用者減少動態效果的偏好 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
