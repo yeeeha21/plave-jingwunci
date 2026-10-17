@@ -25,9 +25,6 @@ const SONGS = [
       videoId: "IYojNEdcvbg",
       lyrics: [
         {
-          time: 00.19,
-          segments: [
-            {
               color: "#ffafcf",
               words: [
                 { text: "Whoa-oa, Whoa", start: 00.19, end: 00.23 }
@@ -38,37 +35,135 @@ const SONGS = [
               words: [
                 { text: "Whoa-oa, Whoa", start: 00.25, end: 00.29 }
               ]
-            }
-          ]
-        },
-        {
-          time: 00.30,
-          segments: [
+            },
             {
               color: "#8bc1ff",
               words: [
                 { text: "매일 이렇게 난 늘 혼잣말을 해 Always\n每個日子裏 我總是自言自語 Always", start: 00.30, end: 00.37 },
               ]
-            }
-          ]
-        }
-      ]
-    },
-  {
-          time: 00.39,
-          segments: [
+            },
             {
               color: "#ff962d",
               words: [
                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 00.39, end: 00.40 }
             ]
-            }
-          ]
-        }
-      ]
+            },
+          {
+              color: "#cfa7eb",
+              words: [
+                { text: "Hello, 요즘 어때\nHello，過得好嗎", start: 00.40, end: 00.42 }
+            ]
+            },
+          {
+              color: "#cfa7eb",
+              words: [
+                { text: "그래 여전히 널 그리곤 해\n是的，我依然在思念你", start: 00.42, end: 00.45 }
+            ]
+            },
+          {
+              color: "#cfa7eb",
+              words: [
+                { text: "수 백 번씩 준비한 birthday\n準備無數次的 birthday", start: 00.45, end: 00.47 }
+            ]
+            },
+         {
+          color: "#cfa7eb",
+              words: [
+                { text: "아무 일도 없이 지나간 걸 Hello\n就這樣無聲無息地過去 Hello", start: 00.47, end: 00.49 }
+            ]
+            },
+          {
+          color: "#ffafcf",
+              words: [
+                { text: "이 말을 못 하고 애써\n我未能對你說", start: 00.51, end: 00.52 }
+            ]
+            },
+           {
+          color: "#ffafcf",
+              words:[
+                { text: "난 무심한 척 너를 지나쳐갔어 oh-oh, uh-oh\n故意若無其事地與你擦肩而過 oh-oh uh-oh", start: 00.53, end: 00.59 }
+                 ]
+           },
+         {
+            time: 01.00,
+               segments: [
+           {
+          color: "#ff962d",
+              words: [
+                 { text: "절\njer\n我", start: 01.00, end: 01.07 }
+                 { text: "대\n嗲\n一", start: 01.01, end: 01.07 }
+              ]
     },
-
-      advanced: {
+            {
+          color: "#8bc1ff",
+               words:[
+                  { text: "난 어울리지 않을 거란\n \n直告訴自己根本配不", start: 01.02, end: 01.07 }
+                  ]
+            },
+                        {
+          color: "#ff962d",
+              words: [
+                 { text: "말\n埋\n上", start: 01.05, end: 01.07 }
+                 { text: "로\n嬲\n你", start: 01.06, end: 01.07 }
+              ]
+    }
+                  ]
+         },
+        {
+          color: "#8bc1ff",
+              words:[
+                { text: "내 감정을 숨겼어\n隱藏自己的感情", start: 01.07, end: 01.09 }
+                 ]
+           },  
+  {
+          color: "#ffafcf",
+              words:[
+                { text: "별 의미가 없잖아\n一切變得沒意義", start: 01.10, end: 01.12 }
+                 ]
+           }, 
+ {
+          color: "#ffafcf",
+              words:[
+                { text: "널 향한 나의 맘이 점점 커져서\n我的心為你傾倒 如排山倒海", start: 01.12, end: 01.18 }
+                 ]
+           },
+                 {
+            time: 01.19,
+               segments: [
+           {
+          color: "#ff962d",
+              words: [
+                 { text: "기다릴\nKey帶呢(ne1)\n等待著", start: 01.19, end: 01.20 }
+                 { text: "게\n嘅\n你", start: 01.20, end: 01.21 }
+                 }
+                  ]
+                 },
+         {
+          color: "#cfa7eb",
+              words:[
+                { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 01.21, end: 01.23 }
+                 ]
+           },
+     {
+            time: 01.24,
+               segments: [
+           {
+          color: "#ff962d",
+              words: [
+                 { text: "기다릴\nKey帶呢(ne1)\n等待著", start: 01.24, end: 01.25 }
+                 { text: "게\n嘅\n你", start: 01.25, end: 01.26 }
+                 }
+                  ]
+                 },
+          {
+          color: "#cfa7eb",
+              words:[
+                { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 01.26, end: 01.29 }
+                 ]
+           },
+         
+         {       
+    advanced: {
       videoId: "",
       lyrics: [
         {
