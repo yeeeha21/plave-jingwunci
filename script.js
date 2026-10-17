@@ -1,362 +1,33 @@
 
-// ======================================================
-// LYRICS CLUB
-// 原生 JavaScript：12 首歌曲、雙版本、同步歌詞播放器
-// ======================================================
+// ================================================
+// LYRICS CLUB — 同步歌詞播放器
+// 原生 JavaScript，無需任何框架
+// ================================================
 
 "use strict";
 
+// -----------------------------------------------
+// 1. 設定與 DOM 元素
+// -----------------------------------------------
 
-// ======================================================
-// 1. 歌曲資料設定區
-// ======================================================
+// 範例 YouTube 影片 ID。
+// 這是 YouTube API 官方示範影片，不代表 K-pop MV。
+const DEFAULT_VIDEO_ID = "M7lc1UVf-VE";
 
-/*
-  每首歌都包含：
-
-  id              ：歌曲唯一識別碼
-  title           ：歌曲名稱
-  description     ：首頁卡片的簡介
-  normalVideoId   ：普通版 YouTube 影片 ID
-  advancedVideoId ：進階版 YouTube 影片 ID
-  normalLyrics    ：普通版歌詞資料
-  advancedLyrics  ：進階版歌詞資料
-
-  歌詞資料格式：
-  { time: 秒數, text: "歌詞文字" }
-
-  例如：
-  { time: 5, text: "開始應援！" }
-
-  代表影片播放到 5 秒時，這句歌詞開始高亮。
-
-  注意：
-  以下使用 YouTube IFrame API 的示範影片 ID。
-  為方便測試，24 個版本暫時共用同一支影片。
-  你可以逐一替換成真正的影片 ID。
-*/
-
-
-// 建立示範歌詞。
-// 這些都是自行編寫的示範文字，不是任何真實歌曲的歌詞。
-function makeDemoLyrics(lines) {
-  return lines.map(function (text, index) {
-    return {
-      time: index * 5,
-      text: text
-    };
-  });
-}
-
-
-// 12 首歌曲。
-// 每首歌都有獨立的普通版及進階版歌詞陣列。
-const SONGS = [
-  {
-    id: 1,
-    title: "Starlight",
-    description: "一起點亮舞台的星光 ✦",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Starlight，大家準備好了嗎？",
-      "一起舉起雙手",
-      "跟著節奏拍手",
-      "我們的星光正在閃耀",
-      "Starlight，永遠支持你"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Starlight！大家大聲喊出來！",
-      "左邊的朋友準備好了嗎？",
-      "右邊的朋友一起回應！",
-      "全場一起拍手三次！",
-      "Starlight！我們永遠在這裡！"
-    ])
-  },
-
-  {
-    id: 2,
-    title: "Moonlight",
-    description: "月光下的溫柔應援",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Moonlight，今晚一起唱歌",
-      "把祝福送到舞台",
-      "讓月光照亮夢想",
-      "每一份心意都會被聽見",
-      "Moonlight，我們一起閃耀"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Moonlight！第一拍！",
-      "第二拍！大家一起！",
-      "左邊呼喊，右邊回應！",
-      "全場一起揮動雙手！",
-      "Moonlight！一起唱到最後！"
-    ])
-  },
-
-  {
-    id: 3,
-    title: "Pink Dream",
-    description: "粉色夢境與歡樂節奏",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Welcome to our pink dream",
-      "今天也要開心微笑",
-      "跟著旋律一起跳舞",
-      "把快樂傳給每一個人",
-      "Pink Dream，永遠不散場"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Pink Dream！準備應援！",
-      "左邊拍手，右邊揮手！",
-      "聽到節奏就一起喊！",
-      "全場把氣氛帶起來！",
-      "Pink Dream！再來一次！"
-    ])
-  },
-
-  {
-    id: 4,
-    title: "Golden Hour",
-    description: "在最閃耀的時刻相遇",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Golden Hour，最美的時刻",
-      "我們一起迎接明天",
-      "把掌聲送給舞台",
-      "讓夢想繼續發光",
-      "Golden Hour，謝謝有你"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Golden Hour！準備好了！",
-      "一、二、三！一起喊！",
-      "每個角落都要聽見！",
-      "掌聲跟著節奏響起！",
-      "Golden Hour！永遠支持！"
-    ])
-  },
-
-  {
-    id: 5,
-    title: "Dream Signal",
-    description: "把應援訊號傳到舞台",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Dream Signal，收到請回答",
-      "我們正在這裡",
-      "把心意傳向遠方",
-      "每一次回應都是約定",
-      "Dream Signal，連線成功"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Dream Signal！訊號開始！",
-      "第一區準備大聲回答！",
-      "第二區一起接上節奏！",
-      "全場一起喊出約定！",
-      "Dream Signal！連線成功！"
-    ])
-  },
-
-  {
-    id: 6,
-    title: "Cherry Pop",
-    description: "充滿活力的甜蜜節拍",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Cherry Pop，節奏開始",
-      "一起露出燦爛笑容",
-      "跟著音樂拍手",
-      "讓快樂不斷延續",
-      "Cherry Pop，大家一起跳"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Cherry Pop！跟上節拍！",
-      "左、右、左！一起拍手！",
-      "前排後排一起回應！",
-      "準備好最大聲的應援！",
-      "Cherry Pop！再喊一次！"
-    ])
-  },
-
-  {
-    id: 7,
-    title: "Blue Horizon",
-    description: "朝著夢想的地平線前進",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Blue Horizon，向前出發",
-      "帶著我們的祝福",
-      "跨過每一個挑戰",
-      "未來一定更加閃亮",
-      "Blue Horizon，一起前進"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Blue Horizon！準備出發！",
-      "大家一起喊出夢想！",
-      "節拍來了，不要錯過！",
-      "全場一起揮舞雙手！",
-      "Blue Horizon！一起前進！"
-    ])
-  },
-
-  {
-    id: 8,
-    title: "Magic Stage",
-    description: "讓每個舞台都變成魔法",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Magic Stage，燈光亮起",
-      "今天的舞台好耀眼",
-      "我們一起唱出祝福",
-      "讓每個瞬間成為回憶",
-      "Magic Stage，魔法不散"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Magic Stage！燈光亮起！",
-      "第一句，大家一起喊！",
-      "第二句，換另一邊回應！",
-      "最後一拍，全場一起！",
-      "Magic Stage！太棒了！"
-    ])
-  },
-
-  {
-    id: 9,
-    title: "Forever Young",
-    description: "把青春與熱情留在歌聲裡",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Forever Young，青春不散",
-      "把熱情留在這裡",
-      "每一個笑容都珍貴",
-      "一起創造新的回憶",
-      "Forever Young，永遠同行"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Forever Young！大家一起！",
-      "左邊先喊，右邊接上！",
-      "全場跟著節拍拍手！",
-      "把熱情送到舞台中央！",
-      "Forever Young！永遠同行！"
-    ])
-  },
-
-  {
-    id: 10,
-    title: "Heartbeat",
-    description: "讓全場的心跳同步",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Heartbeat，聽見心跳",
-      "跟著旋律一起呼吸",
-      "讓掌聲連成一片",
-      "我們的心意始終一致",
-      "Heartbeat，為你應援"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Heartbeat！心跳開始！",
-      "第一拍！第二拍！",
-      "所有人一起大聲回應！",
-      "掌聲不要停下來！",
-      "Heartbeat！全場同步！"
-    ])
-  },
-
-  {
-    id: 11,
-    title: "Shining Day",
-    description: "迎接每一個閃耀的日子",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Shining Day，美好的一天",
-      "我們帶著笑容相見",
-      "把所有祝福送上",
-      "讓舞台更加耀眼",
-      "Shining Day，今天也加油"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Shining Day！準備應援！",
-      "全場一起喊出名字！",
-      "節奏一到，大家拍手！",
-      "最後一段一起唱出來！",
-      "Shining Day！今天也加油！"
-    ])
-  },
-
-  {
-    id: 12,
-    title: "Our Universe",
-    description: "屬於粉絲與舞台的宇宙",
-    normalVideoId: "M7lc1UVf-VE",
-    advancedVideoId: "M7lc1UVf-VE",
-
-    normalLyrics: makeDemoLyrics([
-      "Our Universe，歡迎回來",
-      "每顆星星都有光芒",
-      "我們一起唱出約定",
-      "不管多遠都能相遇",
-      "Our Universe，永遠同在"
-    ]),
-
-    advancedLyrics: makeDemoLyrics([
-      "Our Universe！全場準備！",
-      "左邊的星星一起喊！",
-      "右邊的星星一起回應！",
-      "全場一起完成應援！",
-      "Our Universe！永遠同在！"
-    ])
-  }
+// 內建範例歌詞：時間單位為秒。
+// 請換成與實際影片相符的時間及應援詞。
+const DEFAULT_LYRICS = [
+  { time: 0,  text: "Welcome to our practice room ✦" },
+  { time: 5,  text: "Everybody, are you ready?" },
+  { time: 10, text: "Let the music take us higher" },
+  { time: 15, text: "Sing it loud, sing it together" },
+  { time: 20, text: "We will always be right here" },
+  { time: 25, text: "One more time, everybody!" },
+  { time: 30, text: "Make this moment shine forever ♡" },
+  { time: 36, text: "Let's sing it together ✦" }
 ];
 
-
-// ======================================================
-// 2. DOM 元素
-// ======================================================
-
-const homePage = document.getElementById("home-page");
-const playerPage = document.getElementById("player-page");
-const songList = document.getElementById("song-list");
-
-const backToListButton = document.getElementById("back-to-list");
-const homeLogo = document.getElementById("home-logo");
-
-const currentSongTitle = document.getElementById("current-song-title");
-const currentSongSubtitle = document.getElementById("current-song-subtitle");
-const playerBadge = document.getElementById("player-badge");
-
+// 快取 DOM 元素，避免重複查詢。
 const videoForm = document.getElementById("video-form");
 const videoUrlInput = document.getElementById("video-url");
 const playerStatus = document.getElementById("player-status");
@@ -367,51 +38,70 @@ const forwardButton = document.getElementById("forward-button");
 const timeDisplay = document.getElementById("time-display");
 const seekBar = document.getElementById("seek-bar");
 
-const lyricsSongTitle = document.getElementById("lyrics-song-title");
-const lyricsSongSubtitle = document.getElementById("lyrics-song-subtitle");
+const lrcFileInput = document.getElementById("lrc-file");
+const resetLyricsButton = document.getElementById("reset-lyrics");
+const lyricsList = document.getElementById("lyrics-list");
 const lyricsCount = document.getElementById("lyrics-count");
 const lyricsStatus = document.getElementById("lyrics-status");
-const lyricsList = document.getElementById("lyrics-list");
 
-const lrcFileInput = document.getElementById("lrc-file");
-const restoreSongLyricsButton =
-  document.getElementById("restore-song-lyrics");
+const songTitle = document.getElementById("song-title");
+const songSubtitle = document.getElementById("song-subtitle");
 
-
-// ======================================================
-// 3. 全域狀態
-// ======================================================
+// -----------------------------------------------
+// 2. 播放器與歌詞狀態
+// -----------------------------------------------
 
 let player = null;
-let playerReady = false;
-let apiLoading = false;
-let apiLoadFailed = false;
-let syncTimer = null;
 
-let currentSong = null;
-let currentVersion = "normal";
-let currentVideoId = "";
+// 目前使用的歌詞陣列。
+// 每個項目格式：{ time: 秒數, text: 歌詞 }
+let lyrics = [];
 
-let currentLyrics = [];
+// 目前高亮的歌詞索引。
 let activeLyricIndex = -1;
+
+// 使用者是否正在拖曳進度條。
+let isSeeking = false;
+
+// 記錄目前載入的影片 ID。
+let currentVideoId = DEFAULT_VIDEO_ID;
+
+// 記錄目前播放狀態。
+let currentPlayerState = -1;
+
+// 上一次同步時的影片時間。
+let lastKnownTime = -1;
+
+// 避免同一句歌詞重複觸發自動滾動。
 let lastScrolledIndex = -1;
 
-let currentPlayerState = -1;
-let isSeeking = false;
+// 用來取消已經過期的 LRC 讀檔操作。
 let fileLoadToken = 0;
 
+// 用來判斷是否已建立 YouTube 播放器。
+let playerReady = false;
 
-// ======================================================
-// 4. 工具函式
-// ======================================================
+
+// -----------------------------------------------
+// 3. 通用工具函式
+// -----------------------------------------------
 
 /**
- * 秒數轉成 mm:ss。
+ * 將秒數轉換成 mm:ss。
+ *
+ * 例如：
+ * 0    -> 00:00
+ * 65   -> 01:05
+ * 3665 -> 61:05
  */
 function formatTime(seconds) {
-  const safe = Math.max(0, Math.floor(Number(seconds) || 0));
-  const minutes = Math.floor(safe / 60);
-  const remainder = safe % 60;
+  const safeSeconds = Math.max(
+    0,
+    Math.floor(Number(seconds) || 0)
+  );
+
+  const minutes = Math.floor(safeSeconds / 60);
+  const remainder = safeSeconds % 60;
 
   return (
     String(minutes).padStart(2, "0") +
@@ -422,20 +112,52 @@ function formatTime(seconds) {
 
 
 /**
- * 驗證 YouTube 影片 ID。
+ * 顯示目前播放時間與總長度。
+ */
+function updateTimeDisplay() {
+  if (!playerReady || !player) {
+    return;
+  }
+
+  const current = player.getCurrentTime() || 0;
+  const duration = player.getDuration() || 0;
+
+  timeDisplay.textContent =
+    `${formatTime(current)} / ${formatTime(duration)}`;
+}
+
+
+/**
+ * 驗證影片 ID 格式。
+ *
+ * YouTube 一般影片 ID 為 11 個英數字、
+ * 底線或連字號。
  */
 function isValidVideoId(id) {
   return /^[a-zA-Z0-9_-]{11}$/.test(id);
 }
 
 
+// -----------------------------------------------
+// 4. 從 YouTube 網址取得影片 ID
+// -----------------------------------------------
+
 /**
- * 支援 YouTube 一般網址、短網址、嵌入網址、
- * Shorts 網址，以及直接輸入影片 ID。
+ * 支援以下輸入格式：
+ *
+ * VIDEO_ID
+ * https://www.youtube.com/watch?v=VIDEO_ID
+ * https://youtu.be/VIDEO_ID
+ * https://www.youtube.com/embed/VIDEO_ID
+ * https://www.youtube.com/shorts/VIDEO_ID
+ * https://www.youtube.com/live/VIDEO_ID
+ *
+ * 不接受其他網站的網址。
  */
 function extractVideoId(input) {
   const value = input.trim();
 
+  // 如果使用者直接輸入 ID。
   if (isValidVideoId(value)) {
     return value;
   }
@@ -443,6 +165,7 @@ function extractVideoId(input) {
   let url;
 
   try {
+    // 未提供協定時，補上 https://。
     const normalized = /^https?:\/\//i.test(value)
       ? value
       : `https://${value}`;
@@ -452,14 +175,15 @@ function extractVideoId(input) {
     return null;
   }
 
+  // 不接受非 YouTube 網域。
   const host = url.hostname.toLowerCase();
 
   const isYouTube =
     host === "youtube.com" ||
     host.endsWith(".youtube.com") ||
-    host === "youtu.be" ||
     host === "youtube-nocookie.com" ||
-    host.endsWith(".youtube-nocookie.com");
+    host.endsWith(".youtube-nocookie.com") ||
+    host === "youtu.be";
 
   if (!isYouTube) {
     return null;
@@ -468,10 +192,13 @@ function extractVideoId(input) {
   let id = null;
 
   if (host === "youtu.be") {
+    // 短網址：https://youtu.be/VIDEO_ID
     id = url.pathname.split("/").filter(Boolean)[0];
   } else if (url.searchParams.has("v")) {
+    // 一般網址：https://youtube.com/watch?v=...
     id = url.searchParams.get("v");
   } else {
+    // embed、shorts、live 等路徑。
     const match = url.pathname.match(
       /^\/(?:embed|shorts|live)\/([a-zA-Z0-9_-]{11})(?:\/|$)/
     );
@@ -485,260 +212,24 @@ function extractVideoId(input) {
 }
 
 
-// ======================================================
-// 5. 首頁：產生 12 張歌曲卡片
-// ======================================================
+// -----------------------------------------------
+// 5. YouTube IFrame API 初始化
+// -----------------------------------------------
 
 /**
- * 根據 SONGS 自動產生歌曲卡片。
+ * YouTube IFrame API 載入完成後會自動呼叫此函式。
  *
- * 不需要在 HTML 裡手動寫 12 次。
- * 以後新增歌曲只要新增資料項目即可。
+ * 注意：
+ * 此函式必須放在全域作用域，讓 YouTube API 找得到。
  */
-function renderSongList() {
-  const fragment = document.createDocumentFragment();
-
-  SONGS.forEach(function (song) {
-    const card = document.createElement("article");
-    card.className = "song-card";
-
-    const top = document.createElement("div");
-    top.className = "song-card-top";
-
-    const number = document.createElement("span");
-    number.className = "song-number";
-    number.textContent =
-      `TRACK ${String(song.id).padStart(2, "0")}`;
-
-    const symbol = document.createElement("span");
-    symbol.className = "song-symbol";
-    symbol.textContent = "♫";
-
-    top.append(number, symbol);
-
-    const title = document.createElement("h3");
-    title.textContent = song.title;
-
-    const description = document.createElement("p");
-    description.className = "song-description";
-    description.textContent = song.description;
-
-    const buttons = document.createElement("div");
-    buttons.className = "version-buttons";
-
-    // 普通版按鈕
-    const normalButton = document.createElement("button");
-    normalButton.type = "button";
-    normalButton.className = "version-button normal";
-    normalButton.textContent = "▶ 普通版";
-
-    normalButton.addEventListener("click", function () {
-      openSong(song, "normal");
-    });
-
-    // 進階版按鈕
-    const advancedButton = document.createElement("button");
-    advancedButton.type = "button";
-    advancedButton.className = "version-button advanced";
-    advancedButton.textContent = "✦ 進階版";
-
-    advancedButton.addEventListener("click", function () {
-      openSong(song, "advanced");
-    });
-
-    buttons.append(normalButton, advancedButton);
-    card.append(top, title, description, buttons);
-    fragment.appendChild(card);
-  });
-
-  songList.replaceChildren(fragment);
-
-  document.getElementById("song-total").textContent =
-    `${SONGS.length} SONGS`;
-}
-
-
-// ======================================================
-// 6. 開啟歌曲播放頁
-// ======================================================
-
-/**
- * 點擊普通版或進階版時執行。
- *
- * @param {Object} song 歌曲設定
- * @param {"normal"|"advanced"} version 版本
- */
-function openSong(song, version) {
-  currentSong = song;
-  currentVersion = version;
-
-  currentVideoId = version === "normal"
-    ? song.normalVideoId
-    : song.advancedVideoId;
-
-  // 切換畫面。
-  homePage.hidden = true;
-  playerPage.hidden = false;
-
-  // 更新標題及版本標籤。
-  currentSongTitle.textContent = song.title;
-
-  currentSongSubtitle.textContent =
-    version === "normal"
-      ? "普通版 · 應援練習"
-      : "進階版 · 應援練習";
-
-  playerBadge.textContent =
-    version === "normal" ? "普通版" : "進階版";
-
-  playerBadge.classList.toggle(
-    "advanced",
-    version === "advanced"
-  );
-
-  // 更新影片輸入框。
-  videoUrlInput.value = currentVideoId;
-
-  // 切換歌曲時，載入該版本自己的歌詞。
-  restoreCurrentSongLyrics();
-
-  // 清空播放進度顯示。
-  timeDisplay.textContent = "00:00 / 00:00";
-  seekBar.value = "0";
-
-  // 回到頁面頂端。
-  window.scrollTo({ top: 0, behavior: "auto" });
-
-  // 開始載入 YouTube API 或切換現有影片。
-  ensureYouTubePlayer(currentVideoId);
-}
-
-
-/**
- * 返回首頁。
- * 保留已選擇的歌曲設定，但暫停影片。
- */
-function returnToList() {
-  fileLoadToken++;
-
-  if (playerReady && player) {
-    player.pauseVideo();
-  }
-
-  homePage.hidden = false;
-  playerPage.hidden = true;
-
-  window.scrollTo({ top: 0, behavior: "auto" });
-}
-
-
-backToListButton.addEventListener("click", returnToList);
-
-homeLogo.addEventListener("click", function (event) {
-  event.preventDefault();
-  returnToList();
-});
-
-
-// ======================================================
-// 7. YouTube IFrame API 載入與播放器建立
-// ======================================================
-
-/**
- * 動態載入 YouTube API。
- *
- * 在定義 onYouTubeIframeAPIReady 後才加入 script，
- * 避免 API 先載入、回呼函式卻尚未定義的競態問題。
- */
-function ensureYouTubePlayer(videoId) {
-  if (!isValidVideoId(videoId)) {
-    playerStatus.textContent =
-      "影片 ID 格式不正確，請檢查歌曲設定。";
-    return;
-  }
-
-  if (playerReady && player) {
-    if (currentVideoId !== videoId) {
-      currentVideoId = videoId;
-
-      player.loadVideoById({
-        videoId: videoId,
-        startSeconds: 0
-      });
-    } else {
-      playerStatus.textContent = "播放器已就緒。";
-    }
-
-    return;
-  }
-
-  // 如果 API 已載入，直接建立播放器。
-  if (window.YT && window.YT.Player) {
-    createYouTubePlayer(videoId);
-    return;
-  }
-
-  if (apiLoadFailed) {
-    playerStatus.textContent =
-      "YouTube API 載入失敗，請重新整理網頁後再試。";
-    return;
-  }
-
-  playerStatus.textContent =
-    "正在載入 YouTube 播放器……";
-
-  // API 已在載入中，不重複插入 script。
-  if (apiLoading) {
-    return;
-  }
-
-  apiLoading = true;
-
-  // 必須在插入 API script 之前設定回呼函式。
-  window.onYouTubeIframeAPIReady = function () {
-    apiLoading = false;
-
-    // 使用目前選取的影片，而不是最初選取的影片。
-    if (currentSong && !playerReady) {
-      const selectedId = currentVersion === "normal"
-        ? currentSong.normalVideoId
-        : currentSong.advancedVideoId;
-
-      createYouTubePlayer(selectedId);
-    }
-  };
-
-  const script = document.createElement("script");
-  script.src = "https://www.youtube.com/iframe_api";
-  script.async = true;
-
-  script.onerror = function () {
-    apiLoading = false;
-    apiLoadFailed = true;
-
-    playerStatus.textContent =
-      "無法載入 YouTube API，請檢查網路連線。";
-  };
-
-  document.head.appendChild(script);
-}
-
-
-/**
- * 建立 YouTube 播放器。
- * 此函式只建立一次；之後使用 loadVideoById 切換影片。
- */
-function createYouTubePlayer(videoId) {
-  if (!window.YT || !window.YT.Player || player) {
-    return;
-  }
-
-  currentVideoId = videoId;
+window.onYouTubeIframeAPIReady = function () {
+  playerStatus.textContent = "正在載入 YouTube 影片……";
 
   player = new YT.Player("youtube-player", {
     width: "100%",
     height: "100%",
-    videoId: videoId,
+
+    videoId: DEFAULT_VIDEO_ID,
 
     playerVars: {
       playsinline: 1,
@@ -752,11 +243,11 @@ function createYouTubePlayer(videoId) {
       onError: onPlayerError
     }
   });
-}
+};
 
 
 /**
- * 播放器準備完成。
+ * 播放器建立完成。
  */
 function onPlayerReady() {
   playerReady = true;
@@ -764,25 +255,30 @@ function onPlayerReady() {
   playerStatus.textContent =
     "播放器已就緒，可以開始練習。";
 
-  updatePlayButton();
+  // 初始化介面。
   updateTimeDisplay();
+  updatePlayButton();
 
-  // 每 100 毫秒同步一次歌詞。
-  if (syncTimer === null) {
-    syncTimer = window.setInterval(syncLyrics, 100);
-  }
+  // 使用內建歌詞。
+  loadDefaultLyrics();
+
+  // 啟動時間同步輪詢。
+  // YouTube API 本身沒有逐毫秒的時間更新事件，
+  // 因此使用 setInterval 定期讀取播放位置。
+  window.setInterval(syncLyrics, 100);
 }
 
 
 /**
- * YouTube 播放狀態改變。
+ * 播放狀態變更時更新按鈕。
  */
 function onPlayerStateChange(event) {
   currentPlayerState = event.data;
 
   updatePlayButton();
-  updateTimeDisplay();
 
+  // 播放器開始播放或播放結束時，
+  // 立即同步一次歌詞。
   if (
     event.data === YT.PlayerState.PLAYING ||
     event.data === YT.PlayerState.PAUSED ||
@@ -803,15 +299,18 @@ function onPlayerStateChange(event) {
 
 /**
  * 處理 YouTube 播放器錯誤。
+ *
+ * 某些影片會因版權、地區、隱私或嵌入限制
+ * 而不能在外部網站播放。
  */
 function onPlayerError(event) {
   const messages = {
-    2: "影片 ID 無效，請檢查設定。",
+    2: "影片 ID 格式不正確。",
     5: "影片無法使用目前的 HTML5 播放器播放。",
     100: "找不到影片，或影片已被移除。",
     101: "影片擁有者不允許嵌入播放。",
     150: "影片擁有者不允許嵌入播放。",
-    153: "播放器缺少必要的來源或 HTTP Referer 資訊。請透過本機 HTTP 伺服器開啟網站。"
+    153: "播放器缺少必要的來源或 HTTP Referer 資訊。請使用正常的網頁伺服器開啟網站。"
   };
 
   playerStatus.textContent =
@@ -821,13 +320,15 @@ function onPlayerError(event) {
 
 
 /**
- * 更新播放／暫停按鈕。
+ * 根據播放器狀態更新播放按鈕文字。
  */
 function updatePlayButton() {
-  if (
-    playerReady &&
-    currentPlayerState === YT.PlayerState.PLAYING
-  ) {
+  if (!playerReady) {
+    playButton.textContent = "▶";
+    return;
+  }
+
+  if (currentPlayerState === YT.PlayerState.PLAYING) {
     playButton.textContent = "Ⅱ";
     playButton.setAttribute("aria-label", "暫停影片");
   } else {
@@ -837,10 +338,57 @@ function updatePlayButton() {
 }
 
 
-// ======================================================
-// 8. 手動切換 YouTube 影片
-// ======================================================
+// -----------------------------------------------
+// 6. 切換 YouTube 影片
+// -----------------------------------------------
 
+/**
+ * 載入指定影片。
+ *
+ * 載入新影片時：
+ * 1. 更新影片 ID。
+ * 2. 清除舊的同步索引。
+ * 3. 保留目前歌詞，方便使用者測試不同版本。
+ *
+ * 如果新影片的歌詞時間不同，請匯入相對應的 LRC。
+ */
+function loadVideo(videoId) {
+  if (!playerReady || !player) {
+    playerStatus.textContent =
+      "播放器仍在初始化，請稍後再試。";
+    return;
+  }
+
+  if (!isValidVideoId(videoId)) {
+    playerStatus.textContent =
+      "影片 ID 無效，請檢查網址。";
+    return;
+  }
+
+  currentVideoId = videoId;
+
+  // 清除舊的高亮索引。
+  activeLyricIndex = -1;
+  lastScrolledIndex = -1;
+  lastKnownTime = -1;
+
+  // 更新影片輸入框。
+  videoUrlInput.value = videoId;
+
+  // 載入新影片，並從頭開始播放。
+  player.loadVideoById({
+    videoId: videoId,
+    startSeconds: 0
+  });
+
+  playerStatus.textContent =
+    "正在切換影片，請稍候……";
+}
+
+
+/**
+ * 影片表單提交事件。
+ */
 videoForm.addEventListener("submit", function (event) {
   event.preventDefault();
 
@@ -852,35 +400,17 @@ videoForm.addEventListener("submit", function (event) {
     return;
   }
 
-  currentVideoId = videoId;
-
-  // 如果是透過表單切換影片，更新目前版本的影片設定，
-  // 避免返回列表後再進入同一版本時使用舊 ID。
-  if (currentSong) {
-    if (currentVersion === "normal") {
-      currentSong.normalVideoId = videoId;
-    } else {
-      currentSong.advancedVideoId = videoId;
-    }
-  }
-
-  videoUrlInput.value = videoId;
-
-  // 切換影片後重設同步狀態。
-  activeLyricIndex = -1;
-  lastScrolledIndex = -1;
-
-  ensureYouTubePlayer(videoId);
+  loadVideo(videoId);
 });
 
 
-// ======================================================
-// 9. 播放控制按鈕
-// ======================================================
+// -----------------------------------------------
+// 7. 播放控制
+// -----------------------------------------------
 
 playButton.addEventListener("click", function () {
-  if (!playerReady || !player) {
-    playerStatus.textContent = "播放器仍在載入，請稍候。";
+  if (!playerReady) {
+    playerStatus.textContent = "播放器尚未就緒。";
     return;
   }
 
@@ -892,50 +422,56 @@ playButton.addEventListener("click", function () {
 });
 
 
+// 倒退五秒。
 backButton.addEventListener("click", function () {
-  if (!playerReady || !player) return;
+  if (!playerReady) return;
 
-  const time = player.getCurrentTime() || 0;
+  const current = player.getCurrentTime() || 0;
 
-  player.seekTo(Math.max(0, time - 5), true);
+  player.seekTo(Math.max(0, current - 5), true);
 });
 
 
+// 前進五秒。
 forwardButton.addEventListener("click", function () {
-  if (!playerReady || !player) return;
+  if (!playerReady) return;
 
-  const time = player.getCurrentTime() || 0;
+  const current = player.getCurrentTime() || 0;
   const duration = player.getDuration() || 0;
 
   player.seekTo(
-    Math.min(duration, time + 5),
+    Math.min(duration, current + 5),
     true
   );
 });
 
 
-// ======================================================
-// 10. 播放進度條
-// ======================================================
+// -----------------------------------------------
+// 8. 播放進度條
+// -----------------------------------------------
 
+/**
+ * 拖曳進度條時，先暫停自動更新進度條，
+ * 避免播放時間與拖曳位置互相搶更新。
+ */
 seekBar.addEventListener("pointerdown", function () {
   isSeeking = true;
 });
 
-
 seekBar.addEventListener("input", function () {
-  if (!playerReady || !player) return;
+  if (!playerReady) return;
 
   const duration = player.getDuration() || 0;
-  const previewTime = Number(seekBar.value) / 1000 * duration;
 
   timeDisplay.textContent =
-    `${formatTime(previewTime)} / ${formatTime(duration)}`;
+    `${formatTime(Number(seekBar.value) / 1000 * duration)} / ` +
+    `${formatTime(duration)}`;
 });
 
 
+// 使用者放開進度條時跳至指定位置。
 function finishSeeking() {
-  if (!isSeeking || !playerReady || !player) return;
+  if (!isSeeking || !playerReady) return;
 
   isSeeking = false;
 
@@ -944,175 +480,50 @@ function finishSeeking() {
 
   player.seekTo(ratio * duration, true);
 
+  // 跳轉後重新同步歌詞。
   syncLyrics();
 }
-
 
 seekBar.addEventListener("pointerup", finishSeeking);
 seekBar.addEventListener("pointercancel", finishSeeking);
 seekBar.addEventListener("change", finishSeeking);
 
 
-// ======================================================
-// 11. 載入目前歌曲的歌詞
-// ======================================================
+// -----------------------------------------------
+// 9. LRC 歌詞解析
+// -----------------------------------------------
 
 /**
- * 根據目前選取的版本，取得正確的歌詞陣列。
- */
-function getLyricsForCurrentVersion() {
-  if (!currentSong) {
-    return [];
-  }
-
-  return currentVersion === "normal"
-    ? currentSong.normalLyrics
-    : currentSong.advancedLyrics;
-}
-
-
-/**
- * 切換歌曲或版本時，恢復該歌曲設定中的歌詞。
+ * 將 LRC 格式轉換成歌詞陣列。
  *
- * 如果使用者曾匯入自己的 LRC，
- * 返回列表再重新進入時會載入原先設定的歌詞資料。
- */
-function restoreCurrentSongLyrics() {
-  if (!currentSong) return;
-
-  const originalLyrics = getLyricsForCurrentVersion();
-
-  setCurrentLyrics(originalLyrics, {
-    title: currentSong.title,
-    subtitle: currentVersion === "normal"
-      ? "普通版 · 應援練習"
-      : "進階版 · 應援練習"
-  });
-
-  lyricsStatus.textContent =
-    `已載入「${currentSong.title}」的${
-      currentVersion === "normal" ? "普通版" : "進階版"
-    }歌詞。`;
-}
-
-
-/**
- * 設定目前播放頁使用的歌詞。
- */
-function setCurrentLyrics(items, metadata = {}) {
-  currentLyrics = items
-    .filter(function (item) {
-      return (
-        Number.isFinite(item.time) &&
-        item.time >= 0 &&
-        typeof item.text === "string" &&
-        item.text.trim().length > 0
-      );
-    })
-    .map(function (item) {
-      return {
-        time: item.time,
-        text: item.text.trim()
-      };
-    })
-    .sort(function (a, b) {
-      return a.time - b.time;
-    });
-
-  activeLyricIndex = -1;
-  lastScrolledIndex = -1;
-
-  lyricsSongTitle.textContent = metadata.title || "歌曲名稱";
-  lyricsSongSubtitle.textContent = metadata.subtitle || "應援練習";
-
-  lyricsCount.textContent = `${currentLyrics.length} LINES`;
-
-  renderLyrics();
-  syncLyrics();
-}
-
-
-// ======================================================
-// 12. 產生可點擊的歌詞
-// ======================================================
-
-function renderLyrics() {
-  const fragment = document.createDocumentFragment();
-
-  currentLyrics.forEach(function (item, index) {
-    const button = document.createElement("button");
-
-    button.type = "button";
-    button.className = "lyric-line";
-    button.dataset.index = String(index);
-
-    const textNode = document.createElement("span");
-    textNode.textContent = item.text;
-
-    const timeNode = document.createElement("span");
-    timeNode.className = "lyric-time";
-    timeNode.textContent = formatTime(item.time);
-
-    button.append(textNode, timeNode);
-
-    // 點擊歌詞，跳至對應影片時間。
-    button.addEventListener("click", function () {
-      seekToLyric(index);
-    });
-
-    fragment.appendChild(button);
-  });
-
-  lyricsList.replaceChildren(fragment);
-}
-
-
-/**
- * 點擊歌詞後跳至該句開始的時間。
- */
-function seekToLyric(index) {
-  if (!playerReady || !player) {
-    lyricsStatus.textContent =
-      "播放器尚未就緒，請稍候再試。";
-    return;
-  }
-
-  if (index < 0 || index >= currentLyrics.length) return;
-
-  const item = currentLyrics[index];
-
-  player.seekTo(item.time, true);
-
-  activeLyricIndex = index;
-
-  updateActiveLyric(index, true);
-}
-
-
-// ======================================================
-// 13. LRC 歌詞檔解析
-// ======================================================
-
-/**
- * 支援以下 LRC 格式：
+ * 支援：
  *
- * [ti:歌曲名稱]
+ * [00:12.50] 歌詞文字
+ * [01:02.25] 下一句歌詞
+ * [00:10.00][00:20.00] 重複歌詞
  * [ar:歌手名稱]
- * [00:12.50]第一句歌詞
- * [01:02.25]第二句歌詞
- * [00:10.00][00:20.00]同一句歌詞
+ * [ti:歌曲名稱]
  *
- * 支援小數點及冒號格式的時間標籤。
+ * 也支援：
+ * [00:12] 歌詞
+ *
+ * 回傳：
+ * {
+ *   lyrics: [{ time: 12.5, text: "歌詞" }],
+ *   metadata: { ar: "...", ti: "..." }
+ * }
  */
 function parseLRC(content) {
   const result = [];
   const metadata = {};
 
+  // 統一換行符號，支援 Windows、Mac 和 Linux。
   const lines = content
     .replace(/^\uFEFF/, "")
     .replace(/\r\n?/g, "\n")
     .split("\n");
 
+  // 支援 00:12、00:12.50、00:12:50。
   const timestampRegex =
     /\[(\d{1,3}):([0-5]\d)(?:[.:](\d{1,3}))?\]/g;
 
@@ -1124,18 +535,26 @@ function parseLRC(content) {
 
     if (!line) continue;
 
+    // 解析歌曲標題、歌手、專輯等中繼資料。
     const metaMatch = line.match(metadataRegex);
 
     if (metaMatch) {
-      metadata[metaMatch[1].toLowerCase()] =
-        metaMatch[2].trim();
+      const key = metaMatch[1].toLowerCase();
+      const value = metaMatch[2].trim();
+
+      // 不是時間戳記的標籤視為中繼資料。
+      if (!/^\d+$/.test(metaMatch[1])) {
+        metadata[key] = value;
+      }
 
       continue;
     }
 
+    // 每一行可能包含多個時間戳記。
     const timestamps = [];
     let match;
 
+    // 每次解析前重設正規表達式狀態。
     timestampRegex.lastIndex = 0;
 
     while ((match = timestampRegex.exec(line)) !== null) {
@@ -1143,6 +562,8 @@ function parseLRC(content) {
       const seconds = Number(match[2]);
       const fraction = match[3] || "";
 
+      // .5 代表 0.5 秒；.50 代表 0.50 秒。
+      // .500 代表 0.500 秒。
       const fractionSeconds = fraction
         ? Number("0." + fraction)
         : 0;
@@ -1152,111 +573,197 @@ function parseLRC(content) {
       );
     }
 
-    if (timestamps.length === 0) continue;
+    if (timestamps.length === 0) {
+      continue;
+    }
 
+    // 移除時間標籤，保留歌詞文字。
     const text = line
       .replace(timestampRegex, "")
       .trim();
 
+    // 跳過沒有歌詞內容的時間標籤。
     if (!text) continue;
 
-    timestamps.forEach(function (time) {
-      result.push({ time, text });
-    });
+    // 多時間戳記對應相同歌詞時，分別建立項目。
+    for (const time of timestamps) {
+      result.push({
+        time,
+        text
+      });
+    }
   }
 
-  result.sort(function (a, b) {
-    return a.time - b.time;
-  });
+  // 按時間排序，避免 LRC 檔案順序錯亂。
+  result.sort((a, b) => a.time - b.time);
 
   return {
     lyrics: result,
-    metadata: metadata
+    metadata
   };
 }
 
 
-// ======================================================
-// 14. 匯入 LRC 檔案
-// ======================================================
+// -----------------------------------------------
+// 10. 載入及顯示歌詞
+// -----------------------------------------------
 
-lrcFileInput.addEventListener("change", async function (event) {
-  const file = event.target.files?.[0];
+/**
+ * 設定目前的歌詞資料。
+ */
+function setLyrics(items, metadata = {}) {
+  lyrics = items
+    .filter(item =>
+      Number.isFinite(item.time) &&
+      item.time >= 0 &&
+      typeof item.text === "string" &&
+      item.text.trim().length > 0
+    )
+    .map(item => ({
+      time: item.time,
+      text: item.text.trim()
+    }))
+    .sort((a, b) => a.time - b.time);
 
-  if (!file) return;
+  activeLyricIndex = -1;
+  lastScrolledIndex = -1;
+  lastKnownTime = -1;
 
-  const token = ++fileLoadToken;
+  // 更新歌名及歌手資訊。
+  if (metadata.ti) {
+    songTitle.textContent = metadata.ti;
+  } else {
+    songTitle.textContent = "My Favorite Song";
+  }
 
-  if (!file.name.toLowerCase().endsWith(".lrc")) {
+  if (metadata.ar) {
+    songSubtitle.textContent = metadata.ar;
+  } else {
+    songSubtitle.textContent = "Fan Chant Practice";
+  }
+
+  // 顯示歌詞數量。
+  lyricsCount.textContent = `${lyrics.length} LINES`;
+
+  // 重新建立歌詞畫面。
+  renderLyrics();
+
+  if (lyrics.length === 0) {
     lyricsStatus.textContent =
-      "請選擇副檔名為 .lrc 的歌詞檔。";
+      "沒有找到有效歌詞，請檢查 LRC 檔案格式。";
+  } else {
+    lyricsStatus.textContent =
+      `已載入 ${lyrics.length} 句歌詞。`;
+  }
 
-    lrcFileInput.value = "";
+  // 立即根據目前播放時間同步。
+  syncLyrics();
+}
+
+
+/**
+ * 載入內建範例歌詞。
+ */
+function loadDefaultLyrics() {
+  setLyrics(DEFAULT_LYRICS, {
+    ti: "My Favorite Song",
+    ar: "Fan Chant Practice"
+  });
+
+  lyricsStatus.textContent =
+    "目前使用內建範例歌詞，可匯入自己的 LRC 檔案。";
+}
+
+
+/**
+ * 將歌詞陣列轉成按鈕。
+ *
+ * 使用 textContent，不使用 innerHTML 插入使用者歌詞，
+ * 避免將 LRC 內容當成 HTML 執行。
+ */
+function renderLyrics() {
+  const fragment = document.createDocumentFragment();
+
+  lyrics.forEach(function (item, index) {
+    const button = document.createElement("button");
+
+    button.type = "button";
+    button.className = "lyric-line";
+    button.dataset.index = String(index);
+
+    // 歌詞文字。
+    const textNode = document.createElement("span");
+    textNode.textContent = item.text;
+
+    // 時間戳記。
+    const timeNode = document.createElement("span");
+    timeNode.className = "lyric-time";
+    timeNode.textContent = formatTime(item.time);
+
+    button.append(textNode, timeNode);
+
+    // 點擊歌詞時跳至對應時間。
+    button.addEventListener("click", function () {
+      seekToLyric(index);
+    });
+
+    fragment.appendChild(button);
+  });
+
+  // 一次性替換整個歌詞列表。
+  lyricsList.replaceChildren(fragment);
+}
+
+
+// -----------------------------------------------
+// 11. 點擊歌詞跳轉
+// -----------------------------------------------
+
+/**
+ * 跳到指定歌詞的開始時間。
+ */
+function seekToLyric(index) {
+  if (!playerReady || !player) {
+    lyricsStatus.textContent = "播放器尚未就緒。";
     return;
   }
 
-  try {
-    const content = await file.text();
-
-    // 避免舊檔案較晚讀取完成，覆蓋新檔案。
-    if (token !== fileLoadToken) return;
-
-    const parsed = parseLRC(content);
-
-    if (parsed.lyrics.length === 0) {
-      lyricsStatus.textContent =
-        "找不到有效歌詞，請檢查 LRC 的時間標籤。";
-      return;
-    }
-
-    const fileTitle = file.name.replace(/\.lrc$/i, "");
-
-    setCurrentLyrics(parsed.lyrics, {
-      title: parsed.metadata.ti || fileTitle,
-      subtitle: parsed.metadata.ar ||
-        (currentVersion === "normal" ? "普通版" : "進階版")
-    });
-
-    lyricsStatus.textContent =
-      `已匯入 ${file.name}，共 ${parsed.lyrics.length} 句歌詞。`;
-
-  } catch (error) {
-    console.error("LRC 讀取失敗：", error);
-
-    lyricsStatus.textContent =
-      "讀取失敗，請檢查檔案格式。";
-
-  } finally {
-    if (token === fileLoadToken) {
-      lrcFileInput.value = "";
-    }
+  if (index < 0 || index >= lyrics.length) {
+    return;
   }
-});
+
+  const item = lyrics[index];
+
+  // seekTo 第二個參數為允許播放器尋找該時間點。
+  player.seekTo(item.time, true);
+
+  // 立即更新高亮，無須等待下一次輪詢。
+  activeLyricIndex = index;
+  lastKnownTime = item.time;
+
+  updateActiveLyric(index, true);
+}
 
 
-// 恢復目前歌曲及版本的內建歌詞。
-restoreSongLyricsButton.addEventListener("click", function () {
-  fileLoadToken++;
-  restoreCurrentSongLyrics();
-});
-
-
-// ======================================================
-// 15. 歌詞同步：依影片時間找出目前歌詞
-// ======================================================
+// -----------------------------------------------
+// 12. 根據播放時間找出目前歌詞
+// -----------------------------------------------
 
 /**
- * 使用二分搜尋法，找出播放時間之前的最後一句歌詞。
+ * 二分搜尋法：
+ * 找出 time 小於或等於播放時間的最後一句歌詞。
+ *
+ * 若目前時間在第一句歌詞之前，回傳 -1。
  */
 function findActiveLyricIndex(time) {
   let left = 0;
-  let right = currentLyrics.length - 1;
+  let right = lyrics.length - 1;
   let answer = -1;
 
   while (left <= right) {
     const middle = Math.floor((left + right) / 2);
 
-    if (currentLyrics[middle].time <= time) {
+    if (lyrics[middle].time <= time) {
       answer = middle;
       left = middle + 1;
     } else {
@@ -1269,46 +776,52 @@ function findActiveLyricIndex(time) {
 
 
 /**
- * 定期同步影片時間、進度條和歌詞高亮。
+ * 定期同步影片時間與歌詞。
  */
 function syncLyrics() {
-  if (!playerReady || !player) return;
+  if (!playerReady || !player) {
+    return;
+  }
 
+  // 影片時間由 YouTube IFrame API 提供。
   const currentTime = player.getCurrentTime() || 0;
   const duration = player.getDuration() || 0;
 
   updateTimeDisplay();
 
-  // 更新進度條，但不干擾使用者拖曳。
+  // 使用者拖曳進度條時，不覆蓋其操作。
   if (!isSeeking && duration > 0) {
     seekBar.value = String(
       Math.round((currentTime / duration) * 1000)
     );
   }
 
+  // 找出應該高亮的歌詞。
   const index = findActiveLyricIndex(currentTime);
 
   if (index !== activeLyricIndex) {
     activeLyricIndex = index;
 
+    // 播放時間變動時才更新 DOM。
     updateActiveLyric(index, false);
   }
+
+  lastKnownTime = currentTime;
 }
 
 
 /**
- * 更新歌詞樣式及自動滾動。
+ * 更新目前高亮的歌詞。
+ *
+ * 自動滾動只會在歌詞索引改變時執行，
+ * 避免每 100ms 都觸發滾動動畫。
  */
 function updateActiveLyric(index, forceScroll) {
-  const lines = lyricsList.querySelectorAll(".lyric-line");
+  const allLines = lyricsList.querySelectorAll(".lyric-line");
 
-  lines.forEach(function (line, lineIndex) {
+  allLines.forEach(function (line, lineIndex) {
     line.classList.toggle("active", lineIndex === index);
-
-    line.classList.toggle(
-      "past",
-      index >= 0 && lineIndex < index
-    );
+    line.classList.toggle("past", index >= 0 && lineIndex < index);
 
     if (lineIndex === index) {
       line.setAttribute("aria-current", "true");
@@ -1317,10 +830,12 @@ function updateActiveLyric(index, forceScroll) {
     }
   });
 
-  if (index < 0 || !lines[index]) return;
+  if (index < 0 || !allLines[index]) {
+    return;
+  }
 
   if (forceScroll || lastScrolledIndex !== index) {
-    lines[index].scrollIntoView({
+    allLines[index].scrollIntoView({
       behavior: forceScroll ? "auto" : "smooth",
       block: "center"
     });
@@ -1330,28 +845,91 @@ function updateActiveLyric(index, forceScroll) {
 }
 
 
-// ======================================================
-// 16. 更新播放時間顯示
-// ======================================================
+// -----------------------------------------------
+// 13. 匯入 LRC 歌詞檔
+// -----------------------------------------------
 
-function updateTimeDisplay() {
-  if (!playerReady || !player) return;
+lrcFileInput.addEventListener("change", async function (event) {
+  const file = event.target.files?.[0];
 
-  const current = player.getCurrentTime() || 0;
-  const duration = player.getDuration() || 0;
+  if (!file) return;
 
-  timeDisplay.textContent =
-    `${formatTime(current)} / ${formatTime(duration)}`;
-}
+  // 每次讀取都使用新的 token。
+  // 若使用者快速選取不同檔案，只採用最後一次結果。
+  const token = ++fileLoadToken;
+
+  if (!file.name.toLowerCase().endsWith(".lrc")) {
+    lyricsStatus.textContent =
+      "請選擇副檔名為 .lrc 的歌詞檔。";
+
+    lrcFileInput.value = "";
+    return;
+  }
+
+  try {
+    // 讀取本機檔案內容。
+    const content = await file.text();
+
+    if (token !== fileLoadToken) {
+      return;
+    }
+
+    // 解析 LRC。
+    const parsed = parseLRC(content);
+
+    if (parsed.lyrics.length === 0) {
+      lyricsStatus.textContent =
+        "檔案內沒有可辨識的歌詞，請確認時間標籤格式。";
+
+      return;
+    }
+
+    // 將檔名作為沒有歌曲標題時的預設名稱。
+    const fallbackTitle = file.name.replace(/\.lrc$/i, "");
+
+    setLyrics(parsed.lyrics, {
+      ...parsed.metadata,
+      ti: parsed.metadata.ti || fallbackTitle
+    });
+
+    lyricsStatus.textContent =
+      `已成功匯入「${file.name}」，共 ${lyrics.length} 句歌詞。`;
+
+  } catch (error) {
+    console.error("LRC 讀取失敗：", error);
+
+    lyricsStatus.textContent =
+      "無法讀取這個檔案，請確認檔案格式是否正確。";
+
+  } finally {
+    // 允許使用者再次選擇同一個檔案。
+    if (token === fileLoadToken) {
+      lrcFileInput.value = "";
+    }
+  }
+});
 
 
-// ======================================================
-// 17. 初始化網站
-// ======================================================
+// -----------------------------------------------
+// 14. 重設範例歌詞
+// -----------------------------------------------
 
-// 進入網站時只顯示歌曲列表。
-// 不會自動播放影片，也不會立即載入 YouTube API。
-renderSongList();
+resetLyricsButton.addEventListener("click", function () {
+  // 使尚未完成的檔案讀取失效。
+  fileLoadToken++;
 
-homePage.hidden = false;
-playerPage.hidden = true;
+  loadDefaultLyrics();
+});
+
+
+// -----------------------------------------------
+// 15. 頁面初始狀態
+// -----------------------------------------------
+
+// 在 YouTube API 初始化完成之前，先顯示內建歌詞。
+// 如此即使網路暫時無法連線到 YouTube，
+// 歌詞列表仍然可以顯示。
+loadDefaultLyrics();
+
+// 頁面初始化時設定預設影片 ID。
+videoUrlInput.value = DEFAULT_VIDEO_ID;
