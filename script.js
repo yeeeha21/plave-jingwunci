@@ -439,7 +439,7 @@ const SONGS = [
              {
               color: "#cfa7eb",
               words: [
-                 { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 2.20, end: 2.25 }
+                 { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 2.22, end: 2.25 }
               ]
              }
             ]
