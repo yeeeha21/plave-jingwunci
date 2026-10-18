@@ -271,7 +271,7 @@ const SONGS = [
               ]
              }
             ]
-           ],
+           },
            {
             time: 1.45,
             segments: [
