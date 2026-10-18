@@ -20,7 +20,6 @@ const SONGS = [
     id: 1,
     title: "Wait for you",
     description: "",
-
     normal: {
       videoId: "IYojNEdcvbg",
       lyrics: [
