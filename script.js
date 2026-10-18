@@ -422,31 +422,306 @@ const SONGS = [
             }
           ]
          },
+          {
+            time: 2.20,
+            segments: [
+             {
+              color: "#ff962d",
+              words: [
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 2.20, end: 2.21 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 2.22,
+            segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                 { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 2.20, end: 2.25 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 2.25,
+            segments: [
+             {
+              color: "#ff962d",
+              words: [
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 2.25, end: 2.26 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 2.27,
+            segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 2.27, end: 2.31 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 2.31,
+            segments: [
+              {
+               color: "#ff962d",
+               words: [
+                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 2.31, end: 2.39 }
+               ]
+              },
+              {
+               color: "#cfa7eb",
+               words: [
+                 { text: "Always\n \nAlways", start: 2.35, end: 2.39 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 2.41,
+            segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                 { text: "어젯밤 꿈속에 활짝 웃는 \n \n在昨夜的夢裏 看到笑逐", start: 2.41, end: 2.46 }
+              ]
+             },
+             {
+               color: "#ff962d",
+               words: [
+                 { text: "너를 봤어\n攞攣拔傻\n顏開的你", start: 2.45, end: 2.46 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 2.46,
+            segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                 { text: "그런 널 위해 꽃 한 송일 \n \n為了送給你 地一朵花", start: 2.41, end: 2.51 }
+              ]
+             },
+             {
+               color: "#ff962d",
+               words: [
+                 { text: "품에 안고\n噗咩un哥\n捧在手裏", start: 2.50, end: 2.51 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 2.51,
+            segments: [
+             {
+              color: "#b81818",
+              words: [
+                 { text: "약속을 할게 두 번 다시 네 손\n我願答應你 再也不會把你", start: 2.51, end: 2.56 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 2.56,
+            segments: [
+             {
+              color: "#b81818",
+              words: [
+                 { text: "놓지 않을 거라고 ooh whoa, ooh whoa\n那雙手輕易放開 ooh whoa, ooh whoa", start: 2.56, end: 3.00 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 3.01,
+            segments: [
+             {
+              color: "#ff962d",
+              words: [
+                 { text: "(歡呼!!)", start: 3.01, end: 3.03 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 3.03,
+            segments: [
+             {
+              color: "#ff962d",
+              words: [
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 3.03, end: 3.04 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 3.04,
+            segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                 { text: "너의 그곳에 내가 닿을 수 있게 \n在你的左右讓我觸及得到你", start: 3.04, end: 3.07 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 3.08,
+            segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 3.08, end: 3.10 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 3.10,
+            segments: [
+            {
+              color: "#cfa7eb",
+              words: [
+                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 3.10, end: 3.13 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 3.14,
+            segments: [
+              {
+               color: "#ff962d",
+               words: [
+                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 3.14, end: 3.22 }
+               ]
+              },
+              {
+               color: "#cfa7eb",
+               words: [
+                 { text: "Always\n \nAlways", start: 3.18, end: 3.22 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 3.24,
+            segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "얘들아 안녕\n夜啲啦 un翁\n孩子們 你好", start: 3.24, end: 3.25 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 3.25,
+            segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "나는 플리(Plli)야\n拿攣 Plli亞\n我是Plli呀", start: 3.25, end: 3.26 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 3.25,
+            segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "너희가 너무 \n囉er嫁 羅沒\n我真的超級", start: 3.25, end: 3.29 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "보고싶었어\n潑菇雪棵(po1)所\n超級想你們", start: 3.28, end: 3.29 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 3.29,
+            segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "잠깐 기다리니\n尋根 揭待(daai1)呢(ne1)伊\n稍微等待一下", start: 3.29, end: 3.30 }
+             ]
+            }
+           ]
+          },
+          {
+           time: 3.30,
+           segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "돌아왔구나\n塗啦嘩固啦\n你就回來啦", start: 3.30, end: 3.31 }
+             ]
+            }
+           ]
+          },
+          {
+           time: 3.31,
+           segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "그게 바로 나구나\n固嘅爸囉 娜固拿\n那就是在說你們", start: 3.31, end: 3.33 }
+             ]
+            }
+           ]
+          },
+          {
+           time: 3.33,
+           segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "풀레이브\n噗呢伊bu\nPLAVE", start: 3.33, end: 3.34 }
+              ]
+             }
+            ]
+           },
+            {
+            time: 3.34,
+            segments: [
+              {
+               color: "#8bc1ff",
+               words: [
+                 { text: "매일 이렇게 난 늘 혼잣말을 해 Always\n每個日子裏我總是自言自語 Always", start: 3.34, end: 3.42 }
+               ]
+              }
+            ]
+           },
+           {
+            time: 3.42,
+            segments: [
+           {
+              color: "#ff962d",
+              words: [
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 3.42, end: 3.46 }
+               ]
+              }
+             ]
+            },
          {       
     advanced: {
       videoId: "T_gJpnjJsnk",
-      lyrics: [
-        {
-          time: 1.00,
-          segments: [
-            {
-              color: "#FF6FAE",
-              words: [
-                { text: "星", start: 1.00, end: 1.08 },
-                { text: "光", start: 1.08, end: 1.10 }
-              ]
-            },
-            {
-              color: "#9B7BFF",
-              words: [
-                { text: "閃", start: 1.10, end: 1.15 },
-                { text: "耀", start: 1.15, end: 1.20 }
-              ]
-            }
-          ]
-        }
-      ]
-    },
+      lyrics: []
+    }
+   }
   ];
 
 /* =========================================================
