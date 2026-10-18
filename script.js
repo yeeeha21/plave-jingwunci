@@ -24,66 +24,116 @@ const SONGS = [
     normal: {
       videoId: "IYojNEdcvbg",
       lyrics: [
-        {
+          {
+            time: 00.19,
+               segments: [
+            {
               color: "#ffafcf",
               words: [
                 { text: "Whoa-oa, Whoa", start: 00.19, end: 00.23 }
               ]
-            },
+            }
+          ]
+       },
+          {
+            time: 00.25,
+               segments: [
             {
              color: "#ffafcf",
               words: [
                 { text: "Whoa-oa, Whoa", start: 00.25, end: 00.29 }
               ]
-            },
+            }
+          ]
+       },
+          {
+            time: 00.30,
+               segments: [
             {
               color: "#8bc1ff",
               words: [
                 { text: "매일 이렇게 난 늘 혼잣말을 해 Always\n每個日子裏 我總是自言自語 Always", start: 00.30, end: 00.37 },
               ]
-            },
+            }
+         ]
+     },
+          {
+            time: 00.39,
+               segments: [
             {
               color: "#ff962d",
               words: [
                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 00.39, end: 00.40 }
             ]
-            },
+           }
+         ]
+      },
+          {
+            time: 00.40,
+               segments: [
           {
               color: "#cfa7eb",
               words: [
                 { text: "Hello, 요즘 어때\nHello，過得好嗎", start: 00.40, end: 00.42 }
             ]
-            },
+           }
+         ]
+       },
+          {
+            time: 00.42,
+               segments: [
           {
               color: "#cfa7eb",
               words: [
                 { text: "그래 여전히 널 그리곤 해\n是的，我依然在思念你", start: 00.42, end: 00.45 }
             ]
-            },
+           }
+          ]
+        },
+          {
+            time: 00.45,
+               segments: [
           {
               color: "#cfa7eb",
               words: [
                 { text: "수 백 번씩 준비한 birthday\n準備無數次的 birthday", start: 00.45, end: 00.47 }
             ]
-            },
+          }
+       ]
+     },
+          {
+            time: 00.47,
+               segments: [
          {
           color: "#cfa7eb",
               words: [
                 { text: "아무 일도 없이 지나간 걸 Hello\n就這樣無聲無息地過去 Hello", start: 00.47, end: 00.49 }
             ]
-            },
+          }
+         ]
+        },
+          {
+            time: 00.51,
+               segments: [
           {
           color: "#ffafcf",
               words: [
                 { text: "이 말을 못 하고 애써\n我未能對你說", start: 00.51, end: 00.52 }
             ]
-            },
+           }
+         ]
+        },
+          {
+            time: 00.53,
+               segments: [
            {
           color: "#ffafcf",
               words:[
                 { text: "난 무심한 척 너를 지나쳐갔어 oh-oh, uh-oh\n故意若無其事地與你擦肩而過 oh-oh uh-oh", start: 00.53, end: 00.59 }
                  ]
-           },
+           }
+                  ]
+          },
          {
             time: 01.00,
                segments: [
@@ -109,24 +159,39 @@ const SONGS = [
     }
                   ]
          },
+          {
+            time: 01.07,
+               segments: [
         {
           color: "#8bc1ff",
               words:[
                 { text: "내 감정을 숨겼어\n隱藏自己的感情", start: 01.07, end: 01.09 }
                  ]
-           },  
+           }
+                  ]
+          },
+          {
+            time: 01.10,
+               segments: [
   {
           color: "#ffafcf",
               words:[
                 { text: "별 의미가 없잖아\n一切變得沒意義", start: 01.10, end: 01.12 }
                  ]
-           }, 
+           }
+                  ]
+          },
+          {
+            time: 01.12,
+               segments: [
  {
           color: "#ffafcf",
               words:[
                 { text: "널 향한 나의 맘이 점점 커져서\n我的心為你傾倒 如排山倒海", start: 01.12, end: 01.18 }
                  ]
-           },
+           }
+                  ]
+          },
                  {
             time: 01.19,
                segments: [
@@ -138,12 +203,17 @@ const SONGS = [
                  }
                   ]
                  },
+          {
+            time: 01.21,
+               segments: [
          {
           color: "#cfa7eb",
               words:[
                 { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 01.21, end: 01.23 }
                  ]
-           },
+           }
+                  ]
+          },
      {
             time: 01.24,
                segments: [
@@ -156,11 +226,16 @@ const SONGS = [
                   ]
                  },
           {
+            time: 01.26,
+               segments: [
+          {
           color: "#cfa7eb",
               words:[
                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 01.26, end: 01.29 }
                  ]
-           },
+           }
+                  ]
+          },
              {
             time: 01.30,
                segments: [
@@ -182,30 +257,122 @@ const SONGS = [
                  }
                   ]
              },
+          {
+            time: 01.40,
+               segments: [
            {
           color: "#ff962d",
               words:[
                 { text: "Whoa-oa, whoa", start: 01.40, end: 01.42 }
                  ]
-           },
+           }
+                  ]
+          },
+          {
+            time: 01.43,
+               segments: [
           {
           color: "#ffafcf",
               words:[
                 { text: "Wait for you", start: 01.43, end: 01.45 }
                  ]
-           },
+           }
+                  ]
+                  ],
+        {
+            time: 01.45,
+               segments: [
           {
           color: "#ff962d",
               words:[
                 { text: "Whoa-oa", start: 01.45, end: 01.47 }
                  ]
-           },
+           }
+                  ]
+    },
+      {
+            time: 01.48,
+               segments: [
           {
           color: "#ffafcf",
               words:[
                 { text: "Yeah wait for you", start: 01.48, end: 01.50 }
                  ]
+           }
+                  ]
+  },
+    {
+            time: 01.50,
+               segments: [
+          {
+          color: "#ff962d",
+               words: [
+                 { text: "매일 이\n未姨呢(ne1)\n每個日子", start: 01.50, end: 01.59 }
+                 { text: "렇게\n囉茄\n裏", start: 01.51, end: 01.59 }
+                 { text: "난 늘\nna攣\n我總", start: 01.52, end: 01.59 }
+                 { text: "혼잣말\n胸炸 媽\n是自言", start: 01.52, end: 01.59 }
+                 { text: "을 해\n攣呢\n自語", start: 01.54, end: 01.59 }
+                 ]
            },
+                   {
+                  color: "#8bc1ff",
+              words: [
+                 { text: "Always\n \nAlways", start: 01.55, end: 01.59 }
+                  ]
+                   }
+                  ]
+  },
+   {
+            time: 01.59,
+               segments: [
+           {
+          color: "#ff962d",
+              words: [
+                 { text: "기다릴\nKey帶呢(ne1)\n等待著", start: 01.59, end: 02.01 }
+                 { text: "게\n嘅\n你", start: 02.00, end: 02.01 }
+                 ]
+           }
+                  ]
+                 },
+     {
+            time: 02.02,
+               segments: [
+           {
+          color: "#2a2a2a",
+              words: [
+                 { text: "꽤나 오랜만인 것 같아\n似乎好久沒見到你", start: 02.02, end: 02.03 }
+                 ]
+           }
+                  ]
+                 },
+    {
+            time: 02.03,
+               segments: [
+           {
+          color: "#2a2a2a",
+              words: [
+                 { text: "떠오르는 건 오직 잘 지냈냐는 \n \n只會想到 你過得好不好 ", start: 02.02, end: 02.05 }
+                 ]
+                 },
+                  {
+                  color: "#ff962d",
+              words: [
+                 { text: "말 밖에\nmy拍嘅\n這句話", start: 02.04, end: 02.05 }
+                 ]
+                  }
+                  ]
+                 },
+    {
+            time: 02.05,
+               segments: [
+           {
+          color: "#2a2a2a",
+              words: [
+                 { text: "아무 소식 없는 널 같은 자리에서 기다렸어\n沒有任何消息 我一直留在原處等待著你", start: 02.05, end: 02.08 }
+                 ]
+           }
+                  ]
+                 },
          {       
     advanced: {
       videoId: "T_gJpnjJsnk",
@@ -236,144 +403,144 @@ const SONGS = [
   // 複製以下結構，新增歌曲 2 至 12。
   {
     id: 2,
-    title: "歌曲 2",
+    title: "Pixel World",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "9ZuqkkALRHk",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "mk_7saG0rEE",
       lyrics: []
     }
   },
   {
     id: 3,
-    title: "歌曲 3",
+    title: "The 6th summer",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "KhPe6jC-jaQ",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "dE_ddOigeZA",
       lyrics: []
     }
   },
   {
     id: 4,
-    title: "歌曲 4",
+    title: "Why?Why?Why?",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "jF4B7Yvct-c",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "9WQ-kx-Y6m8",
       lyrics: []
     }
   },
   {
     id: 5,
-    title: "歌曲 5",
+    title: "WAT 4 LUV",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "tRSvtYMjsxw",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "n5uw7ErnzKs",
       lyrics: []
     }
   },
   {
     id: 6,
-    title: "歌曲 6",
+    title: "Pump Up The Volume!",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "zLLHEZp_gbM",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "yZoluwCs5i8",
       lyrics: []
     }
   },
   {
     id: 7,
-    title: "歌曲 7",
+    title: "Dash",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "9FopMGItmOw",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "MxIm2v4W9h8",
       lyrics: []
     }
   },
   {
     id: 8,
-    title: "歌曲 8",
+    title: "かくれんぼ/Hide and Seek",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "lSNygjXQ8fc",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "O3ij62WO3Ro",
       lyrics: []
     }
   },
   {
     id: 9,
-    title: "歌曲 9",
+    title: "숨바꼭질/Hide and Seek",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "mGqYMma_YIk",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "g2VTFOnp51E",
       lyrics: []
     }
   },
   {
     id: 10,
-    title: "歌曲 10",
+    title: "BBUU!",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "ma3evv4vnW0",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "zYfM_sYClnY",
       lyrics: []
     }
   },
   {
     id: 11,
-    title: "歌曲 11",
+    title: "Born Savage",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "fVH5atHZtys",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "3zvHS4-C4uo",
       lyrics: []
     }
   },
   {
     id: 12,
-    title: "歌曲 12",
+    title: "Star Trace",
     description: "",
     normal: {
-      videoId: "",
+      videoId: "2UZ4MLjFDG0",
       lyrics: []
     },
     advanced: {
-      videoId: "",
+      videoId: "hxYPZpPZJ7o",
       lyrics: []
     }
   }
