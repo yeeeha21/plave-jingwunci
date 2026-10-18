@@ -257,8 +257,8 @@ const SONGS = [
               color: "#ff962d",
               words:[
                 { text: "Whoa-oa, whoa", start: 1.40, end: 1.42 }
-                 ]
-               }
+               ]
+              }
              ]
            },
            {
