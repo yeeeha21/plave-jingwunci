@@ -196,6 +196,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                  { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 1.19, end: 1.21 }
+              ]
              }
             ]
            },
