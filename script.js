@@ -139,21 +139,19 @@ const SONGS = [
            {
           color: "#ff962d",
               words: [
-                 { text: "절\njer\n我", start: 1.00, end: 1.07 }
-                 { text: "대\n嗲\n一", start: 1.01, end: 1.07 }
+                 { text: "절대 \njer嗲\n我一", start: 1.00, end: 1.07 }
               ]
     },
             {
           color: "#8bc1ff",
                words:[
-                  { text: "난 어울리지 않을 거란\n \n直告訴自己根本配不", start: 1.02, end: 1.07 }
+                  { text: "난 어울리지 않을 거란 \n \n直告訴自己根本配不", start: 1.02, end: 1.07 }
                   ]
             },
                         {
           color: "#ff962d",
               words: [
-                 { text: "말\n埋\n上", start: 1.05, end: 1.07 }
-                 { text: "로\n嬲\n你", start: 1.06, end: 1.07 }
+                 { text: "말로\n埋嬲\n上你", start: 1.05, end: 1.07 }
               ]
     }
                   ]
@@ -197,8 +195,7 @@ const SONGS = [
            {
           color: "#ff962d",
               words: [
-                 { text: "기다릴\nKey帶呢(ne1)\n等待著", start: 1.19, end: 1.20 }
-                 { text: "게\n嘅\n你", start: 1.20, end: 1.21 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 1.19, end: 1.21 }
                  }
                   ]
                  },
@@ -219,8 +216,7 @@ const SONGS = [
            {
           color: "#ff962d",
               words: [
-                 { text: "기다릴\nKey帶呢(ne1)\n等待著", start: 1.24, end: 1.25 }
-                 { text: "게\n嘅\n你", start: 1.25, end: 1.26 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 1.24, end: 1.25 }
                  }
                   ]
                  },
@@ -241,11 +237,7 @@ const SONGS = [
            {
           color: "#ff962d",
               words: [
-                 { text: "매일 이\n未姨呢(ne1)\n每個日子", start: 1.30, end: 1.39 }
-                 { text: "렇게\n囉茄\n裏", start: 1.31, end: 1.39 }
-                 { text: "난 늘\nna攣\n我總", start: 1.32, end: 1.39 }
-                 { text: "혼잣말\n胸炸 媽\n是自言", start: 1.33, end: 1.39 }
-                 { text: "을 해\n攣呢\n自語", start: 1.34, end: 1.39 }
+                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 1.30, end: 1.39 }
                  ]
                  },
                   {
@@ -306,11 +298,7 @@ const SONGS = [
           {
           color: "#ff962d",
                words: [
-                 { text: "매일 이\n未姨呢(ne1)\n每個日子", start: 1.50, end: 1.59 }
-                 { text: "렇게\n囉茄\n裏", start: 1.51, end: 1.59 }
-                 { text: "난 늘\nna攣\n我總", start: 1.52, end: 1.59 }
-                 { text: "혼잣말\n胸炸 媽\n是自言", start: 1.52, end: 1.59 }
-                 { text: "을 해\n攣呢\n自語", start: 1.54, end: 1.59 }
+                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 1.50, end: 1.59 }
                  ]
            },
                    {
@@ -327,8 +315,7 @@ const SONGS = [
            {
           color: "#ff962d",
               words: [
-                 { text: "기다릴\nKey帶呢(ne1)\n等待著", start: 1.59, end: 2.01 }
-                 { text: "게\n嘅\n你", start: 02.00, end: 2.01 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 1.59, end: 2.01 }
                  ]
            }
                   ]
@@ -368,6 +355,67 @@ const SONGS = [
           color: "#2a2a2a",
               words: [
                  { text: "아무 소식 없는 널 같은 자리에서 기다렸어\n沒有任何消息 我一直留在原處等待著你", start: 2.05, end: 2.08 }
+                 ]
+           }
+                  ]
+                 },
+   {
+            time: 2.08,
+               segments: [
+           {
+          color: "#2a2a2a",
+              words: [
+                 { text: "몇 번의 계절이 지나도 \n \n走過好幾個季節也", start: 2.08, end: 2.10 }
+                 ]
+           },
+                 {
+          color: "#ff962d",
+              words: [
+                 { text: "너 밖엔\n囉拍嘅\n只有你", start: 2.09, end: 2.10 }
+                 ]
+                 }
+                  ]
+                 },
+   {
+            time: 2.10,
+               segments: [
+           {
+          color: "#b81818",
+              words: [
+                 { text: "생각나지 않고 아무것도 보이지가 않아\n我心裏只有你 我的眼裏也只有你", start: 2.10, end: 2.13 }
+                 ]
+           }
+                  ]
+                 },
+    {
+            time: 2.13,
+               segments: [
+           {
+          color: "#b81818",
+              words: [
+                 { text: "아무리 노력해 봐야 제자리만 맴돌아\n不管我再怎麼努力 只會在原地打轉", start: 2.13, end: 2.15 }
+                 ]
+           }
+                  ]
+                 },
+    {
+            time: 2.15,
+               segments: [
+           {
+          color: "#b81818",
+              words: [
+                 { text: "시작이 다르더라도 괜찮아\n在不同時間點開始也可以", start: 2.15, end: 2.17 }
+                 ]
+           }
+                  ]
+                 },
+    {
+            time: 2.17,
+               segments: [
+           {
+          color: "#b81818",
+              words: [
+                 { text: "난 항상 출발선에 멈춰 있으니까\n因為我始終停留在起跑線", start: 2.17, end: 2.20 }
                  ]
            }
                   ]
