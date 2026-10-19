@@ -865,3 +865,14 @@ a:focus-visible,
     animation-duration: 0.01ms !important;
   }
 }
+
+/* 讓 segments 的顏色生效 */
+.lyric-segment {
+  color: var(--lyric-color, #a29caf);
+}
+
+/* 可選：讓目前高亮的句子顏色更明顯 */
+.lyric-line.active .lyric-segment {
+  color: var(--lyric-color, #7253ce);
+}
+
