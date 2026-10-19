@@ -876,3 +876,29 @@ a:focus-visible,
   color: var(--lyric-color, #7253ce);
 }
 
+/* 逐字高亮效果 */
+.lyric-word {
+  transition: color 0.15s, opacity 0.15s;
+}
+
+.lyric-word.word-upcoming {
+  opacity: 0.45;           /* 還沒唱到的字比較淡 */
+}
+
+.lyric-word.word-active {
+  opacity: 1;
+  font-weight: 800;
+  /* 可以再加強，例如加粗或稍微放大 */
+  transform: scale(1.05);
+}
+
+.lyric-word.word-past {
+  opacity: 0.7;            /* 唱過的字稍微暗一點 */
+}
+
+/* 讓有顏色的 segment 在 active 時更明顯 */
+.lyric-line.active .lyric-segment {
+  filter: brightness(1.15);
+}
+
+
