@@ -24,694 +24,694 @@ const SONGS = [
       videoId: "IYojNEdcvbg",
       lyrics: [
            {
-            time: 0.19,
+            time: 19,
             segments: [
              {
               color: "#ffafcf",
               words: [
-                { text: "Whoa-oa, Whoa", start: 0.19, end: 0.23 }
+                { text: "Whoa-oa, Whoa", start: 19, end: 23 }
                 ]
               }
             ]
            },
            {
-            time: 0.25,
+            time: 25,
             segments: [
              {
               color: "#ffafcf",
               words: [
-                { text: "Whoa-oa, Whoa", start: 0.25, end: 0.29 }
+                { text: "Whoa-oa, Whoa", start: 25, end: 29 }
                 ]
               }
             ]
            },
            {
-            time: 0.30,
+            time: 30,
             segments: [
              {
               color: "#8bc1ff",
               words: [
-                { text: "매일 이렇게 난 늘 혼잣말을 해 Always\n每個日子裏 我總是自言自語 Always", start: 0.30, end: 0.37 },
+                { text: "매일 이렇게 난 늘 혼잣말을 해 Always\n每個日子裏 我總是自言自語 Always", start: 30, end: 37 },
                 ]
               }
             ]
            },
            {
-            time: 0.39,
+            time: 39,
             segments: [
             {
               color: "#ff962d",
               words: [
-                { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 0.39, end: 0.40 }
+                { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 39, end: 40 }
                 ]
                }
              ]
            },
            {
-            time: 0.40,
+            time: 40,
             segments: [
              {
               color: "#cfa7eb",
               words: [
-                { text: "Hello, 요즘 어때\nHello，過得好嗎", start: 0.40, end: 0.42 }
+                { text: "Hello, 요즘 어때\nHello，過得好嗎", start: 40, end: 42 }
               ]
              }
             ]
            },
            {
-            time: 0.42,
+            time: 42,
             segments: [
              {
               color: "#cfa7eb",
               words: [
-                { text: "그래 여전히 널 그리곤 해\n是的，我依然在思念你", start: 0.42, end: 0.45 }
+                { text: "그래 여전히 널 그리곤 해\n是的，我依然在思念你", start: 42, end: 45 }
               ]
              }
             ]
            },
            {
-            time: 0.45,
+            time: 45,
             segments: [
               {
               color: "#cfa7eb",
               words: [
-                { text: "수 백 번씩 준비한 birthday\n準備無數次的 birthday", start: 0.45, end: 0.47 }
+                { text: "수 백 번씩 준비한 birthday\n準備無數次的 birthday", start: 45, end: 47 }
               ]
             }
            ]
           },
           {
-            time: 0.47,
+            time: 47,
             segments: [
              {
               color: "#cfa7eb",
               words: [
-                { text: "아무 일도 없이 지나간 걸 Hello\n就這樣無聲無息地過去 Hello", start: 0.47, end: 0.49 }
+                { text: "아무 일도 없이 지나간 걸 Hello\n就這樣無聲無息地過去 Hello", start: 47, end: 49 }
               ]
              }
             ]
            },
            {
-            time: 0.51,
+            time: 51,
             segments: [
             {
               color: "#ffafcf",
               words: [
-                { text: "이 말을 못 하고 애써\n我未能對你說", start: 0.51, end: 0.52 }
+                { text: "이 말을 못 하고 애써\n我未能對你說", start: 51, end: 52 }
               ]
              }
             ]
            },
            {
-            time: 0.53,
+            time: 53,
             segments: [
              {
               color: "#ffafcf",
               words:[
-                { text: "난 무심한 척 너를 지나쳐갔어 oh-oh, uh-oh\n故意若無其事地與你擦肩而過 oh-oh uh-oh", start: 0.53, end: 0.59 }
+                { text: "난 무심한 척 너를 지나쳐갔어 oh-oh, uh-oh\n故意若無其事地與你擦肩而過 oh-oh uh-oh", start: 53, end: 59 }
                ]
               }
             ]
            },
            {
-            time: 1.00,
+            time: 60,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "절대 \njer嗲\n我一", start: 1.00, end: 1.07 }
+                 { text: "절대 \njer嗲\n我一", start: 60, end: 67 }
                ]
               },
               {
                color: "#8bc1ff",
                words:[
-                  { text: "난 어울리지 않을 거란 \n \n直告訴自己根本配不", start: 1.02, end: 1.07 }
+                  { text: "난 어울리지 않을 거란 \n \n直告訴自己根本配不", start: 62, end: 67 }
                ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "말로\n埋嬲\n上你", start: 1.05, end: 1.07 }
+                 { text: "말로\n埋嬲\n上你", start: 65, end: 67 }
               ]
              }
             ]
           },
           {
-            time: 1.07,
+            time: 67,
             segments: [
              {
               color: "#8bc1ff",
               words:[
-                { text: "내 감정을 숨겼어\n隱藏自己的感情", start: 1.07, end: 1.09 }
+                { text: "내 감정을 숨겼어\n隱藏自己的感情", start: 67, end: 69 }
                ]
               }
              ]
            },
            {
-            time: 1.10,
+            time: 70,
             segments: [
              {
               color: "#ffafcf",
               words:[
-                { text: "별 의미가 없잖아\n一切變得沒意義", start: 1.10, end: 1.12 }
+                { text: "별 의미가 없잖아\n一切變得沒意義", start: 70, end: 72 }
               ]
              }
             ]
            },
            {
-            time: 1.12,
+            time: 72,
             segments: [
              {
               color: "#ffafcf",
               words:[
-                { text: "널 향한 나의 맘이 점점 커져서\n我的心為你傾倒 如排山倒海", start: 1.12, end: 1.18 }
+                { text: "널 향한 나의 맘이 점점 커져서\n我的心為你傾倒 如排山倒海", start: 72, end: 78 }
               ]
              }
             ]
            },
            {
-            time: 1.19,
+            time: 79,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 1.19, end: 1.21 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 79, end: 81 }
               ]
              }
             ]
            },
            {
-            time: 1.21,
+            time: 81,
             segments: [
              {
               color: "#cfa7eb",
               words:[
-                { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 1.21, end: 1.23 }
+                { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 81, end: 83 }
               ]
              }
             ]
            },
            {
-            time: 1.24,
+            time: 84,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 1.24, end: 1.25 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 84, end: 85 }
               ]
              }
             ]
            },
            {
-            time: 1.26,
+            time: 86,
             segments: [
              {
               color: "#cfa7eb",
               words:[
-                { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 1.26, end: 1.29 }
+                { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 86, end: 89 }
               ]
              }
             ]
            },
            {
-            time: 1.30,
+            time: 90,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 1.30, end: 1.39 }
+                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 90, end: 99 }
                ]
               },
               {
                color: "#cfa7eb",
                words: [
-                 { text: "Always\n \nAlways", start: 1.35, end: 1.39 }
+                 { text: "Always\n \nAlways", start: 95, end: 99 }
               ]
              }
             ]
            },
            {
-            time: 1.40,
+            time: 100,
             segments: [
              {
               color: "#ff962d",
               words:[
-                { text: "Whoa-oa, whoa", start: 1.40, end: 1.42 }
+                { text: "Whoa-oa, whoa", start: 100, end: 102 }
                ]
               }
              ]
            },
            {
-            time: 1.43,
+            time: 103,
             segments: [
              {
               color: "#ffafcf",
               words:[
-                { text: "Wait for you", start: 1.43, end: 1.45 }
+                { text: "Wait for you", start: 103, end: 105 }
               ]
              }
             ]
            },
            {
-            time: 1.45,
+            time: 105,
             segments: [
              {
               color: "#ff962d",
               words:[
-                { text: "Whoa-oa", start: 1.45, end: 1.47 }
+                { text: "Whoa-oa", start: 105, end: 107 }
               ]
              }
             ]
            },
            {
-            time: 1.48,
+            time: 108,
             segments: [
              {
               color: "#ffafcf",
               words:[
-                { text: "Yeah wait for you", start: 1.48, end: 1.50 }
+                { text: "Yeah wait for you", start: 108, end: 110 }
               ]
              }
             ]
            },
            {
-            time: 1.50,
+            time: 110,
             segments: [
               {
                color: "#ff962d",
                words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 1.50, end: 1.59 }
+                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 110, end: 119 }
                ]
               },
               {
                color: "#8bc1ff",
                words: [
-                 { text: "Always\n \nAlways", start: 1.55, end: 1.59 }
+                 { text: "Always\n \nAlways", start: 115, end: 119 }
               ]
              }
             ]
            },
            {
-            time: 1.59,
+            time: 119,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 1.59, end: 2.01 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 119, end: 120 }
               ]
              }
             ]
            },
            {
-            time: 2.02,
+            time: 122,
             segments: [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "꽤나 오랜만인 것 같아\n似乎好久沒見到你", start: 2.02, end: 2.03 }
+                 { text: "꽤나 오랜만인 것 같아\n似乎好久沒見到你", start: 122, end: 123 }
                 ]
                }
              ]
            },
            {
-            time: 2.03,
+            time: 123,
             segments: [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "떠오르는 건 오직 잘 지냈냐는 \n \n只會想到 你過得好不好 ", start: 2.02, end: 2.05 }
+                 { text: "떠오르는 건 오직 잘 지냈냐는 \n \n只會想到 你過得好不好 ", start: 123, end: 125 }
               ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "말 밖에\nmy拍嘅\n這句話", start: 2.04, end: 2.05 }
+                 { text: "말 밖에\nmy拍嘅\n這句話", start: 124, end: 125 }
                  ]
                }
              ]
            },
            {
-            time: 2.05,
+            time: 125,
             segments: [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "아무 소식 없는 널 같은 자리에서 기다렸어\n沒有任何消息 我一直留在原處等待著你", start: 2.05, end: 2.08 }
+                 { text: "아무 소식 없는 널 같은 자리에서 기다렸어\n沒有任何消息 我一直留在原處等待著你", start: 125, end: 128 }
               ]
              }
             ]
            },
            {
-            time: 2.08,
+            time: 128,
             segments: [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "몇 번의 계절이 지나도 \n \n走過好幾個季節也", start: 2.08, end: 2.10 }
+                 { text: "몇 번의 계절이 지나도 \n \n走過好幾個季節也", start: 128, end: 130 }
               ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "너 밖엔\n囉拍嘅\n只有你", start: 2.09, end: 2.10 }
+                 { text: "너 밖엔\n囉拍嘅\n只有你", start: 129, end: 130 }
               ]
              }
             ]
            },
            {
-            time: 2.10,
+            time: 130,
             segments: [
              {
               color: "#b81818",
               words: [
-                 { text: "생각나지 않고 아무것도 보이지가 않아\n我心裏只有你 我的眼裏也只有你", start: 2.10, end: 2.13 }
+                 { text: "생각나지 않고 아무것도 보이지가 않아\n我心裏只有你 我的眼裏也只有你", start: 130, end: 133 }
                ]
               }
             ]
            },
            {
-            time: 2.13,
+            time: 133,
             segments: [
              {
               color: "#b81818",
               words: [
-                 { text: "아무리 노력해 봐야 제자리만 맴돌아\n不管我再怎麼努力 只會在原地打轉", start: 2.13, end: 2.15 }
+                 { text: "아무리 노력해 봐야 제자리만 맴돌아\n不管我再怎麼努力 只會在原地打轉", start: 133, end: 135 }
                ]
               }
             ]
            },
            {
-            time: 2.15,
+            time: 135,
             segments: [
              {
               color: "#b81818",
               words: [
-                 { text: "시작이 다르더라도 괜찮아\n在不同時間點開始也可以", start: 2.15, end: 2.17 }
+                 { text: "시작이 다르더라도 괜찮아\n在不同時間點開始也可以", start: 135, end: 137 }
                 ]
                }
              ]
            },
            {
-            time: 2.17,
+            time: 137,
             segments: [
              {
               color: "#b81818",
               words: [
-                 { text: "난 항상 출발선에 멈춰 있으니까\n因為我始終停留在起跑線", start: 2.17, end: 2.20 }
+                 { text: "난 항상 출발선에 멈춰 있으니까\n因為我始終停留在起跑線", start: 137, end: 140 }
              ]
             }
           ]
          },
           {
-            time: 2.20,
+            time: 140,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 2.20, end: 2.21 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 140, end: 141 }
               ]
              }
             ]
            },
            {
-            time: 2.22,
+            time: 142,
             segments: [
              {
               color: "#cfa7eb",
               words: [
-                 { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 2.22, end: 2.25 }
+                 { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 142, end: 145 }
               ]
              }
             ]
            },
            {
-            time: 2.25,
+            time: 145,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 2.25, end: 2.26 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 145, end: 146 }
               ]
              }
             ]
            },
            {
-            time: 2.27,
+            time: 147,
             segments: [
              {
               color: "#cfa7eb",
               words: [
-                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 2.27, end: 2.31 }
+                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 147, end: 151 }
               ]
              }
             ]
            },
            {
-            time: 2.31,
+            time: 151,
             segments: [
               {
                color: "#ff962d",
                words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 2.31, end: 2.39 }
+                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 151, end: 159 }
                ]
               },
               {
                color: "#cfa7eb",
                words: [
-                 { text: "Always\n \nAlways", start: 2.35, end: 2.39 }
+                 { text: "Always\n \nAlways", start: 155, end: 159 }
               ]
              }
             ]
            },
            {
-            time: 2.41,
+            time: 161,
             segments: [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "어젯밤 꿈속에 활짝 웃는 \n \n在昨夜的夢裏 看到笑逐", start: 2.41, end: 2.46 }
+                 { text: "어젯밤 꿈속에 활짝 웃는 \n \n在昨夜的夢裏 看到笑逐", start: 161, end: 166 }
               ]
              },
              {
                color: "#ff962d",
                words: [
-                 { text: "너를 봤어\n攞攣拔傻\n顏開的你", start: 2.45, end: 2.46 }
+                 { text: "너를 봤어\n攞攣拔傻\n顏開的你", start: 165, end: 166 }
               ]
              }
             ]
            },
            {
-            time: 2.46,
+            time: 166,
             segments: [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "그런 널 위해 꽃 한 송일 \n \n為了送給你 地一朵花", start: 2.41, end: 2.51 }
+                 { text: "그런 널 위해 꽃 한 송일 \n \n為了送給你 地一朵花", start: 166, end: 171 }
               ]
              },
              {
                color: "#ff962d",
                words: [
-                 { text: "품에 안고\n噗咩un哥\n捧在手裏", start: 2.50, end: 2.51 }
+                 { text: "품에 안고\n噗咩un哥\n捧在手裏", start: 170, end: 171 }
               ]
              }
             ]
            },
            {
-            time: 2.51,
+            time: 171,
             segments: [
              {
               color: "#b81818",
               words: [
-                 { text: "약속을 할게 두 번 다시 네 손\n我願答應你 再也不會把你", start: 2.51, end: 2.56 }
+                 { text: "약속을 할게 두 번 다시 네 손\n我願答應你 再也不會把你", start: 171, end: 176 }
               ]
              }
             ]
            },
            {
-            time: 2.56,
+            time: 176,
             segments: [
              {
               color: "#b81818",
               words: [
-                 { text: "놓지 않을 거라고 ooh whoa, ooh whoa\n那雙手輕易放開 ooh whoa, ooh whoa", start: 2.56, end: 3.00 }
+                 { text: "놓지 않을 거라고 ooh whoa, ooh whoa\n那雙手輕易放開 ooh whoa, ooh whoa", start: 176, end: 180 }
               ]
              }
             ]
            },
            {
-            time: 3.01,
+            time: 181,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "(歡呼!!)", start: 3.01, end: 3.03 }
+                 { text: "(歡呼!!)", start: 181, end: 183 }
               ]
              }
             ]
            },
            {
-            time: 3.03,
+            time: 183,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 3.03, end: 3.04 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 183, end: 184 }
               ]
              }
             ]
            },
            {
-            time: 3.04,
+            time: 184,
             segments: [
              {
               color: "#8bc1ff",
               words: [
-                 { text: "너의 그곳에 내가 닿을 수 있게 \n在你的左右讓我觸及得到你", start: 3.04, end: 3.07 }
+                 { text: "너의 그곳에 내가 닿을 수 있게 \n在你的左右讓我觸及得到你", start: 184, end: 187 }
               ]
              }
             ]
            },
            {
-            time: 3.08,
+            time: 188,
             segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 3.08, end: 3.10 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 188, end: 190 }
                ]
               }
              ]
             },
             {
-            time: 3.10,
+            time: 190,
             segments: [
             {
               color: "#cfa7eb",
               words: [
-                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 3.10, end: 3.13 }
+                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 190, end: 3193 }
               ]
              }
             ]
            },
            {
-            time: 3.14,
+            time: 194,
             segments: [
               {
                color: "#ff962d",
                words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 3.14, end: 3.22 }
+                 { text: "매일 이렇게 난 늘 혼잣말을 해\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢\n每個日子裏我總是自言自語", start: 194, end: 202 }
                ]
               },
               {
                color: "#cfa7eb",
                words: [
-                 { text: "Always\n \nAlways", start: 3.18, end: 3.22 }
+                 { text: "Always\n \nAlways", start: 198, end: 202 }
               ]
              }
             ]
            },
            {
-            time: 3.24,
+            time: 204,
             segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "얘들아 안녕\n夜啲啦 un翁\n孩子們 你好", start: 3.24, end: 3.25 }
+                 { text: "얘들아 안녕\n夜啲啦 un翁\n孩子們 你好", start: 204, end: 205 }
               ]
              }
             ]
            },
            {
-            time: 3.25,
+            time: 205,
             segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "나는 플리(Plli)야\n拿攣 Plli亞\n我是Plli呀", start: 3.25, end: 3.26 }
+                 { text: "나는 플리(Plli)야\n拿攣 Plli亞\n我是Plli呀", start: 205, end: 206 }
                ]
               }
              ]
             },
             {
-            time: 3.25,
+            time: 206,
             segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "너희가 너무 \n囉er嫁 羅沒\n我真的超級", start: 3.25, end: 3.29 }
+                 { text: "너희가 너무 \n囉er嫁 羅沒\n我真的超級", start: 206, end: 209 }
                ]
               },
               {
               color: "#ff962d",
               words: [
-                 { text: "보고싶었어\n潑菇雪棵(po1)所\n超級想你們", start: 3.28, end: 3.29 }
+                 { text: "보고싶었어\n潑菇雪棵(po1)所\n超級想你們", start: 208, end: 209 }
                ]
               }
              ]
             },
             {
-            time: 3.29,
+            time: 209,
             segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "잠깐 기다리니\n尋根 揭待(daai1)呢(ne1)伊\n稍微等待一下", start: 3.29, end: 3.30 }
+                 { text: "잠깐 기다리니\n尋根 揭待(daai1)呢(ne1)伊\n稍微等待一下", start: 209, end: 210 }
              ]
             }
            ]
           },
           {
-           time: 3.30,
+           time: 210,
            segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "돌아왔구나\n塗啦嘩固啦\n你就回來啦", start: 3.30, end: 3.31 }
+                 { text: "돌아왔구나\n塗啦嘩固啦\n你就回來啦", start: 210, end: 211 }
              ]
             }
            ]
           },
           {
-           time: 3.31,
+           time: 211,
            segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "그게 바로 나구나\n固嘅爸囉 娜固拿\n那就是在說你們", start: 3.31, end: 3.33 }
+                 { text: "그게 바로 나구나\n固嘅爸囉 娜固拿\n那就是在說你們", start: 211, end: 213 }
              ]
             }
            ]
           },
           {
-           time: 3.33,
+           time: 213,
            segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "풀레이브\n噗呢伊bu\nPLAVE", start: 3.33, end: 3.34 }
+                 { text: "풀레이브\n噗呢伊bu\nPLAVE", start: 213, end: 214 }
               ]
              }
             ]
            },
             {
-            time: 3.34,
+            time: 214,
             segments: [
               {
                color: "#8bc1ff",
                words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해 Always\n每個日子裏我總是自言自語 Always", start: 3.34, end: 3.42 }
+                 { text: "매일 이렇게 난 늘 혼잣말을 해 Always\n每個日子裏我總是自言自語 Always", start: 214, end: 222 }
                ]
               }
             ]
            },
            {
-            time: 3.42,
+            time: 222,
             segments: [
            {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 3.42, end: 3.46 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 222, end: 226 }
                ]
               }
              ]
