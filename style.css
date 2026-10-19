@@ -661,7 +661,7 @@ a:focus-visible,
   font-weight: 550;
   line-height: 1.7;
   overflow-wrap: anywhere;
-  white-space: pre-line:
+  white-space: pre-line !important;
   transition:
     color 0.2s,
     background 0.2s,
