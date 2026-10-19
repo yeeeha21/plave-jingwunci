@@ -156,48 +156,25 @@ const SONGS = [
              }
             ]
           },
-           {
+            {
             time: 60,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "jer嗲", start: 60, end: 67 }
+                 { text: "절대 \njer嗲\n我一", start: 60, end: 67 }
                ]
               },
               {
                color: "#8bc1ff",
                words:[
-                  { text: " ", start: 62, end: 67 }
+                  { text: "난 어울리지 않을 거란 \n \n直告訴自己根本配不", start: 62, end: 67 }
                ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: " 埋嬲", start: 65, end: 67 }
-              ]
-             }
-            ]
-          },
-           {
-            time: 60,
-            segments: [
-             {
-              color: "#ff962d",
-              words: [
-                 { text: "我一", start: 60, end: 67 }
-               ]
-              },
-              {
-               color: "#8bc1ff",
-               words:[
-                  { text: "直告訴自己根本配不", start: 62, end: 67 }
-               ]
-             },
-             {
-              color: "#ff962d",
-              words: [
-                 { text: "上你", start: 65, end: 67 }
+                 { text: "말로\n埋嬲\n上你", start: 65, end: 67 }
               ]
              }
             ]
@@ -1306,7 +1283,21 @@ function renderLyrics() {
           const wordElement = document.createElement("span");
 
           wordElement.className = "lyric-word";
-          wordElement.textContent = word.text;
+           
+          // 支援在同一個 word 裡用 \n 換行
+      if (word.text.includes("\n")) {
+          const parts = word.text.split("\n");
+          parts.forEach((part, index) => {
+      if (index > 0) {
+         wordElement.appendChild(document.createElement("br"));
+    }
+         const textNode = document.createTextNode(part);
+        wordElement.appendChild(textNode);
+  });
+} else {
+  wordElement.textContent = word.text;
+}
+
 
           const hasValidTiming =
             Number.isFinite(word.start) &&
