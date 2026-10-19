@@ -153,28 +153,35 @@ const SONGS = [
               words: [
                  { text: "말로", start: 65, end: 67 }
               ]
-             }
-            ]
-          },
-            {
-            time: 60,
-            segments: [
+             },
              {
               color: "#ff962d",
               words: [
-                 { text: "절대 \njer嗲\n我一", start: 60, end: 67 }
+                 { text: "jer嗲", start: 60, end: 67 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "\u00A0埋嬲", start: 65, end: 67 }
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                 { text: "我一", start: 60, end: 67 }
                ]
               },
               {
                color: "#8bc1ff",
                words:[
-                  { text: "난 어울리지 않을 거란 \n \n直告訴自己根本配不", start: 62, end: 67 }
+                  { text: "直告訴自己根本配不", start: 62, end: 67 }
                ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "말로\n埋嬲\n上你", start: 65, end: 67 }
+                 { text: "上你", start: 65, end: 67 }
               ]
              }
             ]
