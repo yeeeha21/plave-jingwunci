@@ -157,7 +157,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                 { text: "jer嗲", start: 60, end: 67 }
+                 { text: "\njer嗲", start: 60, end: 67 }
                ]
               },
               {
@@ -169,7 +169,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                 { text: "我一", start: 60, end: 67 }
+                 { text: "\n我一", start: 60, end: 67 }
                ]
               },
               {
