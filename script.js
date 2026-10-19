@@ -721,7 +721,150 @@ const SONGS = [
       videoId: "T_gJpnjJsnk",
       lyrics: []
       }
-     }
+     },
+     {
+    id: 2,
+    title: "Pixel World",
+    description: "",
+    normal: {
+      videoId: "9ZuqkkALRHk",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "mk_7saG0rEE",
+      lyrics: []
+    }
+  },
+  {
+    id: 3,
+    title: "The 6th summer",
+    description: "",
+    normal: {
+      videoId: "KhPe6jC-jaQ",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "dE_ddOigeZA",
+      lyrics: []
+    }
+  },
+  {
+    id: 4,
+    title: "Why?Why?Why?",
+    description: "",
+    normal: {
+      videoId: "jF4B7Yvct-c",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "9WQ-kx-Y6m8",
+      lyrics: []
+    }
+  },
+  {
+    id: 5,
+    title: "WAT 4 LUV",
+    description: "",
+    normal: {
+      videoId: "tRSvtYMjsxw",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "n5uw7ErnzKs",
+      lyrics: []
+    }
+  },
+  {
+    id: 6,
+    title: "Pump Up The Volume!",
+    description: "",
+    normal: {
+      videoId: "zLLHEZp_gbM",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "yZoluwCs5i8",
+      lyrics: []
+    }
+  },
+  {
+    id: 7,
+    title: "Dash",
+    description: "",
+    normal: {
+      videoId: "9FopMGItmOw",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "MxIm2v4W9h8",
+      lyrics: []
+    }
+  },
+  {
+    id: 8,
+    title: "かくれんぼ/Hide and Seek",
+    description: "",
+    normal: {
+      videoId: "lSNygjXQ8fc",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "O3ij62WO3Ro",
+      lyrics: []
+    }
+  },
+  {
+    id: 9,
+    title: "숨바꼭질/Hide and Seek",
+    description: "",
+    normal: {
+      videoId: "mGqYMma_YIk",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "g2VTFOnp51E",
+      lyrics: []
+    }
+  },
+  {
+    id: 10,
+    title: "BBUU!",
+    description: "",
+    normal: {
+      videoId: "ma3evv4vnW0",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "zYfM_sYClnY",
+      lyrics: []
+    }
+  },
+  {
+    id: 11,
+    title: "Born Savage",
+    description: "",
+    normal: {
+      videoId: "fVH5atHZtys",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "3zvHS4-C4uo",
+      lyrics: []
+    }
+  },
+  {
+    id: 12,
+    title: "Star Trace",
+    description: "",
+    normal: {
+      videoId: "2UZ4MLjFDG0",
+      lyrics: []
+    },
+    advanced: {
+      videoId: "hxYPZpPZJ7o",
+      lyrics: []
+      }
+     }    
     ]
    }
   }
