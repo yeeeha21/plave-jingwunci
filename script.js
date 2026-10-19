@@ -163,7 +163,7 @@ const SONGS = [
               {
               color: "#ff962d",
               words: [
-                 { text: "\u00A0埋嬲", start: 65, end: 67 }
+                 { text: "                埋嬲", start: 65, end: 67 }
               ]
              },
              {
