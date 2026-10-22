@@ -6,7 +6,7 @@
   font-display: swap;
 }
 
-body, .lyric-line, .lyric-word, button, h1, h2, h3, input, select {
+body, .lyric-line, button, h1, h2, h3, .lyric-word {
   font-family: "BoutiqueBitmap", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
 }
 
