@@ -1043,12 +1043,6 @@ const SONGS = [
               }
              ]
             },
-         {       
-    advanced: {
-      videoId: "T_gJpnjJsnk",
-      lyrics: []
-      }
-     },
      {
     id: 2,
     title: "Pixel World",
@@ -1735,13 +1729,8 @@ const SONGS = [
                ]
               }
              ]
-            },   
-      {
-    advanced: {
-      videoId: "mk_7saG0rEE",
-      lyrics: []
-    }
-  },
+            }   
+    
 
       }
      }    
