@@ -1,16 +1,20 @@
+@font-face {
+  font-family: "BoutiqueBitmap";
+  src: url("fonts/BoutiqueBitmap9x9HK_1.93.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body, .lyric-line, .lyric-word, button, h1, h2, h3, input, select {
+  font-family: "BoutiqueBitmap", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+}
 
 /* =========================================
    LYRICS CLUB
    全站共用樣式
    ========================================= */
 
-@font-face {
-  font-family: "JingPinDot";
-  src: url("BoutiqueBitmap9x9HK_1.93.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-   
 }
 
 body, .lyric-line, button, h1, h2, h3, .lyric-word {
