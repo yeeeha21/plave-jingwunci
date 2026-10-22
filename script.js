@@ -16,7 +16,7 @@
    ========================================================= */
 
 const SONGS = [
- {
+   {
     id: 1,
     title: "Wait for you",
     description: "",
@@ -46,7 +46,7 @@ const SONGS = [
             ]
            },
            {
-            time: 29.9,
+            time: 29.7,
             segments: [
              {
               color: "#8bc1ff",
@@ -79,12 +79,12 @@ const SONGS = [
             ]
            },
            {
-            time: 42.9,
+            time: 42.4,
             segments: [
              {
               color: "#cfa7eb",
               words: [
-                { text: "그래 여전히 널 그리곤 해\n是的，我依然在思念你", start: 42.9, end: 44.9 }
+                { text: "그래 여전히 널 그리곤 해\n是的，我依然在思念你", start: 42.4, end: 44.9 }
               ]
              }
             ]
@@ -139,7 +139,8 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                 { text: "절대 ", start: 60.1, end: 67 }
+                 { text: "절 ", start: 60.1, end: 67 },
+                 { text: "대 ", start: 61.1, end: 67 }
                ]
               },
               {
@@ -151,25 +152,29 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                 { text: "말로", start: 65.1, end: 67.2 }
+                 { text: "말", start: 65.1, end: 67.2 },
+                 { text: "로", start: 66.2, end: 67.2 }
               ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "\njer嗲", start: 60.1, end: 67.2 }
+                { text: "\njer", start: 60.1, end: 67.2 },
+                { text: "嗲", start: 61.1, end: 67.2 }
                ]
               },
               {
               color: "#ff962d",
               words: [
-                 { text: "埋嬲", start: 65.1, end: 67.2 }
+                 { text: "埋", start: 65.1, end: 67.2 },
+                 { text: "嬲", start: 66.2, end: 67.2 }
               ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "\n我一", start: 60.1, end: 67.2 }
+                 { text: "\n我", start: 60.1, end: 67.2 },
+                 { text: "一", start: 61.1, end: 67.2 }
                ]
               },
               {
@@ -181,7 +186,8 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                 { text: "上你", start: 65.1, end: 67.2 }
+                 { text: "上", start: 65.1, end: 67.2 },
+                 { text: "你", start: 66.2, end: 67.2 }
               ]
              }
             ]
@@ -198,102 +204,123 @@ const SONGS = [
              ]
            },
            {
-            time: 70.9,
+            time: 70,
             segments: [
              {
               color: "#ffafcf",
               words:[
-                { text: "별 의미가 없잖아\n一切變得沒意義", start: 70.9, end: 72.1 }
+                { text: "별 의미가 없잖아\n一切變得沒意義", start: 70, end: 72.1 }
               ]
              }
             ]
            },
            {
-            time: 72.7,
+            time: 72.5,
             segments: [
              {
               color: "#ffafcf",
               words:[
-                { text: "널 향한 나의 맘이 점점 커져서\n我的心為你傾倒 如排山倒海", start: 72.7, end: 78.8 }
+                { text: "널 향한 나의 맘이 점점 커져서\n我的心為你傾倒 如排山倒海", start: 72.5, end: 78.8 }
               ]
              }
             ]
            },
            {
-            time: 79.4,
+            time: 79.2,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 79.4, end: 81.8 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 79.2, end: 81.8 }
               ]
              }
             ]
            },
            {
-            time: 81.9,
+            time: 81,
             segments: [
              {
               color: "#cfa7eb",
               words:[
-                { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 81.9, end: 84.5 }
+                { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 81, end: 84.5 }
               ]
              }
             ]
            },
            {
-            time: 84.5,
+            time: 84.4,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 84.5, end: 85.8 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 84.4, end: 85.8 }
               ]
              }
             ]
            },
            {
-            time: 86.3,
+            time: 86,
             segments: [
              {
               color: "#cfa7eb",
               words:[
-                { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 86.3, end: 90.2 }
+                { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 86, end: 90.2 }
               ]
              }
             ]
            },
            {
-            time: 90.5,
+            time: 90.4,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해 ", start: 90.5, end: 99 }
+                 { text: "매일 이 ", start: 90.5, end: 99 },
+                 { text: "렇", start: 91.2, end: 99 },
+                 { text: "게 ", start: 91.5, end: 99 },
+                 { text: "난 늘 ", start: 92.4, end: 99 },
+                 { text: "혼잣", start: 93.1, end: 99 },
+                 { text: "말", start: 93.6, end: 99 },
+                 { text: "을 ", start: 93.6, end: 99 },
+                 { text: "해 ", start: 94.1, end: 99 }
                ]
               },
               {
                color: "#cfa7eb",
                words: [
-                 { text: "Always", start: 94.9, end: 99 }
+                 { text: "Always", start: 94.8, end: 99 }
               ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "\n未姨呢(ne1)茄 na攣 胸炸 媽攣呢", start: 90.5, end: 99 }
+                 { text: "\n未姨呢(ne1)", start: 90.5, end: 99 },
+                 { text: "囉", start: 91.2, end: 99 },
+                 { text: "茄 ", start: 91.5, end: 99 },
+                 { text: "na攣 ", start: 92.4, end: 99 },
+                 { text: "胸炸 ", start: 93.1, end: 99 },
+                 { text: "媽", start: 93.6, end: 99 },
+                 { text: "攣", start: 93.6, end: 99 },
+                 { text: "呢", start: 94.1, end: 99 }
                ]
               },
               {
                color: "#ff962d",
                words: [
-                 { text: "\n每個日子裏我總是自言自語 ", start: 90.5, end: 99 }
+                 { text: "\n每個日", start: 90.5, end: 99 },
+                 { text: "子", start: 91.2, end: 99 },
+                 { text: "裏", start: 91.5, end: 99 },
+                 { text: "我總", start: 92.4, end: 99 },
+                 { text: "是自", start: 93.1, end: 99 },
+                 { text: "言", start: 93.6, end: 99 },
+                 { text: "自", start: 93.6, end: 99 },
+                 { text: "語 ", start: 94.1, end: 99 }
               ]
              },
              {
                color: "#cfa7eb",
                words: [
-                 { text: "Always", start: 94.9, end: 99 }
+                 { text: "Always", start: 94.8, end: 99 }
               ]
              }
             ]
@@ -310,12 +337,23 @@ const SONGS = [
              ]
            },
            {
-            time: 103.8,
+            time: 103.6,
             segments: [
              {
               color: "#ffafcf",
               words:[
-                { text: "Wait for you", start: 103.8, end: 105.4 }
+                { text: "Wait for you", start: 103.6, end: 105.4 }
+              ]
+             }
+            ]
+           },
+           {
+            time: 104.7,
+            segments: [
+             {
+              color: "#b81818",
+              words:[
+                { text: "여전히\n我總是", start: 104.7, end: 105.5 }
               ]
              }
             ]
@@ -332,23 +370,30 @@ const SONGS = [
             ]
            },
            {
-            time: 107.9,
+            time: 107.7,
             segments: [
              {
               color: "#ffafcf",
               words:[
-                { text: "Yeah wait for you", start: 107.9, end: 110.3 }
+                { text: "Yeah wait for you", start: 107.7, end: 110.3 }
               ]
              }
             ]
            },
            {
-            time: 110.8,
+            time: 110.5,
             segments: [
               {
-               color: "#ff962d",
-               words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해 ", start: 110.8, end: 119 }
+              color: "#ff962d",
+              words: [
+                { text: "매일 이 ", start: 110.5, end: 119 },
+                 { text: "렇", start: 111.5, end: 119 },
+                 { text: "게 ", start: 111.7, end: 119 },
+                 { text: "난 늘 ", start: 112.5, end: 119 },
+                 { text: "혼잣", start: 113.2, end: 119 },
+                 { text: "말", start: 113.7, end: 119 },
+                 { text: "을 ", start: 114, end: 119 },
+                 { text: "해 ", start: 114.3, end: 119 }
                ]
               },
               {
@@ -356,25 +401,39 @@ const SONGS = [
                words: [
                  { text: "Always", start: 115.1, end: 119 }
               ]
-              },
-              {
-               color: "#ff962d",
-               words: [
-                 { text: "\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢", start: 110.8, end: 119 }
+             },
+             {
+              color: "#ff962d",
+              words: [
+                 { text: "\n未姨呢(ne1)", start: 110.5, end: 119 },
+                 { text: "囉", start: 111.5, end: 119 },
+                 { text: "茄 ", start: 111.7, end: 119 },
+                 { text: "na攣 ", start: 112.5, end: 119 },
+                 { text: "胸炸 ", start: 113.2, end: 119 },
+                 { text: "媽", start: 113.7, end: 119 },
+                 { text: "攣", start: 114, end: 119 },
+                 { text: "呢", start: 114.3, end: 119 }
                ]
               },
               {
                color: "#ff962d",
                words: [
-                 { text: "\n每個日子裏我總是自言自語", start: 110.8, end: 119 }
-               ]
-              },
-              {
+                 { text: "\n每個日", start: 110.5, end: 119 },
+                 { text: "子", start: 111.2, end: 119 },
+                 { text: "裏", start: 111.5, end: 119 },
+                 { text: "我總", start: 112.4, end: 119 },
+                 { text: "是自", start: 113.1, end: 119 },
+                 { text: "言", start: 113.6, end: 119 },
+                 { text: "自", start: 114, end: 119 },
+                 { text: "語 ", start: 114.3, end: 119 }
+              ]
+             },
+             {
                color: "#8bc1ff",
                words: [
                  { text: "Always", start: 115.1, end: 119 }
               ]
-              }
+             }
             ]
            },
            {
@@ -405,31 +464,37 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "떠오르는 건 오직 잘 지냈냐는  ", start: 123, end: 125.2 }
+                 { text: "떠오르는 건 오직 잘 지냈냐는  ", start: 123, end: 125.4 }
               ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "말 밖에", start: 124.5, end: 125.2}
+                { text: "말 ", start: 124.5, end: 125.4},
+                { text: "밖", start: 124.9, end: 125.4},
+                { text: "에", start: 125.1, end: 125.4}
                  ]
               },
               {
               color: "#ff962d",
               words: [
-                 { text: "\nmy拍嘅", start: 124.5, end: 125.2 }
+                { text: "\nmy", start: 124.5, end: 125.4},
+                { text: "拍", start: 124.9, end: 125.4},
+                { text: "嘅", start: 125.1, end: 125.4}
                  ]
               },
               {
               color: "#2a2a2a",
               words: [
-                 { text: "\n只會想到 你過得好不好 ", start: 123, end: 125.2 }
+                 { text: "\n只會想到 你過得好不好 ", start: 123, end: 125.4 }
               ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "這句話", start: 124.5, end: 125.2 }
+                 { text: "這", start: 124.5, end: 125.4},
+                 { text: "句", start: 124.9, end: 125.4},
+                 { text: "話", start: 125.1, end: 125.4}
                  ]
               }
              ]
@@ -451,31 +516,37 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "몇 번의 계절이 지나도 ", start: 128.4, end: 130 }
+                 { text: "몇 번의 계절이 지나도 ", start: 128.4, end: 130.5 }
               ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "너 밖엔", start: 129.7, end: 130 }
+                 { text: "너 ", start: 129.6, end: 130.5 },
+                 { text: "밖", start: 129.8, end: 130.5 },
+                 { text: "엔", start: 130.1, end: 130.5 }
               ]
              },
              {
               color: "#ff962d",
               words: [
-                 { text: "\n囉拍嘅", start: 129.7, end: 130 }
+                 { text: "\n囉", start: 129.6, end: 130.5 },
+                 { text: "拍", start: 129.8, end: 130.5 },
+                 { text: "嘅", start: 130.1, end: 130.5 }
               ]
              },
              {
               color: "#2a2a2a",
               words: [
-                 { text: "\n走過好幾個季節也", start: 128.4, end: 130 }
+                 { text: "\n走過好幾個季節也", start: 128.4, end: 130.5 }
                ]
               },
               {
               color: "#ff962d",
               words: [
-                 { text: "只有你", start: 129.7, end: 130 }
+                 { text: "只", start: 129.6, end: 130.5 },
+                 { text: "有", start: 129.8, end: 130.5 },
+                 { text: "你", start: 130.1, end: 130.5 }
               ]
              }
             ]
@@ -486,18 +557,18 @@ const SONGS = [
              {
               color: "#b81818",
               words: [
-                 { text: "생각나지 않고 아무것도 보이지가 않아\n我心裏只有你 我的眼裏也只有你", start: 130.5, end: 132.8 }
+                 { text: "생각나지 않고 아무것도 보이지가 않아\n我心裏只有你 我的眼裏也只有你", start: 130.5, end: 132.9 }
                ]
               }
             ]
            },
            {
-            time: 132.8,
+            time: 132.9,
             segments: [
              {
               color: "#b81818",
               words: [
-                 { text: "아무리 노력해 봐야 제자리만 맴돌아\n不管我再怎麼努力 只會在原地打轉", start: 132.8, end: 135.6 }
+                 { text: "아무리 노력해 봐야 제자리만 맴돌아\n不管我再怎麼努力 只會在原地打轉", start: 132.9, end: 135.8 }
                ]
               }
             ]
@@ -536,12 +607,12 @@ const SONGS = [
             ]
            },
            {
-            time: 142.7,
+            time: 142.6,
             segments: [
              {
               color: "#cfa7eb",
               words: [
-                 { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 142.7, end: 145 }
+                 { text: "너의 그곳에 내가 닿을 수 있게\n在你的左右讓我觸及得到你", start: 142.6, end: 145 }
               ]
              }
             ]
@@ -571,69 +642,99 @@ const SONGS = [
            {
             time: 151.1,
             segments: [
-              {
-               color: "#ff962d",
-               words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해", start: 151.1, end: 159.4 }
+               {
+              color: "#ff962d",
+              words: [
+                { text: "매일 이 ", start: 151.1, end: 159.5 },
+                 { text: "렇", start: 152, end: 159.5 },
+                 { text: "게 ", start: 152.2, end: 159.5 },
+                 { text: "난 늘 ", start: 153, end: 159.5 },
+                 { text: "혼잣", start: 153.7, end: 159.5 },
+                 { text: "말", start: 154.1, end: 159.5 },
+                 { text: "을 ", start: 154.5, end: 159.5 },
+                 { text: "해 ", start: 154.7, end: 159.5 }
                ]
               },
               {
                color: "#cfa7eb",
                words: [
-                 { text: "Always", start: 155.5, end: 159.4 }
+                 { text: "Always", start: 155.5, end: 159.5 }
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                 { text: "\n未姨呢(ne1)", start: 151.1, end: 159.5 },
+                 { text: "囉", start: 152, end: 159.5 },
+                 { text: "茄 ", start: 152.2, end: 159.5 },
+                 { text: "na攣 ", start: 153, end: 159.5 },
+                 { text: "胸炸 ", start: 153.7, end: 159.5 },
+                 { text: "媽", start: 154.1, end: 159.5 },
+                 { text: "攣", start: 154.5, end: 159.5 },
+                 { text: "呢", start: 154.7, end: 159.5 }
                ]
               },
               {
                color: "#ff962d",
                words: [
-                 { text: "\n未姨呢(ne1)囉茄 na攣 胸炸 媽攣呢", start: 151.1, end: 159.4 }
-               ]
-              },
-              {
-               color: "#ff962d",
-               words: [
-                 { text: "\n每個日子裏我總是自言自語 ", start: 151.1, end: 159.4 }
-               ]
-              },
-              {
+                 { text: "\n每個日", start: 151.1, end: 159.5 },
+                 { text: "子", start: 152, end: 159.5 },
+                 { text: "裏", start: 152.2, end: 159.5 },
+                 { text: "我總", start: 153, end: 159.5 },
+                 { text: "是自", start: 153.7, end: 159.5 },
+                 { text: "言", start: 154.1, end: 159.5 },
+                 { text: "自", start: 154.5, end: 159.5 },
+                 { text: "語 ", start: 154.7, end: 159.5 }
+              ]
+             },
+             {
                color: "#cfa7eb",
                words: [
-                 { text: " Always", start: 155.5, end: 159.4 }
+                 { text: "Always", start: 155.5, end: 159.5 }
               ]
              }
             ]
            },
            {
-            time: 161.2,
+            time: 160.9,
             segments: [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "어젯밤 꿈속에 활짝 웃는 ", start: 161.2, end: 166 }
+                 { text: "어젯밤 꿈속에 활짝 웃는 ", start: 160.9, end: 166.2 }
               ]
              },
              {
                color: "#ff962d",
                words: [
-                 { text: "너를 봤어", start: 165.1, end: 166 }
+                 { text: "너", start: 164.9, end: 166.2 },
+                 { text: "를 ", start: 165.3, end: 166.2 },
+                 { text: "봤", start: 165.6, end: 166.2 },
+                 { text: "어", start: 165.8, end: 166.2 }
               ]
              },
              {
                color: "#ff962d",
                words: [
-                 { text: "\n攞攣拔傻", start: 165.1, end: 166 }
+                 { text: "\n攞", start: 164.9, end: 166.2 },
+                 { text: "攣", start: 165.3, end: 166.2 },
+                 { text: "拔", start: 165.6, end: 166.2 },
+                 { text: "傻", start: 165.8, end: 166.2 }
               ]
              },
              {
               color: "#2a2a2a",
               words: [
-                 { text: "\n在昨夜的夢裏 看到笑逐", start: 161.2, end: 166 }
+                 { text: "\n在昨夜的夢裏 看到笑逐", start: 160.9, end: 166.2 }
               ]
              },
              {
                color: "#ff962d",
                words: [
-                 { text: "顏開的你", start: 165.1, end: 166 }
+                 { text: "顏", start: 164.9, end: 166.2 },
+                 { text: "開", start: 165.3, end: 166.2 },
+                 { text: "的", start: 165.6, end: 166.2 },
+                 { text: "你", start: 165.8, end: 166.2 }
               ]
              }
             ]
@@ -644,42 +745,51 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                 { text: "그런 널 위해 꽃 한 송일 ", start: 166.2, end: 171 }
+                 { text: "그런 널 위해 꽃 한 송일 ", start: 166.2, end: 171.3 }
               ]
              },
              {
                color: "#ff962d",
                words: [
-                 { text: "품에 안고", start: 170, end: 171 }
+                 { text: "품", start: 170, end: 171.3 },
+                 { text: "에 ", start: 170.3, end: 171.3 },
+                 { text: "안", start: 170.6, end: 171.3 },
+                 { text: "고", start: 170.8, end: 171.3 }
               ]
              },
              {
                color: "#ff962d",
                words: [
-                 { text: "\n噗咩un哥", start: 170, end: 171 }
+                 { text: "\n噗", start: 170, end: 171.3 },
+                 { text: "咩", start: 170.3, end: 171.3 },
+                 { text: "un", start: 170.6, end: 171.3 },
+                 { text: "哥", start: 170.8, end: 171.3 }
               ]
              },
              {
               color: "#2a2a2a",
               words: [
-                 { text: "\n為了送給你 地一朵花", start: 166.2, end: 171 }
+                 { text: "\n為了送給你 地一朵花", start: 166.2, end: 171.3 }
               ]
              },
              {
                color: "#ff962d",
                words: [
-                 { text: "捧在手裏", start: 170, end: 171 }
+                 { text: "捧", start: 170, end: 171.3 },
+                 { text: "在", start: 170.3, end: 171.3 },
+                 { text: "手", start: 170.6, end: 171.3 },
+                 { text: "裏", start: 170.8, end: 171.3 }
               ]
              }
             ]
            },
            {
-            time: 171.2,
+            time: 171.3,
             segments: [
              {
               color: "#b81818",
               words: [
-                 { text: "약속을 할게 두 번 다시 네 손\n我願答應你 再也不會把你", start: 171.2, end: 175.9 }
+                 { text: "약속을 할게 두 번 다시 네 손\n我願答應你 再也不會把你", start: 171.2, end: 176.2 }
               ]
              }
             ]
@@ -690,18 +800,18 @@ const SONGS = [
              {
               color: "#b81818",
               words: [
-                 { text: "놓지 않을 거라고 ooh whoa, ooh whoa\n那雙手輕易放開 ooh whoa, ooh whoa", start: 176.2, end: 181.3 }
+                 { text: "놓지 않을 거라고 ooh whoa, ooh whoa\n那雙手輕易放開 ooh whoa, ooh whoa", start: 176.2, end: 181.5 }
               ]
              }
             ]
            },
            {
-            time: 181.7,
+            time: 181.5,
             segments: [
              {
               color: "#ff962d",
               words: [
-                 { text: "(歡呼!!)", start: 181.7, end: 183 }
+                 { text: "(歡呼!!)", start: 181.5, end: 183.1 }
               ]
              }
             ]
@@ -712,18 +822,18 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 183.1, end: 184.1 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 183.1, end: 184.6 }
               ]
              }
             ]
            },
            {
-            time: 184.1,
+            time: 184.6,
             segments: [
              {
               color: "#8bc1ff",
               words: [
-                 { text: "너의 그곳에 내가 닿을 수 있게 \n在你的左右讓我觸及得到你", start: 184.1, end: 188 }
+                 { text: "너의 그곳에 내가 닿을 수 있게 \n在你的左右讓我觸及得到你", start: 184.6, end: 188 }
               ]
              }
             ]
@@ -740,12 +850,12 @@ const SONGS = [
              ]
             },
             {
-            time: 190.1,
+            time: 189,
             segments: [
             {
               color: "#cfa7eb",
               words: [
-                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 190.1, end: 193.8 }
+                 { text: "너의 곁에 내가 숨쉴 수 있길\n在你身邊讓我感受到呼吸", start: 189, end: 193.9 }
               ]
              }
             ]
@@ -754,65 +864,86 @@ const SONGS = [
             time: 193.9,
             segments: [
               {
-               color: "#ff962d",
-               words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해 ", start: 193.9, end: 202.3 }
+              color: "#ff962d",
+              words: [
+                 { text: "매일 이 ", start: 193.9, end: 202.4 },
+                 { text: "렇", start: 194.9, end: 202.4 },
+                 { text: "게 ", start: 195.2, end: 202.4 },
+                 { text: "난 늘 ", start: 196, end: 202.4 },
+                 { text: "혼잣", start: 196.6, end: 202.4 },
+                 { text: "말", start: 197.1, end: 202.4 },
+                 { text: "을 ", start: 197.5, end: 202.4 },
+                 { text: "해 ", start: 197.7, end: 202.4 }
                ]
               },
               {
                color: "#cfa7eb",
                words: [
-                 { text: "Always", start: 198.5, end: 202.3 }
+                 { text: "Always", start: 198.5, end: 202.4 }
+                ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "\n未姨呢(ne1)", start: 193.9, end: 202.4 },
+                 { text: "囉", start: 194.9, end: 202.4 },
+                 { text: "茄 ", start: 195.2, end: 202.4 },
+                 { text: "na攣 ", start: 196, end: 202.4 },
+                 { text: "胸炸 ", start: 196.6, end: 202.4 },
+                 { text: "媽", start: 197.1, end: 202.4 },
+                 { text: "攣", start: 197.5, end: 202.4 },
+                 { text: "呢", start: 197.7, end: 202.4 }
+               ]
+              },
+              {
+               color: "#ff962d",
+               words: [
+                 { text: "\n每個日", start: 193.9, end: 202.4 },
+                 { text: "子", start: 194.9, end: 202.4 },
+                 { text: "裏", start: 195.2, end: 202.4 },
+                 { text: "我總", start: 196, end: 202.4 },
+                 { text: "是自", start: 196.6, end: 202.4 },
+                 { text: "言", start: 197.1, end: 202.4 },
+                 { text: "自", start: 197.5, end: 202.4 },
+                 { text: "語 ", start: 197.7, end: 202.4 }
               ]
              },
              {
-               color: "#ff962d",
-               words: [
-                 { text: "\n未姨呢(ne1)囉茄 na 攣 胸炸 媽 攣呢", start: 193.9, end: 202.3 }
-               ]
-              },
-              {
-               color: "#ff962d",
-               words: [
-                 { text: "\n每個日子裏我總是自言自語 ", start: 193.9, end: 202.3 }
-               ]
-              },
-              {
                color: "#cfa7eb",
                words: [
-                 { text: "Always", start: 198.5, end: 202.3 }
+                 { text: "Always", start: 198.5, end: 202.4 }
               ]
              }
             ]
            },
            {
-            time: 204.1,
+            time: 204,
             segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "얘들아 ", start: 204.1, end: 205.3 },
-                 { text: "안녕", start: 204.9, end: 205.3 },
-                 { text: "\n夜啲啦 ", start: 204.1, end: 205.3 },
-                 { text: "un翁", start: 204.9, end: 205.3 },
-                 { text: "\n孩子們 ", start: 204.1, end: 205.3 },
-                 { text: "你好", start: 204.9, end: 205.3 },
+                 { text: "얘들아 ", start: 204, end: 205.4 },
+                 { text: "안녕", start: 204.8, end: 205.4 },
+                 { text: "\n夜啲啦 ", start: 204, end: 205.4 },
+                 { text: "un翁", start: 204.8, end: 205.4 },
+                 { text: "\n孩子們 ", start: 204, end: 205.4 },
+                 { text: "你好", start: 204.8, end: 205.4 },
               ]
              }
             ]
            },
            {
-            time: 205.3,
+            time: 205.4,
             segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "나는 ", start: 205, end: 206 },
-                 { text: "나플리(Plli)야", start: 206.1, end: 206.6 },
-                 { text: "\n拿攣 ", start: 205, end: 206 },
-                 { text: "Plli亞", start: 206.1, end: 206.6 },
-                 { text: "\n我是", start: 205, end: 206 },
-                 { text: "Plli呀", start: 206.1, end: 206.6 }
+                 { text: "나는 ", start: 205.4, end: 206.7 },
+                 { text: "나플리(Plli)야", start: 206.1, end: 206.7 },
+                 { text: "\n拿攣 ", start: 205.4, end: 206.7 },
+                 { text: "Plli亞", start: 206.1, end: 206.7 },
+                 { text: "\n我是", start: 205.4, end: 206.7 },
+                 { text: "Plli呀", start: 206.1, end: 206.7 }
                ]
               }
              ]
@@ -823,15 +954,15 @@ const SONGS = [
             {
               color: "#ff962d",
               words: [
-                 { text: "너희가 ", start: 206, end: 209 },
-                 { text: "너무 ", start: 207.3, end: 209 },
-                 { text: "보고싶었어", start: 208, end: 209 },
-                 { text: "\n囉er嫁 ", start: 206, end: 209 },
-                 { text: "羅沒 ", start: 207.3, end: 209 },
-                 { text: "潑菇雪棵(po1)所", start: 208, end: 209 },
-                 { text: "\n我真的", start: 206, end: 209 },
-                 { text: "超級", start: 207.3, end: 209 },
-                 { text: "超級想你們", start: 208, end: 209 }
+                 { text: "너희가 ", start: 206.7, end: 209.3 },
+                 { text: "너무 ", start: 207.4, end: 209.3 },
+                 { text: "보고싶었어", start: 208, end: 209.3 },
+                 { text: "\n囉er嫁 ", start: 206.7, end: 209.3 },
+                 { text: "羅沒 ", start: 207.4, end: 209.3 },
+                 { text: "潑菇雪棵(po1)所", start: 208, end: 209.3 },
+                 { text: "\n我真的", start: 206.7, end: 209.3 },
+                 { text: "超級", start: 207.4, end: 209.3 },
+                 { text: "超級想你們", start: 208, end: 209.3 }
                ]
               }
              ]
@@ -842,18 +973,23 @@ const SONGS = [
             {
               color: "#ff962d",
               words: [
-                 { text: "잠깐 기다리니\n尋根 揭待(daai1)呢(ne1)伊\n稍微等待一下", start: 209.3, end: 210 }
+                 { text: "잠깐 ", start: 209.3, end: 210.5 },
+                 { text: "기다리니", start: 209.9, end: 210.5 },
+                 { text: "\n尋根 ", start: 209.3, end: 210.5 },
+                 { text: "揭待(daai1)呢(ne1)伊", start: 209.9, end: 210.5 },
+                 { text: "\n稍微", start: 209.3, end: 210.5 },
+                 { text: "等待一下", start: 209.9, end: 210.5 }
              ]
             }
            ]
           },
           {
-           time: 210.4,
+           time: 210.5,
            segments: [
             {
               color: "#ff962d",
               words: [
-                 { text: "돌아왔구나\n塗啦嘩固啦\n你就回來啦", start: 210.4, end: 211 }
+                 { text: "돌아왔구나\n拖啦嘩固啦\n你就回來啦", start: 210.5, end: 211.7 }
              ]
             }
            ]
@@ -886,23 +1022,23 @@ const SONGS = [
             ]
            },
             {
-            time: 214.3,
+            time: 214.2,
             segments: [
               {
                color: "#8bc1ff",
                words: [
-                 { text: "매일 이렇게 난 늘 혼잣말을 해 Always\n每個日子裏我總是自言自語 Always", start: 214.3, end: 222.5 }
+                 { text: "매일 이렇게 난 늘 혼잣말을 해 Always\n每個日子裏我總是自言自語 Always", start: 214.2, end: 223.5 }
                ]
               }
             ]
            },
            {
-            time: 223.6,
+            time: 223.5,
             segments: [
            {
               color: "#ff962d",
               words: [
-                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 223.6, end: 226 }
+                 { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 223.5, end: 226 }
                ]
               }
              ]
