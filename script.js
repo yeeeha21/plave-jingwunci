@@ -1051,11 +1051,694 @@ const SONGS = [
      },
      {
     id: 2,
+     {
+    id: 2,
     title: "Pixel World",
     description: "",
     normal: {
       videoId: "9ZuqkkALRHk",
-      lyrics: []
+      lyrics: [
+         {
+          time: 10.5,
+          segments: [
+           {
+            color: "#cfa7eb",
+            words: [
+                { text: "회색 빛", start: 10.5, end: 13 }
+             ]
+           },
+           {
+            color: "#ff962d",
+            words: [
+                { text: " (gray) ", start: 11.1, end: 13 }
+              ]
+           },
+           {
+            color: "#cfa7eb",
+            words: [
+                { text: "도시 속", start: 11.8, end: 13 }
+             ]
+           },
+           {
+            color: "#ff962d",
+            words: [
+                { text: " (city) ", start: 12.4, end: 13 }
+              ]
+             },
+             {
+             color: "#cfa7eb",
+             words: [
+                { text: "\n在", start: 10.5, end: 13 }
+             ]
+             },
+             {
+            color: "#ff962d",
+            words: [
+                { text: "灰色", start: 11.1, end: 13 }
+              ]
+           },
+           {
+            color: "#cfa7eb",
+            words: [
+                { text: "的", start: 11.8, end: 13 }
+             ]
+           },
+           {
+            color: "#ff962d",
+            words: [
+                { text: "都市裏", start: 12.4, end: 13 }
+              ]
+             }
+            ]
+           },
+          {
+            time: 13,
+            segments: [
+           {
+              color: "#cfa7eb",
+              words: [
+                 { text: "날 깨워주는 너의 ", start: 13, end: 15.7 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "color", start: 14.1, end: 15.7 }
+               ]
+              },
+               {
+              color: "#cfa7eb",
+              words: [
+                 { text: "\n將我喚醒的你的 ", start: 13, end: 15.7 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "color", start: 14.1, end: 15.7 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 15.7,
+            segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                 { text: "너로 인해", start: 15.7, end: 18.4 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: " (you) ", start: 16.4, end: 18.4 }
+               ]
+              },
+              {
+              color: "#ffafcf",
+              words: [
+                 { text: "나 숨을 쉬어", start: 17, end: 18.4 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: " (breathe) ", start: 17.7, end: 18.4 }
+               ]
+              },
+              {
+                color: "#ffafcf",
+              words: [
+                 { text: "因為", start: 15.7, end: 18.4 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "你 ", start: 16.4, end: 18.4 }
+               ]
+              },
+              {
+              color: "#ffafcf",
+              words: [
+                 { text: "我得以", start: 17, end: 18.4 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "呼吸", start: 17.7, end: 18.4 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 18.4,
+            segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                 { text: "내 안에 온기를 ", start: 18.4, end: 20.8 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "더해", start: 19.6, end: 20.8 }
+               ]
+              },
+              {
+              color: "#ffafcf",
+              words: [
+                 { text: "\n讓我內心更加", start: 18.4, end: 20.8 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "溫暖", start: 19.6, end: 20.8 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 20.8,
+            segments: [
+            {
+              color: "#8bc1ff",
+              words: [
+                 { text: "마지막 퍼즐이 맞춰지", start: 20.8, end: 23.5 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "고", start: 22.7, end: 23.5 }
+               ]
+              },
+              {
+              color: "#8bc1ff",
+              words: [
+                 { text: "\n拼上最後一塊拼", start: 20.8, end: 23.5 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "圖", start: 22.7, end: 23.5 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 23.5,
+            segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                 { text: "끝끝내 완성된 ", start: 23.5, end: 26.4 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "pixel world", start: 24.9, end: 26.4 }
+               ]
+              },
+              {
+              color: "#8bc1ff",
+              words: [
+                 { text: "\n最終完成的 ", start: 23.5, end: 26.4 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "pixel world", start: 24.9, end: 26.4 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 26.4,
+            segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                 { text: "참 많이 기다렸지\n真的等了很及吧", start: 26.4, end: 28.9 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 28.9,
+            segments: [
+             {
+              color: "#b81818",
+              words: [
+                 { text: "uhm…(ha) You know? Yeah", start: 26.4, end: 31.6 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 31.6,
+            segments: [
+            {
+              color: "#ffafcf",
+              words: [
+                 { text: "오래도록 꿈꿔왔던 이 순간\n夢寐以久的這一刻", start: 31.6, end: 39.3 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "\n(歡呼!!)", start: 32, end: 39.3 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 39.3,
+            segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                 { text: "현실이 됐어 ", start: 39.3, end: 41.5 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "(look)", start: 40.9, end: 41.5 }
+               ]
+              },
+              {
+              color: "#cfa7eb",
+              words: [
+                 { text: "\n成為了現實", start: 39.3, end: 41.5 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "(look)", start: 40.9, end: 41.5 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 41.5,
+            segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                 { text: "하루의 끝에 ", start: 41.5, end: 43.9 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "너와 나", start: 42.7, end: 43.9 }
+               ]
+              },
+              {
+              color: "#8bc1ff",
+              words: [
+                 { text: "\n在這一天的盡頭 ", start: 41.5, end: 43.9 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "你和我", start: 42.7, end: 43.9 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 43.9,
+            segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                 { text: "우린 시작을 해 ", start: 43.9, end: 46.8 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "tonight", start: 45.6, end: 46.8 }
+               ]
+              },
+              {
+              color: "#8bc1ff",
+              words: [
+                 { text: "\n我們開始 ", start: 43.9, end: 46.8 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "tonight", start: 45.6, end: 46.8 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 46.8,
+            segments: [
+            {
+              color: "#cfa7eb",
+              words: [
+                 { text: "I wanna love ", start: 46.8, end: 48.4 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "(hey!)", start: 47.6, end: 48.4 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 48.4,
+            segments: [
+            {
+              color: "#cfa7eb",
+              words: [
+                 { text: "You wanna love", start: 48.4, end: 49.5 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "(ho!)", start: 49.1, end: 49.5 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 49.5,
+            segments: [
+            {
+              color: "#cfa7eb",
+              words: [
+                 { text: "We are making new world ", start: 49.5, end: 52.8 }
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "(let's dance)", start: 51.7, end: 52.8 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 52.8,
+            segments: [
+            {
+              color: "#2a2a2a",
+              words: [
+                 { text: "손을 들어 높이\n將手高高舉起", start: 52.8, end: 54.9 }
+                ]
+               }
+              ]
+             },
+             {
+            time: 53.5,
+            segments: [
+             {
+              color: "#ff962d",
+              words: [
+                 { text: "(모두 put your hands up!)\n(摸do put your hands up!)\n(所有人put your hands up!)", start: 53.5, end: 54.9 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 54.9,
+            segments: [
+            {
+              color: "#2a2a2a",
+              words: [
+                 { text: "내일 따윈 없지\n沒有明天", start: 54.9, end: 57.8 }
+                ]
+               }
+              ]
+             },
+             {
+            time: 55.9,
+            segments: [
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "(불필요해 맨 정신!)\n(噗P(呢ne1)er man沖先!)\n(不需要保持理智!)", start: 55.9, end: 57.8 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 57.8,
+            segments: [
+            {
+              color: "#ffafcf",
+              words: [
+                 { text: "불태워 다, let's rock all night\n點燃全場 let's rock all night", start: 57.8, end: 62 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 62,
+            segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "Come in our pixel world", start: 62, end: 63.9 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 63.9,
+            segments: [
+            {
+              color: "#b81818",
+              words: [
+                 { text: "Let's break it now, 틀에 박힌 rules\nLet's break it now 死板的rules", start: 63.9, end: 65.9 }
+               ]
+              }
+             ]
+            },
+            {
+            time: 65.9,
+            segments: [
+            {
+              color: "#b81818",
+              words: [
+                 { text: "I don't lose 너를 위한 move\nI don't lose 為了你的move", start: 65.9, end: 67.5}
+               ]
+              }
+             ]
+            },
+            {
+            time: 67.5,
+            segments: [
+            {
+              color: "#b81818",
+              words: [
+                 { text: "보여줄게 prove, yeah\n向你呈現prove, yeah", start: 67.5, end: 69.2}
+               ]
+              }
+             ]
+            },
+            {
+            time: 69.2,
+            segments: [
+            {
+              color: "#2a2a2a",
+              words: [
+                 { text: "Shine bright 밝은 빛으로 어두운\nShine bright 用明亮的光芒照亮漆黑", start: 69.2, end: 71.3}
+               ]
+              }
+             ]
+            },
+            {
+            time: 71.3,
+            segments: [
+            {
+              color: "#2a2a2a",
+              words: [
+                 { text: "세계를 밝혀 외로운 날\n的世界 孤獨的日子", start: 71.3, end: 72.6}
+               ]
+              }
+             ]
+            },
+            {
+            time: 72.6,
+            segments: [
+            {
+              color: "#2a2a2a",
+              words: [
+                 { text: "이제는 없을테니, I promise\n現在不會再有 I promise", start: 72.6, end: 74.2}
+               ]
+              }
+             ]
+            },
+            {
+            time: 74.2,
+            segments: [
+            {
+              color: "#8bc1ff",
+              words: [
+                 { text: "I'm falling love", start: 74.2, end: 75.7}
+               ]
+              }
+             ]
+            },
+            {
+            time: 75.7,
+            segments: [
+              {
+              color: "#2a2a2a",
+              words: [
+                 { text: "(하얗게 물들어)\n(染成一片雪白)", start: 75.7, end: 76.9}
+               ]
+              }
+             ]
+            },
+            {
+            time: 76.9,
+            segments: [
+              {
+              color: "#8bc1ff",
+              words: [
+                 { text: "Like falling snow", start: 76.9, end: 78.3}
+               ]
+              }
+             ]
+            },
+            {
+            time: 78.3,
+            segments: [
+              {
+              color: "#b81818",
+              words: [
+                 { text: "눈부신 별빛아래 우리는 ", start: 76.9, end: 81}
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "하나가 돼", start: 79.9, end: 81}
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "夏拉嫁聽", start: 79.9, end: 81}
+               ]
+              },
+              {
+              color: "#b81818",
+              words: [
+                 { text: "\n耀眼的星光下 我們", start: 76.9, end: 81}
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "成為一體", start: 79.9, end: 81}
+               ]
+              }
+             ]
+            },
+            {
+            time: 81,
+            segments: [
+              {
+              color: "#b81818",
+              words: [
+                 { text: "늘 같이 걸어 갈래 끝없는 ", start: 76.9, end: 84.7}
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "은하계, ", start: 82.9, end: 84.7}
+               ]
+              },
+              {
+              color: "#b81818",
+              words: [
+                 { text: "yeah", start: 83.9, end: 84.7}
+               ]
+              },
+              {
+              color: "#b81818",
+              words: [
+                 { text: "要不要一直一起走下去 漫無邊際的", start: 76.9, end: 84.7}
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "銀河系 ", start: 82.9, end: 84.7}
+               ]
+              },
+              {
+              color: "#b81818",
+              words: [
+                 { text: "yeah", start: 83.9, end: 84.7}
+               ]
+              }
+             ]
+            },
+            {
+            time: 84.7,
+            segments: [
+              {
+              color: "#ffafcf",
+              words: [
+                 { text: "오래도록 꿈꿔왔던 이 순간\n夢寐以久的這一刻", start: 84.7, end: 92.8}
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "\n(歡呼!!)", start: 85.9, end: 92.8}
+               ]
+              }
+             ]
+            },
+            {
+            time: 92.8,
+            segments: [
+              {
+              color: "#cfa7eb",
+              words: [
+                 { text: "현실이 됐어", start: 92.8, end: 94.8}
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                 { text: "(look)", start: 94.3, end: 94.8}
+               ]
+              },
+              {
+              color: "#cfa7eb",
+              words: [
+                 { text: "\n成為了現實", start: 92.8, end: 94.8}
+               ]
+              },
+             ]
+            }
+         
     },
     advanced: {
       videoId: "mk_7saG0rEE",
