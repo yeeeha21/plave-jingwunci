@@ -3607,6 +3607,7 @@ const SONGS = [
              }
             ]
            }
+          ] 
        
     },
     advanced: {
