@@ -3782,10 +3782,10 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\N媽呢 ", start: 50, end: 54.5},
+                { text: "\n媽呢 ", start: 50, end: 54.5},
                 { text: "摸", start: 53, end: 54.5},
                 { text: "hae", start: 53.2, end: 54.5},
-                { text: "\N還用", start: 50, end: 54.5},
+                { text: "\n還用", start: 50, end: 54.5},
                 { text: "多說", start: 53, end: 54.5},
                 { text: "嗎？", start: 53.2, end: 54.5}
               ]
