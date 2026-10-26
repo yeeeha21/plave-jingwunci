@@ -1036,4 +1036,41 @@ body {
   white-space: pre-wrap;
 }
 
+/* 歌曲卡片 - 取消光暈 */
+.song-card {
+  box-shadow: none !important;
+}
+
+.song-card:hover {
+  box-shadow: none !important;
+  border-color: var(--primary);
+
+}
+/* 歌詞顏色：單純明暗變化 */
+.lyric-line {
+  color: #c8bdd9;          /* 還沒唸到：正常偏暗 */
+  transition: color 0.2s, background 0.2s;
+}
+
+.lyric-line.active {
+  color: #ffffff;          /* 正在唸：正常亮色 */
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+  text-shadow: none;
+}
+
+.lyric-line.past {
+  color: #c8bdd9;          /* 已經過：也是正常偏暗 */
+}
+
+/* 單字 */
+.lyric-word.word-active {
+  color: #ffffff;
+  text-shadow: none;
+}
+
+.lyric-word.word-past,
+.lyric-word.word-upcoming {
+  color: #c8bdd9;
+}
+
 
