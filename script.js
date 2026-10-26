@@ -16,7 +16,7 @@
    ========================================================= */
 
 const SONGS = [
-   {
+  {
     id: 1,
     title: "Wait for you",
     description: "",
@@ -594,7 +594,7 @@ const SONGS = [
              ]
             }
           ]
-         },
+          },
           {
             time: 140.1,
             segments: [
@@ -645,7 +645,7 @@ const SONGS = [
                {
               color: "#ff962d",
               words: [
-                { text: "매일 이 ", start: 151.1, end: 159.5 },
+                 { text: "매일 이 ", start: 151.1, end: 159.5 },
                  { text: "렇", start: 152, end: 159.5 },
                  { text: "게 ", start: 152.2, end: 159.5 },
                  { text: "난 늘 ", start: 153, end: 159.5 },
@@ -1035,7 +1035,7 @@ const SONGS = [
            {
             time: 223.5,
             segments: [
-           {
+             {
               color: "#ff962d",
               words: [
                  { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 223.5, end: 226 }
@@ -1043,13 +1043,12 @@ const SONGS = [
               }
              ]
             }
-
            ] 
-         },     
+          },     
     advanced: {
       videoId: "T_gJpnjJsnk",
       lyrics: [ 
-        {
+            {
             time: 179.3,
             segments: [
             {
@@ -1063,8 +1062,6 @@ const SONGS = [
            ]
           }
          },
-
-   
   // 複製以下結構，新增歌曲 2 至 12。
    {
     id: 2,
@@ -1185,7 +1182,7 @@ const SONGS = [
               {
                 color: "#ffafcf",
               words: [
-                 { text: "因為", start: 15.7, end: 18.4 }
+                 { text: "\n因為", start: 15.7, end: 18.4 }
                ]
               },
               {
@@ -1312,7 +1309,7 @@ const SONGS = [
              {
               color: "#b81818",
               words: [
-                 { text: "uhm…(ha) You know? Yeah", start: 26.4, end: 31.6 }
+                 { text: "uhm…(ha) You know? Yeah", start: 28.9, end: 31.6 }
                ]
               }
              ]
@@ -1655,7 +1652,7 @@ const SONGS = [
               {
               color: "#ff962d",
               words: [
-                 { text: "夏拉嫁聽", start: 79.9, end: 81}
+                 { text: "\n夏拉嫁聽", start: 79.9, end: 81}
                ]
               },
               {
@@ -1694,9 +1691,15 @@ const SONGS = [
                ]
               },
               {
+              color: "#ff962d",
+              words: [
+                 { text: "\n援拉嘅", start: 82.9, end: 84.7}
+               ]
+              },
+              {
               color: "#b81818",
               words: [
-                 { text: "要不要一直一起走下去 漫無邊際的", start: 76.9, end: 84.7}
+                 { text: "\n要不要一直一起走下去 漫無邊際的", start: 76.9, end: 84.7}
                ]
               },
               {
@@ -2043,7 +2046,7 @@ const SONGS = [
               }
              ]
             },
-             {
+            {
             time: 140.2,
             segments: [
               {
@@ -2301,9 +2304,8 @@ const SONGS = [
               }
              ]
             }
-
            ] 
-         },     
+          },     
     advanced: {
       videoId: "mk_7saG0rEE",
       lyrics: [
@@ -2346,34 +2348,1049 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "영원을 말했죠 꿈이 아니기를\n說了永遠 希望不是夢", start: 7.6, end: 13}
+                { text: "영원을 말했죠 꿈이 아니기를\n說了永遠 希望不是夢", start: 7.6, end: 13.1}
               ]
              }
             ]
            },
-
-      ]
-
-    },
+           {
+          time: 13.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "혼돈 속을 지나면\n渡過混亂之後", start: 13.1, end: 15.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 15.2,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "반짝일 거라고\n會是閃耀", start: 13.1, end: 17.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 17.2,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "소나기가", start: 17.2, end: 20.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(가) ", start: 18.3, end: 20.1}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "내려오면", start: 18.6, end: 20.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(면)", start: 19.5, end: 20.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(家)", start: 18.3, end: 20.1},
+                { text: "(妙)", start: 19.5, end: 20.1},
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n如果暴", start: 17.2, end: 20.1},
+                { text: "雨來臨", start: 18.6, end: 20.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 20.1,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "이건 잠시뿐일 거야\n它只會是暫時", start: 13.1, end: 22.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 22.6,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "눈이 부신 그날의 기억은\n因為那天耀眼的記憶", start: 22.6, end: 25.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 25.5,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "기적이니까요\n是奇蹟", start: 25.5, end: 27.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 27.8,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "좀 더 ", start: 25.5, end: 30.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "좀 ", start: 28.6, end: 30.7},
+                { text: "리 ", start: 29, end: 30.7},
+                { text: "좀 ", start: 29.4, end: 30.7},
+                { text: "리 ", start: 29.6, end: 30.7},
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n摸", start: 28.6, end: 30.7},
+                { text: "li ", start: 29, end: 30.7},
+                { text: "摸", start: 29.4, end: 30.7},
+                { text: "li", start: 29.6, end: 30.7},
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n再遠", start: 25.5, end: 30.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "一", start: 28.6, end: 30.7},
+                { text: "點 ", start: 29, end: 30.7},
+                { text: "一", start: 29.4, end: 30.7},
+                { text: "點", start: 29.6, end: 30.7},
+              ]
+             }
+            ]
+           },
+           {
+          time: 30.7,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "닿을 수 있을까\n能觸及到嗎？", start: 30.7, end: 33.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 33.3,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "길고 긴 ", start: 33.3, end: 35.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "여", start: 34.4, end: 35.9},
+                { text: "정", start: 34.6, end: 35.9},
+                { text: "에", start: 35.1, end: 35.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\nyour", start: 34.4, end: 35.9},
+                { text: "沖", start: 34.6, end: 35.9},
+                { text: "er", start: 35.1, end: 35.9}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n在這漫長的", start: 33.3, end: 35.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "旅", start: 34.4, end: 35.9},
+                { text: "途", start: 34.6, end: 35.9},
+                { text: "中", start: 35.1, end: 35.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 35.9,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "마침표를 찍을 수만 있다면\n如果能畫上句號的話", start: 35.9, end: 39.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 39.3,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "마지막 땀방울의 결말은\n我知道最後汗珠的結局", start: 39.3, end: 43.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 43.6,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "헛된 길이 아닐 걸 잘 알아\n不會是徒勞之路", start: 43.6, end: 49.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 49.2,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "반복되는 계절의 중간에 ", start: 43.6, end: 52.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "있", start: 51.6, end: 52.7},
+                { text: "어", start: 52.1, end: 52.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n易", start: 51.6, end: 52.7},
+                { text: "sor", start: 52.1, end: 52.7}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n在反覆的季節", start: 43.6, end: 52.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n中", start: 51.6, end: 52.7},
+                { text: "間", start: 52.1, end: 52.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 52.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "그토록 바랬던 어둠 속의 빛을 찾고 말았어\n終於找到了一直期望的 黑暗裏的光", start: 52.7, end: 59.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 59.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너", start: 59.1, end: 63.7},
+                { text: "에", start: 59.5, end: 63.7},
+                { text: "게", start: 59.8, end: 63.7}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "로 달려가는 이 시공간을 넘어서", start: 60, end: 63.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n囉", start: 59.1, end: 63.7},
+                { text: "er", start: 59.5, end: 63.7},
+                { text: "嘅", start: 59.8, end: 63.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n越", start: 59.1, end: 63.7},
+                { text: "過", start: 59.5, end: 63.7},
+                { text: "奔", start: 59.8, end: 63.7}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "向你的這個時空間", start: 60, end: 63.7}
+              ]
+             },
+            ]
+           },
+           {
+          time: 63.7,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "닿은 이곳은 여섯 번째 여름의 시작이었단 걸\n到達的此處是第六個夏天的開始", start: 63.7, end: 70}
+              ]
+             }
+            ]
+           },
+           {
+          time: 70,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "꿈꿨어\n灌覺傻\n夢見了此境", start: 70, end: 71.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 71.5,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "푸른 하늘, 마치 눈물 같아", start: 71.5, end: 74.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(아)\n(他)", start: 71.5, end: 74.1}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n藍天，宛如眼淚", start: 71.5, end: 74.1}
+              ]
+             },
+            ]
+           },
+           {
+          time: 74.1,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "날이 밝아도 결국 쏟아진다", start: 71.5, end: 76.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(다)\n打(daa1)", start: 76.2, end: 76.9}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n即使在白天也會傾瀉", start: 71.5, end: 76.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 76.9,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "하염없이 달려온 길 위 oh\n無止境跑過來的路上 oh", start: 76.9, end: 79.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 79.4,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "속도를 올렸어\n索端攣屙亂啦sor\n加快了速度", start: 79.4, end: 81.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 81.1,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "망설이다 전부 다 놓쳐 버릴까 ", start: 79.4, end: 84}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "또", start: 83.2, end: 84},
+                { text: "\n都", start: 83.2, end: 84}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n怕猶豫不決而又要錯過全", start: 79.4, end: 84}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "部", start: 83.2, end: 84}
+              ]
+             }
+            ]
+           },
+           {
+          time: 84,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "일곱 번의 여름은 없을 거라", start: 84, end: 86.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "고", start: 85.8, end: 86.6},
+                { text: "\n高", start: 85.8, end: 86.6}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n不會有第七個夏", start: 84, end: 86.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "天", start: 85.8, end: 86.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 86.6,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "끝이 없던 평행곡선\n無盡的平行曲線", start: 86.6, end: 89.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 89.3,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "결국 같은 곳을 지나왔어\n結果經過了同一個地方", start: 89.3, end: 91.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 91.9,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "좀 더 ", start: 91.9, end: 94.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "좀 ", start: 92.7, end: 94.7},
+                { text: "리 ", start: 93, end: 94.7},
+                { text: "좀 ", start: 93.2, end: 94.7},
+                { text: "리 ", start: 93.6, end: 94.7},
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n摸", start: 92.7, end: 94.7},
+                { text: "li ", start: 93, end: 94.7},
+                { text: "摸", start: 93.2, end: 94.7},
+                { text: "li", start: 93.6, end: 94.7},
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n再遠", start: 91.9, end: 94.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "一", start: 92.7, end: 94.7},
+                { text: "點 ", start: 93, end: 94.7},
+                { text: "一", start: 93.2, end: 94.7},
+                { text: "點", start: 93.6, end: 94.7},
+              ]
+             }
+            ]
+           },
+           {
+          time: 94.7,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "닿을 수 있을까\n能觸及到嗎？", start: 94.7, end: 97.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 97.3,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "길고 긴 ", start: 97.3, end: 100}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "여", start: 98.4, end: 100},
+                { text: "정", start: 98.6, end: 100},
+                { text: "에", start: 99, end: 100}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\nyour", start: 98.4, end: 100},
+                { text: "沖", start: 98.6, end: 100},
+                { text: "er", start: 99, end: 100}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n在這漫長的", start: 97.3, end: 100}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "旅", start: 98.4, end: 100},
+                { text: "途", start: 98.6, end: 100},
+                { text: "中", start: 99, end: 100}
+              ]
+             }
+            ]
+           },
+           {
+          time: 100,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "마침표를 찍을 수만 있다면\n如果能畫上句號的話", start: 100, end: 103.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 103.2,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "마지막 땀방울의 결말은\n我知道最後汗珠的結局", start: 103.2, end: 107.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 107.6,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "헛된 길이 아닐 걸 잘 알아\n不會是徒勞之路", start: 107.6, end: 113.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 113.2,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "반복되는 계절의 중간에 ", start: 113.2, end: 116.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "있", start: 115.6, end: 116.7},
+                { text: "어", start: 116.1, end: 116.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n易", start: 115.6, end: 116.7},
+                { text: "sor", start: 116.1, end: 116.7}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n在反覆的季節", start: 113.2, end: 116.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n中", start: 115.6, end: 116.7},
+                { text: "間", start: 116.1, end: 116.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 116.7,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "그토록 바랬던 어둠 속의 빛을 찾고 말았어\n終於找到了一直期望的 黑暗裏的光", start: 116.7, end: 123.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 123.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너", start: 123.1, end: 127.7},
+                { text: "에", start: 123.6, end: 127.7},
+                { text: "게", start: 123.7, end: 127.7}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "로 달려가는 이 시공간을 넘어서", start: 124.1, end: 127.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n囉", start: 123.1, end: 127.7},
+                { text: "er", start: 123.6, end: 127.7},
+                { text: "嘅", start: 123.7, end: 127.7},
+                { text: "\n越", start: 123.1, end: 127.7},
+                { text: "過", start: 123.6, end: 127.7},
+                { text: "奔", start: 123.7, end: 127.7}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "向你的這個時空間", start: 124.1, end: 127.7}
+              ]
+             },
+            ]
+           },
+           {
+          time: 127.7,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "닿은 이곳은 여섯 번째 여름의 시작이었단 걸\n到達的此處是第六個夏天的開始", start: 127.7, end: 134.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 134.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "꿈꿨어\n灌覺傻\n夢見了此境", start: 134.1, end: 135.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 135.6,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "꿈일까 꿈일까\n會是夢嗎 會是夢嗎", start: 135.6, end: 137.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 137.6,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "우리 함께하는 이 순간 ", start: 137.6, end: 140.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(꿈같아)\n(灌格他)", start: 139.5, end: 140.6}
+              ]
+             },
+               {
+              color: "#ffafcf",
+              words: [
+                { text: "我們一起的這個瞬間", start: 137.6, end: 140.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(像是夢)", start: 139.5, end: 140.6}
+              ]
+             }
+            ]
+           },
+          {
+          time: 140.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "마법 같은 하루가 \n在魔法一般的一天", start: 140.6, end: 144.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 144.1,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "(결국엔 사라질까)\n(最終會消失嗎？)", start: 144.1, end: 145.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 145.9,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "그칠까 그칠까 찬란히\n會停止嗎 會停止嗎 燦爛地", start: 145.9, end: 147.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 147.6,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "반짝이던 눈물의 기적\n閃耀的眼淚的奇蹟", start: 147.6, end: 152.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 152.9,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "빛나줘\n發光吧", start: 152.9, end: 152.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(歡呼!!)", start: 154.1, end: 167.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 167.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "남예준 한노아 채밤비 도은호 유하민\n躝夜轉 慳糯也 車扮B Do䟴呵 you夏mean\n南藝俊 韓諾亞 蔡斑比 都銀虎 柳河玟", start: 167.1, end: 174.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 174.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플 레 이 브  영 원 하 자\n噗 呢 伊 bu  嗡 wong 哈 炸\nP L A V E  永 遠 在 一 起 吧", start: 174.2, end: 177.4}
+              ]
+             }
+            ]
+           },
+             {
+          time: 177.4,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "반복되는 계절의 중간에 ", start: 177.4, end: 180.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "있", start: 179.7, end: 180.6},
+                { text: "어", start: 180, end: 180.6},
+                { text: "\n易", start: 179.7, end: 180.6},
+                { text: "sor", start: 180, end: 180.6}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n在反覆的季節", start: 177.4, end: 180.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n中", start: 179.7, end: 180.6},
+                { text: "間", start: 180, end: 180.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 180.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "그토록 바랬던 어둠 속의 빛을 찾고 말았어\n終於找到了一直期望的 黑暗裏的光", start: 180.6, end: 183.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 183.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너", start: 183.3, end: 191.6},
+                { text: "에", start: 187.6, end: 191.6},
+                { text: "게", start: 187.8, end: 191.6}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "로 달려가는 이 시공간을 넘어서", start: 188.2, end: 191.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n囉", start: 183.3, end: 191.6},
+                { text: "er", start: 187.6, end: 191.6},
+                { text: "嘅", start: 187.8, end: 191.6},
+                { text: "\n越", start: 183.3, end: 191.6},
+                { text: "過", start: 187.6, end: 191.6},
+                { text: "奔", start: 187.8, end: 191.6}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "向你的這個時空間", start: 188.2, end: 191.6}
+              ]
+             },
+            ]
+           },
+           {
+          time: 191.6,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "닿은 이곳은 여섯 번째 여름의 시작이었단 걸\n到達的此處是第六個夏天的開始", start: 191.6, end: 198.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 198.2,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "꿈꿨어\n夢見了此境", start: 198.2, end: 206}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 199.5, end: 206}
+              ]
+             }
+            ]
+           }
+          ]
+         },
     advanced: {
       videoId: "dE_ddOigeZA",
-      lyrics: []
-    }
-  },
-
+      lyrics: [ 
+           {
+            time: 179.3,
+            segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "Come in our pixel world", start: 179.3, end: 184.7 }
+               ]
+              }
+             ]
+            }
+           ] 
+          }
+         },     
   {
     id: 4,
     title: "Why?Why?Why?",
     description: "",
     normal: {
       videoId: "jF4B7Yvct-c",
-      lyrics: []
+      lyrics: [
+          {
+          time: 5.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플 ", start: 5.1, end: 10.5},
+                { text: "레 ", start: 5.9, end: 10.5},
+                { text: "이 ", start: 6.6, end: 10.5},
+                { text: "브 ", start: 7.2, end: 10.5},
+                { text: "왜", start: 7.8, end: 10.5},
+                { text: "요 ", start: 8.4, end: 10.5},
+                { text: "왜", start: 8.9, end: 10.5},
+                { text: "요 ", start: 9.4, end: 10.5},
+                { text: "왜", start: 9.5, end: 10.5},
+                { text: "\n噗 ", start: 5.1, end: 10.5},
+                { text: "呢 ", start: 5.9, end: 10.5},
+                { text: "伊 ", start: 6.6, end: 10.5},
+                { text: "bu ", start: 7.2, end: 10.5},
+                { text: "where ", start: 7.8, end: 10.5},
+                { text: "yo ", start: 8.4, end: 10.5},
+                { text: "where/", start: 8.9, end: 10.5},
+                { text: "yo/", start: 9.4, end: 10.5},
+                { text: "where", start: 9.5, end: 10.5},
+                { text: "\nP ", start: 5.1, end: 10.5},
+                { text: "L A ", start: 5.9, end: 10.5},
+                { text: "V ", start: 6.6, end: 10.5},
+                { text: "E ", start: 7.2, end: 10.5},
+                { text: "《Wh", start: 7.8, end: 10.5},
+                { text: "y ", start: 8.4, end: 10.5},
+                { text: "Wh", start: 8.9, end: 10.5},
+                { text: "y ", start: 9.4, end: 10.5},
+                { text: "Why?》", start: 9.5, end: 10.5}
+              ]
+             }
+            ]
+           },
+      ]
     },
     advanced: {
       videoId: "9WQ-kx-Y6m8",
-      lyrics: []
-    }
-  },
+      lyrics: [   
+            {
+            time: 179.3,
+            segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "Come in our pixel world", start: 179.3, end: 184.7 }
+               ]
+              }
+             ]
+            }
+           ] 
+          }
+         },     
   {
     id: 5,
     title: "WAT 4 LUV",
@@ -2432,8 +3449,8 @@ const SONGS = [
     description: "",
     normal: {
       videoId: "mGqYMma_YIk",
-      lyrics: [ 
-         {
+      lyrics: [
+          {
           time: 45,
           segments: [
              {
@@ -2644,7 +3661,7 @@ const SONGS = [
                 { text: "레 ", start: 96, end: 97.3},
                 { text: "이 ", start: 96.3, end: 97.3},
                 { text: "브)", start: 96.7, end: 97.3},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(噗 ", start: 95.8, end: 97.3},
+                { text: "\n           (噗 ", start: 95.8, end: 97.3},
                 { text: " 呢 ", start: 96, end: 97.3},
                 { text: " 伊 ", start: 96.3, end: 97.3},
                 { text: " bu)", start: 96.7, end: 97.3}
@@ -2716,7 +3733,7 @@ const SONGS = [
                 { text: " 바 ", start: 110.7, end: 112.6},
                 { text: " 꼭 ", start: 111.2, end: 112.6},
                 { text: " 질)", start: 111.8, end: 112.6},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(Zoo ", start: 110, end: 112.6},
+                { text: "\n           (Zoo ", start: 110, end: 112.6},
                 { text: " 拍 ", start: 110.7, end: 112.6},
                 { text: " 谷 ", start: 111.2, end: 112.6},
                 { text: " 知)", start: 111.9, end: 112.6}
@@ -2830,7 +3847,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 128.9, end: 129.2},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(艾嘅傻)", start: 128.9, end: 129.2},
+                { text: "\n       (艾嘅傻)", start: 128.9, end: 129.2},
               ]
              },
              {
@@ -2860,7 +3877,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 130.2, end: 130.6},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(括(打daa1)啦傻)", start: 130.2, end: 130.6},
+                { text: "\n     (括(打daa1)啦傻)", start: 130.2, end: 130.6},
               ]
              },
              {
@@ -2913,7 +3930,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 139.3, end: 140.6},
                 { text: "껏", start: 140, end: 140.6},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0謙", start: 139.3, end: 140.6},
+                { text: "\n     謙", start: 139.3, end: 140.6},
                 { text: "鋸", start: 140, end: 140.6},
               ]
              },
@@ -2946,7 +3963,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 141.9, end: 143.3},
                 { text: "껏", start: 142.6, end: 143.3},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0謙", start: 141.9, end: 143.3},
+                { text: "\n     謙", start: 141.9, end: 143.3},
                 { text: "鋸", start: 142.6, end: 143.3},
               ]
              },
@@ -2979,7 +3996,7 @@ const SONGS = [
               words: [
                 { text: "지", start: 144.5, end: 145.9},
                 { text: "금", start: 145.2, end: 145.9},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0次", start: 144.5, end: 145.9},
+                { text: "\n     次", start: 144.5, end: 145.9},
                 { text: "捐", start: 145.2, end: 145.9},
               ]
              },
@@ -3022,7 +4039,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 149.7, end: 150.2},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(艾嘅傻)", start: 149.7, end: 150.2},
+                { text: "\n       (艾嘅傻)", start: 149.7, end: 150.2},
               ]
              },
              {
@@ -3052,7 +4069,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 151, end: 151.4},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(括(打daa1)啦傻)", start: 151, end: 151.4},
+                { text: "\n     (括(打daa1)啦傻)", start: 151, end: 151.4},
               ]
              },
              {
@@ -3104,7 +4121,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "너였어", start: 160.8, end: 161.8},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0囉your傻", start: 160.8, end: 161.8},
+                { text: "\n        囉your傻", start: 160.8, end: 161.8},
               ]
              },
              {
@@ -3134,7 +4151,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(되찾았어)", start: 164, end: 164.6},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(車差揸sor)", start: 164, end: 164.6},
+                { text: "\n                   (車差揸sor)", start: 164, end: 164.6},
               ]
              },
              {
@@ -3246,7 +4263,7 @@ const SONGS = [
                 { text: "아", start: 183.7, end: 185.4},
                 { text: "갈", start: 184.3, end: 185.4},
                 { text: "게)", start: 185, end: 185.4},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(差", start: 183, end: 185.4},
+                { text: "\n           (差", start: 183, end: 185.4},
                 { text: "齋", start: 183.7, end: 185.4},
                 { text: "哀", start: 184.3, end: 185.4},
                 { text: "嘅)", start: 185, end: 185.4}
@@ -3297,7 +4314,7 @@ const SONGS = [
                 { text: "레 ", start: 188.9, end: 190.4},
                 { text: "이 ", start: 189.5, end: 190.4},
                 { text: "브)", start: 190.2, end: 190.4},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(噗 ", start: 188.3, end: 190.4},
+                { text: "\n            (噗 ", start: 188.3, end: 190.4},
                 { text: "呢 ", start: 188.9, end: 190.4},
                 { text: "伊 ", start: 189.5, end: 190.4},
                 { text: "bu)", start: 190.2, end: 190.4}
@@ -3383,7 +4400,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 201.9, end: 202.3},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(艾嘅傻)", start: 201.9, end: 202.3},
+                { text: "\n       (艾嘅傻)", start: 201.9, end: 202.3},
               ]
              },
              {
@@ -3413,7 +4430,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 203.2, end: 203.7},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(括(打daa1)啦傻)", start: 203.2, end: 203.7},
+                { text: "\n     (括(打daa1)啦傻)", start: 203.2, end: 203.7},
               ]
              },
              {
@@ -3466,7 +4483,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 212.3, end: 213.8},
                 { text: "껏", start: 213, end: 213.8},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0謙", start: 212.3, end: 213.8},
+                { text: "\n     謙", start: 212.3, end: 213.8},
                 { text: "鋸", start: 213, end: 213.8}
               ]
              },
@@ -3499,7 +4516,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 215, end: 216.3},
                 { text: "껏", start: 215.7, end: 216.3},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0謙", start: 215, end: 216.3},
+                { text: "\n     謙", start: 215, end: 216.3},
                 { text: "鋸", start: 215.7, end: 216.3}
               ]
              },
@@ -3532,7 +4549,7 @@ const SONGS = [
               words: [
                 { text: "지", start: 217.6, end: 219},
                 { text: "금", start: 218.3, end: 219},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0次", start: 217.6, end: 219},
+                { text: "\n     次", start: 217.6, end: 219},
                 { text: "捐", start: 218.3, end: 219}
               ]
              },
@@ -3575,7 +4592,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 222.7, end: 223.1},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(艾嘅傻)", start: 222.7, end: 223.1},
+                { text: "\n       (艾嘅傻)", start: 222.7, end: 223.1},
               ]
              },
              {
@@ -3605,7 +4622,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 224, end: 224.5},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(括(打daa1)啦傻)", start: 224, end: 224.5},
+                { text: "\n     (括(打daa1)啦傻)", start: 224, end: 224.5},
               ]
              },
              {
@@ -3782,10 +4799,10 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\n媽呢 ", start: 50, end: 54.5},
+                { text: "\n媽呢 ", start: 52.4, end: 54.5},
                 { text: "摸", start: 53, end: 54.5},
                 { text: "hae", start: 53.2, end: 54.5},
-                { text: "\n還用", start: 50, end: 54.5},
+                { text: "\n還用", start: 52.4, end: 54.5},
                 { text: "多說", start: 53, end: 54.5},
                 { text: "嗎？", start: 53.2, end: 54.5}
               ]
@@ -4067,7 +5084,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(two拿)", start: 82.8, end: 84}
+                { text: "\n      (two拿)", start: 82.8, end: 84}
               ]
              },
              {
@@ -4410,7 +5427,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(응!)", start: 117.2, end: 118},
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(嗯!)", start: 117.2, end: 118}
+                { text: "\n              (嗯!)", start: 117.2, end: 118}
               ]
              },
              {
@@ -4489,7 +5506,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(嘩~)", start: 128.1, end: 128.8}
+                { text: "\n     (嘩~)", start: 128.1, end: 128.8}
               ]
              },
              {
@@ -5286,11 +6303,8 @@ const SONGS = [
       videoId: "hxYPZpPZJ7o",
       lyrics: []
       }
-     }  
-     
-    
+     }   
     ];
-
 
 /* =========================================================
    2. 狀態與 DOM
