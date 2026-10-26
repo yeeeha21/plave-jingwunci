@@ -3712,7 +3712,7 @@ const SONGS = [
                 { text: " 사 ", start: 44.6, end: 45.8},
                 { text: "랑 ", start: 45, end: 45.8},
                 { text: "해", start: 45.2, end: 45.8},
-                { text: "\Nyeah", start: 41.3, end: 45.8},
+                { text: "\nyeah", start: 41.3, end: 45.8},
                 { text: "囉 ", start: 41.9, end: 45.8},
                 { text: "攀", start: 42.5, end: 45.8},
                 { text: "悶", start: 42.8, end: 45.8},
@@ -3724,7 +3724,7 @@ const SONGS = [
                 { text: " 沙 ", start: 44.6, end: 45.8},
                 { text: "躝 ", start: 45, end: 45.8},
                 { text: "hea", start: 45.2, end: 45.8},
-                { text: "\N藝", start: 41.3, end: 45.8},
+                { text: "\n藝", start: 41.3, end: 45.8},
                 { text: "諾", start: 41.9, end: 45.8},
                 { text: "斑", start: 42.5, end: 45.8},
                 { text: "銀", start: 42.8, end: 45.8},
@@ -3746,7 +3746,7 @@ const SONGS = [
              {
               color: "#cfa7eb",
               words: [
-                { text: "우주 속에서 널 마주한 건\N在宇宙中遇見你", start: 45.8, end: 50}
+                { text: "우주 속에서 널 마주한 건\n在宇宙中遇見你", start: 45.8, end: 50}
               ]
              }
             ]
@@ -4004,7 +4004,7 @@ const SONGS = [
              {
               color: "#cfa7eb",
               words: [
-                { text: "지금부터 천천히 널 설명할게\N現在開始慢慢向你說明", start: 72, end: 76}
+                { text: "지금부터 천천히 널 설명할게\n現在開始慢慢向你說明", start: 72, end: 76}
               ]
              }
             ]
@@ -4015,7 +4015,7 @@ const SONGS = [
              {
               color: "#b81818",
               words: [
-                { text: "Oh, 정리 안 된 머릿속은 도대체 왜\N哦，我混亂的腦袋到底為什麼", start: 72, end: 80}
+                { text: "Oh, 정리 안 된 머릿속은 도대체 왜\n哦，我混亂的腦袋到底為什麼", start: 72, end: 80}
               ]
              }
             ]
@@ -4090,7 +4090,7 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                { text: "온종일 비상사태\N一整天都是緊急狀態", start: 84, end: 85.8}
+                { text: "온종일 비상사태\n一整天都是緊急狀態", start: 84, end: 85.8}
               ]
              }
             ]
@@ -4101,7 +4101,7 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                { text: "네 앞에 서면\N只要站在你面前", start: 85.8, end: 87.2}
+                { text: "네 앞에 서면\n只要站在你面前", start: 85.8, end: 87.2}
               ]
              }
             ]
@@ -4345,7 +4345,7 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                { text: "우주 속에서 널 마주한 건\N在宇宙中遇見你", start: 106.8, end: 111.2}
+                { text: "우주 속에서 널 마주한 건\n在宇宙中遇見你", start: 106.8, end: 111.2}
               ]
              }
             ]
@@ -4381,10 +4381,10 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\N媽呢 ", start: 119.6, end: 115.7},
+                { text: "\n媽呢 ", start: 119.6, end: 115.7},
                 { text: "摸", start: 114, end: 115.7},
                 { text: "hae", start: 114.2, end: 115.7},
-                { text: "\N還用", start: 119.6, end: 115.7},
+                { text: "\n還用", start: 119.6, end: 115.7},
                 { text: "多說", start: 114, end: 115.7},
                 { text: "嗎？", start: 114.2, end: 115.7}
               ]
