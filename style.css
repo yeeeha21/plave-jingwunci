@@ -1008,22 +1008,6 @@ body {
   filter: brightness(1.1);
 }
 
-/* 歌詞區域 */
-.lyric-line {
-  color: var(--text-dim);
-  transition: all 0.2s;
-}
-
-.lyric-line.active {
-  color: #fff;
-  background: linear-gradient(90deg, transparent, rgba(199, 125, 255, 0.25), transparent);
-  text-shadow: 0 0 12px rgba(199, 125, 255, 0.6);
-}
-
-.lyric-line.past {
-  color: #7a6b96;
-}
-
 /* 保留空格 */
 .lyric-word,
 .lyric-line {
@@ -1038,27 +1022,4 @@ body {
 .song-card:hover {
   box-shadow: none !important;
   border-color: var(--primary);
-
-}
-/* 歌詞顏色：單純明暗變化 */
-.lyric-line {
-  color: #c8bdd9;          /* 還沒唸到：正常偏暗 */
-  transition: color 0.2s, background 0.2s;
-}
-
-.lyric-line.past {
-  color: #c8bdd9;          /* 已經過：也是正常偏暗 */
-}
-
-/* 單字 */
-.lyric-word.word-active {
-  color: #ffffff;
-  text-shadow: none;
-}
-
-.lyric-word.word-past,
-.lyric-word.word-upcoming {
-  color: #c8bdd9;
-}
-
 
