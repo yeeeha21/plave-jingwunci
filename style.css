@@ -736,6 +736,12 @@ a:focus-visible,
   font-size: 10px;
 }
 
+.lyric-word,
+.lyric-line {
+  white-space: pre-wrap;
+}
+
+
 /* =========================================
    頁尾
    ========================================= */
