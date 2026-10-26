@@ -6413,6 +6413,18 @@ const SONGS = [
               words: [
                 { text: "Destiny", start: 54.1, end: 57}
               ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "結局不重要 這就是我的 ", start: 51.4, end: 57}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Destiny", start: 54.1, end: 57}
+              ]
              }
             ]
            },
@@ -6475,7 +6487,7 @@ const SONGS = [
                 { text: "두 ", start: 65.3, end: 66.4},
                 { text: "배", start: 65.5, end: 66.4},
                 { text: "로", start: 65.8, end: 66.4},
-                { text: "\n       Do", start: 65.3, end: 66.4},
+                { text: "\nDo", start: 65.3, end: 66.4},
                 { text: "啤", start: 65.5, end: 66.4},
                 { text: "羅", start: 65.8, end: 66.4},
               ]
@@ -6566,7 +6578,7 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "Energetic", start: 77.6, end: 79.3},
+                { text: "Energetic ", start: 77.6, end: 79.3},
                 { text: "Keep it manic", start: 78.4, end: 79.3}
               ]
              }
@@ -6606,7 +6618,7 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "Energetic", start: 85.1, end: 86.8},
+                { text: "Energetic ", start: 85.1, end: 86.8},
                 { text: "Keep it manic", start: 85.9, end: 86.8}
               ]
              }
@@ -6743,7 +6755,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "피워", start: 106.8, end: 107.7},
-                { text: "\n            P喎", start: 106.8, end: 107.7},
+                { text: "\nP喎", start: 106.8, end: 107.7},
               ]
              },
              {
@@ -6784,7 +6796,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "깨워", start: 110.4, end: 110.8},
-                { text: "\n           嘅喎", start: 110.4, end: 110.8},
+                { text: "\n嘅喎", start: 110.4, end: 110.8},
               ]
              },
              {
@@ -6884,7 +6896,7 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "Ooh 잿더미의 blue\nOoh灰燼中的 blue", start: 120.6, end: 122.6}
+                { text: "Ooh 잿더미의 blue\nOoh 灰燼中的 blue", start: 120.6, end: 122.6}
               ]
              }
             ]
@@ -6915,7 +6927,7 @@ const SONGS = [
                 { text: "두 ", start: 125.2, end: 126.4},
                 { text: "배", start: 125.6, end: 126.4},
                 { text: "로", start: 125.7, end: 126.4},
-                { text: "\n       Do", start: 125.2, end: 126.4},
+                { text: "\nDo", start: 125.2, end: 126.4},
                 { text: "啤", start: 125.6, end: 126.4},
                 { text: "羅", start: 125.7, end: 126.4},
               ]
@@ -7220,7 +7232,7 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "Energetic", start: 169.6, end: 171.3},
+                { text: "Energetic ", start: 169.6, end: 171.3},
                 { text: "Keep it manic", start: 170.2, end: 171.3}
               ]
              }
@@ -7260,7 +7272,7 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "Energetic", start: 177, end: 178.9},
+                { text: "Energetic ", start: 177, end: 178.9},
                 { text: "Keep it manic", start: 177.8, end: 178.9}
               ]
              }
