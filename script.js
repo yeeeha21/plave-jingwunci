@@ -6284,8 +6284,1180 @@ const SONGS = [
     description: "",
     normal: {
       videoId: "fVH5atHZtys",
-      lyrics: []
-    },
+      lyrics: [ 
+          {
+          time: 28.5,
+          segments: [
+             {
+              color: "#954b01",
+              words: [
+                { text: "MUSIC START!", start: 28.5, end: 29.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 29.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 29.4, end: 34}
+              ]
+             }
+            ]
+           },
+           {
+          time: 36.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "남예준 ", start: 36.4, end: 41.1},
+                { text: "한노아 ", start: 37.3, end: 41.1},
+                { text: "채밤비 ", start: 38.3, end: 41.1},
+                { text: "도은호 ", start: 39.2, end: 41.1},
+                { text: "유하민", start: 40.1, end: 41.1},
+                { text: "\n躝夜轉 ", start: 36.4, end: 41.1},
+                { text: "慳糯也 ", start: 37.3, end: 41.1},
+                { text: "車扮B ", start: 38.3, end: 41.1},
+                { text: "Do䟴呵 ", start: 39.2, end: 41.1},
+                { text: "you夏mean", start: 40.1, end: 41.1},
+                { text: "\n南藝俊 ", start: 36.4, end: 41.1},
+                { text: "韓諾亞 ", start: 37.3, end: 41.1},
+                { text: "蔡斑比 ", start: 38.3, end: 41.1},
+                { text: "都銀虎 ", start: 39.2, end: 41.1},
+                { text: "柳河玟", start: 40.1, end: 41.1},
+              ]
+             }
+            ]
+           },
+           {
+          time: 41.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플", start: 41.1, end: 44.2},
+                { text: "레", start: 41.3, end: 44.2},
+                { text: "이", start: 41.5, end: 44.2},
+                { text: "브 ", start: 41.7, end: 44.2},
+                { text: " 본! ", start: 42, end: 44.2},
+                { text: "새! ", start: 42.4, end: 44.2},
+                { text: "비! ", start: 42.9, end: 44.2},
+                { text: "지!", start: 43.4, end: 44.2},
+                { text: "\n噗", start: 41.1, end: 44.2},
+                { text: "呢", start: 41.3, end: 44.2},
+                { text: "伊", start: 41.5, end: 44.2},
+                { text: "bu ", start: 41.7, end: 44.2},
+                { text: " 碰! ", start: 42, end: 44.2},
+                { text: "些! ", start: 42.4, end: 44.2},
+                { text: "B! ", start: 42.9, end: 44.2},
+                { text: "之!", start: 43.4, end: 44.2},
+                { text: "\nP", start: 41.1, end: 44.2},
+                { text: "LA", start: 41.3, end: 44.2},
+                { text: "V", start: 41.5, end: 44.2},
+                { text: "E ", start: 41.7, end: 44.2},
+                { text: " Born ", start: 42, end: 44.2},
+                { text: "Sa", start: 42.4, end: 44.2},
+                { text: "va", start: 42.9, end: 44.2},
+                { text: "ge!", start: 43.4, end: 44.2},
+              ]
+             }
+            ]
+           },
+           {
+          time: 44.2,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "제법 멀리 와 버렸지\n我們已經走了很遠", start: 44.2, end: 48}
+              ]
+             }
+            ]
+           },
+           {
+          time: 48,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Never look back", start: 48, end: 48.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 48.9,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "왜 여긴 대책도 없이\n為什麼在這毫無對策", start: 48.9, end: 51.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 51.4,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "끝이 중요한 게 아냐 이건 나의 ", start: 51.4, end: 57}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Destiny", start: 54.1, end: 57}
+              ]
+             }
+            ]
+           },
+           {
+          time: 57,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Louder than the rain", start: 57, end: 58.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 58.8,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "We run beyond the darkness", start: 58.8, end: 60.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 60.6,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Ooh 잿더미의 blue\nOoh灰燼中的 blue", start: 60.6, end: 62.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 62.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I'm betting it all on me", start: 62.5, end: 64.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 64.3,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Roll the dice ", start: 64.3, end: 66.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "두 ", start: 65.3, end: 66.4},
+                { text: "배", start: 65.5, end: 66.4},
+                { text: "로", start: 65.8, end: 66.4},
+                { text: "\n       Do", start: 65.3, end: 66.4},
+                { text: "啤", start: 65.5, end: 66.4},
+                { text: "羅", start: 65.8, end: 66.4},
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "\nRoll the dice ", start: 64.3, end: 66.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n加", start: 65.3, end: 66.4},
+                { text: "倍", start: 65.5, end: 66.4}
+              ]
+             },
+            ]
+           },
+           {
+          time: 66.4,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "One ", start: 66.4, end: 70.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "touch, ", start: 66.8, end: 70.1}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "One ", start: 67.4, end: 70.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "rush, ", start: 67.9, end: 70.1},
+                { text: "headed ", start: 68.3, end: 70.1},
+                { text: "for the ", start: 68.7, end: 70.1},
+                { text: "bloom", start: 69.2, end: 70.1},
+              ]
+             }
+            ]
+           },
+           {
+          time: 70.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 70.1, end: 72.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 72.4,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Unlock the power woo", start: 72.4, end: 74.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 74.4,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "선택을 받은 운명을 거슬러\n逆轉被選定的命運", start: 74.4, end: 77.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 77.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Energetic", start: 77.6, end: 79.3},
+                { text: "Keep it manic", start: 78.4, end: 79.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 79.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I'm never falling down ", start: 79.3, end: 81.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(down!)", start: 80.9, end: 81.4}
+              ]
+             }, 
+            ]
+           },
+           {
+          time: 81.4,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Woo 다친대도 내 전부를 걸겠어\nWoo 即使受傷我也會賭上全部", start: 81.4, end: 85.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 85.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Energetic", start: 85.1, end: 86.8},
+                { text: "Keep it manic", start: 85.9, end: 86.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 86.8,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "I'm never falling down ", start: 86.8, end: 89.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(down!)", start: 88.4, end: 89.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 89.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "혼돈에 비친\n映照在混沌中", start: 89.5, end: 91.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 91.3,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "그 눈을 감아\n閉上你的眼睛", start: 91.3, end: 92.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 92.6,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "세상의 답을 외친 다음\n向世界喊出答案後", start: 92.6, end: 95.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 95.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Born ", start: 95.1, end: 97},
+                { text: "savage", start: 95.5, end: 97}
+              ]
+             }
+            ]
+           },
+           {
+          time: 97,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "갈망하는가\n是否有渴望", start: 97, end: 98.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 98.9,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "두 눈을 떠봐\n睜開你的雙眼", start: 98.9, end: 100.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 100.2,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "세상의 답을 외친 다음\n向世界喊出答案後", start: 100.2, end: 102.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 102.5,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Born ", start: 102.5, end: 104},
+                { text: "savage", start: 102.9, end: 104}
+              ]
+             }
+            ]
+           },
+           {
+          time: 104,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "긴 밤을 걸어 매일\n每天走過漫長的夜晚", start: 104, end: 105.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 105.4,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "암흑 속에 그 상처들을 ", start: 105.4, end: 107.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "피워", start: 106.8, end: 107.7},
+                { text: "\n            P喎", start: 106.8, end: 107.7},
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "在黑暗中讓傷口", start: 105.4, end: 107.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "綻放", start: 106.8, end: 107.7}
+              ]
+             },
+            ]
+           },
+           {
+          time: 107.7,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "긴 밤을 지나 매일\n每天穿越漫長的夜晚", start: 107.7, end: 109.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 109.1,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "피워냈던 그 상처들을 ", start: 109.1, end: 110.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "깨워", start: 110.4, end: 110.8},
+                { text: "\n           嘅喎", start: 110.4, end: 110.8},
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "喚醒曾經綻放的", start: 109.1, end: 110.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "傷口", start: 110.4, end: 110.8}
+              ]
+             },
+            ]
+           },
+           {
+          time: 110.4,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "이미 다다랐지, make it rain, thumbs up\n己經到達 make it rain, thumbs up", start: 110.4, end: 112.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 112.1,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "의미 없는 그 원성\n毫無意義的怨言", start: 112.1, end: 113}
+              ]
+             }
+            ]
+           },
+           {
+          time: 113,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "지껄일수록 확실해지는 Vision and 목표\n越是喋喋不休 Vision和目標越清晰", start: 113, end: 115}
+              ]
+             }
+            ]
+           },
+           {
+          time: 115,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Hold on tight", start: 115, end: 115.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 115.6,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "흔들린 적 없지 높은 절벽\n從未在高崖上動搖", start: 115.6, end: 116.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 116.8,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "쉽지 않을 길을 걸어 Man, I'm breakin' the wall\n走上不易之路 Man, I'm breakin' the wall", start: 116.8, end: 118.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 118.8,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "We run beyond the darkness", start: 118.8, end: 120.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 120.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Ooh 잿더미의 blue\nOoh灰燼中的 blue", start: 120.6, end: 122.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 122.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I'm betting it all on me", start: 122.6, end: 124.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 124.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Roll the dice ", start: 124.5, end: 126.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "두 ", start: 125.2, end: 126.4},
+                { text: "배", start: 125.6, end: 126.4},
+                { text: "로", start: 125.7, end: 126.4},
+                { text: "\n       Do", start: 125.2, end: 126.4},
+                { text: "啤", start: 125.6, end: 126.4},
+                { text: "羅", start: 125.7, end: 126.4},
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\nRoll the dice ", start: 124.5, end: 126.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n加", start: 125.2, end: 126.4},
+                { text: "倍", start: 125.6, end: 126.4}
+              ]
+             },
+            ]
+           },
+           {
+          time: 126.4,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "One ", start: 126.4, end: 130.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "touch, ", start: 126.9, end: 130.2}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "One ", start: 127.4, end: 130.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "rush, ", start: 127.8, end: 130.2},
+                { text: "headed ", start: 128.3, end: 130.2},
+                { text: "for the ", start: 128.7, end: 130.2},
+                { text: "bloom", start: 129.2, end: 130.2},
+              ]
+             }
+            ]
+           },
+           {
+          time: 130.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플 ", start: 130.2, end: 132.5},
+                { text: "레 ", start: 130.6, end: 132.5},
+                { text: "이 ", start: 131.1, end: 132.5},
+                { text: "브", start: 131.6, end: 132.5},
+                { text: "\n噗 ", start: 130.2, end: 132.5},
+                { text: "呢 ", start: 130.6, end: 132.5},
+                { text: "伊 ", start: 131.1, end: 132.5},
+                { text: "bu", start: 131.6, end: 132.5},
+                { text: "\nP ", start: 130.2, end: 132.5},
+                { text: "LA ", start: 130.6, end: 132.5},
+                { text: "V ", start: 131.1, end: 132.5},
+                { text: "E", start: 131.6, end: 132.5},
+              ]
+             }
+            ]
+           },
+           {
+          time: 132.5,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Unlock the power woo", start: 132.5, end: 134.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 134.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "선택을 받은 운명을 거슬러\n逆轉被選定的命運", start: 134.3, end: 137.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 137.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Energetic", start: 137.6, end: 1141.5},
+                { text: "Keep it manic", start: 138.4, end: 1141.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 139.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I'm never falling down ", start: 139.3, end: 141.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(down!)", start: 141, end: 141.5}
+              ]
+             }, 
+            ]
+           },
+           {
+          time: 141.5,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Woo 다친대도 내 전부를 걸겠어\nWoo 即使受傷我也會賭上全部", start: 141.5, end: 145}
+              ]
+             }
+            ]
+           },
+           {
+          time: 145,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Energetic", start: 145, end: 146.8},
+                { text: "Keep it manic", start: 146, end: 146.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 146.8,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "I'm never falling down ", start: 146.8, end: 148.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(down!)", start: 148.3, end: 148.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 148.9,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "Yeah we goin' straight to the top ", start: 148.9, end: 150.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(top!)", start: 150.3, end: 150.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 150.9,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "기회야 No time to hesitate\n機會 No time to hesitate", start: 150.9, end: 152.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 152.5,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "Burn it up keep up the fire ", start: 152.5, end: 154.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(fire!)", start: 154.1, end: 154.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 154.5,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "본능이 날 깨워 Savage\n本能喚醒了我 Savage", start: 154.5, end: 156.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 156.3,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Yeah we goin' straight to the top ", start: 156.3, end: 158.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(top!)", start: 157.9, end: 158.4}
+              ]
+             }
+            ]
+           },
+           { 
+          time: 158.4,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "기회야 No time to hesitate\n機會 No time to hesitate", start: 158.4, end: 160.2}
+              ]
+             }
+            ]
+           },
+           { 
+          time: 160.2,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "부정할 수 없지 넌 Because I'm true\n你無法否認 Because I'm true", start: 160.2, end: 162.5}
+              ]
+             }
+            ]
+           },
+           { 
+          time: 162.5,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "I was born savage", start: 162.5, end: 165.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(歡呼!!)", start: 163.7, end: 165.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 165.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Unlock the power woo", start: 165.3, end: 166.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 166.4,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "선택을 받은 운명을 거슬러\n逆轉被選定的命運", start: 166.4, end: 169.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 169.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Energetic", start: 169.6, end: 171.3},
+                { text: "Keep it manic", start: 170.2, end: 171.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 171.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I'm never falling down ", start: 171.3, end: 173.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(down!)", start: 172.9, end: 173.5}
+              ]
+             }, 
+            ]
+           },
+           {
+          time: 173.5,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Woo 다친대도 내 전부를 걸겠어\nWoo 即使受傷我也會賭上全部", start: 173.5, end: 177}
+              ]
+             }
+            ]
+           },
+           {
+          time: 177,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Energetic", start: 177, end: 178.9},
+                { text: "Keep it manic", start: 177.8, end: 178.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 178.9,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "I'm never falling down ", start: 178.9, end: 180.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(down!)", start: 180.4, end: 180.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 180.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Woo!)", start: 180.8, end: 182.5}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "혼돈에 비친", start: 181.4, end: 182.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(Woo!)", start: 180.8, end: 182.5}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "映照在混沌中", start: 181.4, end: 182.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 182.5,
+          segments: [
+            {
+              color: "#ff962d",
+              words: [
+                { text: "(Woo!)", start: 182.5, end: 184.5}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "혼돈에 비친", start: 183.2, end: 184.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(Woo!)", start: 182.5, end: 184.5}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "映照在混沌中", start: 183.2, end: 184.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 184.5,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "세상의 답을 외친 다음\n向世界喊出答案後", start: 184.5, end: 186.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 186.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Born ", start: 186.8, end: 188.3},
+                { text: "savage", start: 187.4, end: 188.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 188.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Woo!)", start: 188.3, end: 190.2}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "갈망하는가", start: 188.9, end: 190.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(Woo!)", start: 188.3, end: 190.2}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "是否有渴望", start: 188.9, end: 190.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 190.2,
+          segments: [
+            {
+              color: "#ff962d",
+              words: [
+                { text: "(Woo!)", start: 190.2, end: 192.1}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "두 눈을 떠봐", start: 190.8, end: 192.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(Woo!)", start: 190.2, end: 192.1}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "睜開你的雙眼", start: 190.8, end: 192.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 192.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "세상의 답을 외친 다음\n向世界喊出答案後", start: 192.1, end: 194.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 194.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Born ", start: 194.3, end: 195.8},
+                { text: "savage", start: 194.8, end: 195.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 195.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 195.8, end: 203.5}
+              ]
+             }
+            ]
+           }
+          ]
+         },
     advanced: {
       videoId: "3zvHS4-C4uo",
       lyrics: []
