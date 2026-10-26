@@ -3683,7 +3683,7 @@ const SONGS = [
     normal: {
       videoId: "ma3evv4vnW0",
       lyrics: [
-          {
+          
           time: 36.9,
           segments: [
              {
@@ -4067,7 +4067,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\n\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00(two拿)", start: 82.8, end: 84}
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(two拿)", start: 82.8, end: 84}
               ]
              },
              {
@@ -4410,7 +4410,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(응!)", start: 117.2, end: 118},
-                { text: "\n\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00(嗯!)", start: 117.2, end: 118}
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(嗯!)", start: 117.2, end: 118}
               ]
              },
              {
@@ -4489,7 +4489,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\n\u0A00\u0A00\u0A00\u0A00\u0A00(嘩~)", start: 128.1, end: 128.8}
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(嘩~)", start: 128.1, end: 128.8}
               ]
              },
              {
@@ -5559,6 +5559,11 @@ function renderSongList() {
    ========================================================= */
 
 function showHomePage() {
+     // 停止目前播放的影片
+  if (youtubePlayer && playerReady) {
+    youtubePlayer.stopVideo();
+  }
+
   if (el.homePage) el.homePage.hidden = false;
   if (el.playerPage) el.playerPage.hidden = true;
 }
@@ -5618,6 +5623,31 @@ function openSong(songId, version = "normal") {
     }
 
     updateLyrics(0);
+    // 只在目前句子改變時捲動，避免每次同步都重新捲動
+if (
+  nextActiveLineIndex >= 0 &&
+  nextActiveLineIndex !== lastScrolledLineIndex
+) {
+  const activeElement = lineElements[nextActiveLineIndex];
+
+  if (activeElement) {
+    // 檢查目前使用者是否正在看歌詞區域
+    const lyricsContainer = el.lyricsList; // 或你的歌詞容器
+    const rect = lyricsContainer.getBoundingClientRect();
+    const isLyricsVisible = rect.top < window.innerHeight && rect.bottom > 0;
+
+    // 只有歌詞區域在畫面上時，才自動捲動
+    if (isLyricsVisible) {
+      activeElement.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+    }
+  }
+
+  lastScrolledLineIndex = nextActiveLineIndex;
+}
+
     setStatus(
       `${versionLabel}尚未設定 YouTube 影片 ID。請輸入網址或 ID。`
     );
@@ -6027,6 +6057,7 @@ function seekTo(seconds) {
 
   if (playerReady && youtubePlayer) {
     youtubePlayer.seekTo(target, true);
+    youtubePlayer.playVideo();
   }
 
   currentVideoTime = target;
