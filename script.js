@@ -2433,7 +2433,7 @@ const SONGS = [
     normal: {
       videoId: "mGqYMma_YIk",
       lyrics: [ 
-          {
+         {
           time: 45,
           segments: [
              {
@@ -2644,7 +2644,7 @@ const SONGS = [
                 { text: "레 ", start: 96, end: 97.3},
                 { text: "이 ", start: 96.3, end: 97.3},
                 { text: "브)", start: 96.7, end: 97.3},
-                { text: "           \n(噗 ", start: 95.8, end: 97.3},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(噗 ", start: 95.8, end: 97.3},
                 { text: " 呢 ", start: 96, end: 97.3},
                 { text: " 伊 ", start: 96.3, end: 97.3},
                 { text: " bu)", start: 96.7, end: 97.3}
@@ -2716,7 +2716,7 @@ const SONGS = [
                 { text: " 바 ", start: 110.7, end: 112.6},
                 { text: " 꼭 ", start: 111.2, end: 112.6},
                 { text: " 질)", start: 111.8, end: 112.6},
-                { text: "           \n(Zoo ", start: 110, end: 112.6},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(Zoo ", start: 110, end: 112.6},
                 { text: " 拍 ", start: 110.7, end: 112.6},
                 { text: " 谷 ", start: 111.2, end: 112.6},
                 { text: " 知)", start: 111.9, end: 112.6}
@@ -2830,7 +2830,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 128.9, end: 129.2},
-                { text: "       \n(艾嘅傻)", start: 128.9, end: 129.2},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(艾嘅傻)", start: 128.9, end: 129.2},
               ]
              },
              {
@@ -2860,7 +2860,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 130.2, end: 130.6},
-                { text: "        \n(括(打daa1)啦傻)", start: 130.2, end: 130.6},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(括(打daa1)啦傻)", start: 130.2, end: 130.6},
               ]
              },
              {
@@ -2913,7 +2913,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 139.3, end: 140.6},
                 { text: "껏", start: 140, end: 140.6},
-                { text: "     \n謙", start: 139.3, end: 140.6},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0謙", start: 139.3, end: 140.6},
                 { text: "鋸", start: 140, end: 140.6},
               ]
              },
@@ -2946,7 +2946,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 141.9, end: 143.3},
                 { text: "껏", start: 142.6, end: 143.3},
-                { text: "     \n謙", start: 141.9, end: 143.3},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0謙", start: 141.9, end: 143.3},
                 { text: "鋸", start: 142.6, end: 143.3},
               ]
              },
@@ -2979,7 +2979,7 @@ const SONGS = [
               words: [
                 { text: "지", start: 144.5, end: 145.9},
                 { text: "금", start: 145.2, end: 145.9},
-                { text: "     \n次", start: 144.5, end: 145.9},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0次", start: 144.5, end: 145.9},
                 { text: "捐", start: 145.2, end: 145.9},
               ]
              },
@@ -3022,7 +3022,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 149.7, end: 150.2},
-                { text: "       \n(艾嘅傻)", start: 149.7, end: 150.2},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(艾嘅傻)", start: 149.7, end: 150.2},
               ]
              },
              {
@@ -3052,7 +3052,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 151, end: 151.4},
-                { text: "        \n(括(打daa1)啦傻)", start: 151, end: 151.4},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(括(打daa1)啦傻)", start: 151, end: 151.4},
               ]
              },
              {
@@ -3104,7 +3104,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "너였어", start: 160.8, end: 161.8},
-                { text: "          \n衰your傻", start: 160.8, end: 161.8},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0囉your傻", start: 160.8, end: 161.8},
               ]
              },
              {
@@ -3116,7 +3116,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "都是你", start: 161, end: 161.8}
+                { text: "都是你", start: 160.8, end: 161.8}
               ]
              }
             ]
@@ -3134,7 +3134,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(되찾았어)", start: 164, end: 164.6},
-                { text: "                   \n(車差揸so)", start: 164, end: 164.6},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(車差揸sor)", start: 164, end: 164.6},
               ]
              },
              {
@@ -3246,7 +3246,7 @@ const SONGS = [
                 { text: "아", start: 183.7, end: 185.4},
                 { text: "갈", start: 184.3, end: 185.4},
                 { text: "게)", start: 185, end: 185.4},
-                { text: "           \n(差", start: 183, end: 185.4},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(差", start: 183, end: 185.4},
                 { text: "齋", start: 183.7, end: 185.4},
                 { text: "哀", start: 184.3, end: 185.4},
                 { text: "嘅)", start: 185, end: 185.4}
@@ -3297,7 +3297,7 @@ const SONGS = [
                 { text: "레 ", start: 188.9, end: 190.4},
                 { text: "이 ", start: 189.5, end: 190.4},
                 { text: "브)", start: 190.2, end: 190.4},
-                { text: "             \n(噗 ", start: 188.3, end: 190.4},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(噗 ", start: 188.3, end: 190.4},
                 { text: "呢 ", start: 188.9, end: 190.4},
                 { text: "伊 ", start: 189.5, end: 190.4},
                 { text: "bu)", start: 190.2, end: 190.4}
@@ -3383,7 +3383,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 201.9, end: 202.3},
-                { text: "       \n(艾嘅傻)", start: 201.9, end: 202.3},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(艾嘅傻)", start: 201.9, end: 202.3},
               ]
              },
              {
@@ -3413,7 +3413,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 203.2, end: 203.7},
-                { text: "        \n(括(打daa1)啦傻)", start: 203.2, end: 203.7},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(括(打daa1)啦傻)", start: 203.2, end: 203.7},
               ]
              },
              {
@@ -3466,7 +3466,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 212.3, end: 213.8},
                 { text: "껏", start: 213, end: 213.8},
-                { text: "     \n謙", start: 212.3, end: 213.8},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0謙", start: 212.3, end: 213.8},
                 { text: "鋸", start: 213, end: 213.8}
               ]
              },
@@ -3499,7 +3499,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 215, end: 216.3},
                 { text: "껏", start: 215.7, end: 216.3},
-                { text: "     \n謙", start: 215, end: 216.3},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0謙", start: 215, end: 216.3},
                 { text: "鋸", start: 215.7, end: 216.3}
               ]
              },
@@ -3532,7 +3532,7 @@ const SONGS = [
               words: [
                 { text: "지", start: 217.6, end: 219},
                 { text: "금", start: 218.3, end: 219},
-                { text: "     \n次", start: 217.6, end: 219},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0次", start: 217.6, end: 219},
                 { text: "捐", start: 218.3, end: 219}
               ]
              },
@@ -3575,7 +3575,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 222.7, end: 223.1},
-                { text: "       \n(艾嘅傻)", start: 222.7, end: 223.1},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(艾嘅傻)", start: 222.7, end: 223.1},
               ]
              },
              {
@@ -3605,7 +3605,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 224, end: 224.5},
-                { text: "        \n(括(打daa1)啦傻)", start: 224, end: 224.5},
+                { text: "\n\u00A0\u00A0\u00A0\u00A0\u00A0(括(打daa1)啦傻)", start: 224, end: 224.5},
               ]
              },
              {
@@ -3655,21 +3655,1607 @@ const SONGS = [
              }
             ]
            }
-          ] 
+          ]
          },
+
     advanced: {
       videoId: "g2VTFOnp51E",
-      lyrics: []
-    }
-  },
+      lyrics: [ 
+            {
+            time: 179.3,
+            segments: [
+            {
+              color: "#ff962d",
+              words: [
+                 { text: "Come in our pixel world", start: 179.3, end: 184.7 }
+               ]
+              }
+             ]
+            }
+           ] 
+          }
+         },     
+
   {
     id: 10,
     title: "BBUU!",
     description: "",
     normal: {
       videoId: "ma3evv4vnW0",
-      lyrics: []
-    },
+      lyrics: [
+          {
+          time: 36.9,
+          segments: [
+             {
+              color: "#954b01",
+              words: [
+                { text: "MUSIC START!", start: 36.9, end: 41.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 41.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "예", start: 41.3, end: 45.8},
+                { text: "노 ", start: 41.9, end: 45.8},
+                { text: "밤", start: 42.5, end: 45.8},
+                { text: "은", start: 42.8, end: 45.8},
+                { text: "하 ", start: 43, end: 45.8},
+                { text: " P ", start: 43.6, end: 45.8},
+                { text: "L A ", start: 43.8, end: 45.8},
+                { text: "V ", start: 44.2, end: 45.8},
+                { text: "E ", start: 44.4, end: 45.8},
+                { text: " 사 ", start: 44.6, end: 45.8},
+                { text: "랑 ", start: 45, end: 45.8},
+                { text: "해", start: 45.2, end: 45.8},
+                { text: "\Nyeah", start: 41.3, end: 45.8},
+                { text: "囉 ", start: 41.9, end: 45.8},
+                { text: "攀", start: 42.5, end: 45.8},
+                { text: "悶", start: 42.8, end: 45.8},
+                { text: "啦 ", start: 43, end: 45.8},
+                { text: " P ", start: 43.6, end: 45.8},
+                { text: "L A ", start: 43.8, end: 45.8},
+                { text: "V ", start: 44.2, end: 45.8},
+                { text: "E ", start: 44.4, end: 45.8},
+                { text: " 沙 ", start: 44.6, end: 45.8},
+                { text: "躝 ", start: 45, end: 45.8},
+                { text: "hea", start: 45.2, end: 45.8},
+                { text: "\N藝", start: 41.3, end: 45.8},
+                { text: "諾", start: 41.9, end: 45.8},
+                { text: "斑", start: 42.5, end: 45.8},
+                { text: "銀", start: 42.8, end: 45.8},
+                { text: "河 ", start: 43, end: 45.8},
+                { text: " P ", start: 43.6, end: 45.8},
+                { text: "L A ", start: 43.8, end: 45.8},
+                { text: "V ", start: 44.2, end: 45.8},
+                { text: "E ", start: 44.4, end: 45.8},
+                { text: " 我 ", start: 44.6, end: 45.8},
+                { text: "愛 ", start: 45, end: 45.8},
+                { text: "你", start: 45.2, end: 45.8},
+              ]
+             }
+            ]
+           },
+           {
+          time: 45.8,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "우주 속에서 널 마주한 건\N在宇宙中遇見你", start: 45.8, end: 50}
+              ]
+             }
+            ]
+           },
+           {
+          time: 50,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Cause it's only you\n因為只有你", start: 50, end: 52.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 52.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "말해 ", start: 52.4, end: 54.5},
+                { text: "뭐 ", start: 52.9, end: 54.5},
+                { text: "해?", start: 53.2, end: 54.5},
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Yeah ", start: 53.6, end: 54.5},
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\N媽呢 ", start: 50, end: 54.5},
+                { text: "摸", start: 53, end: 54.5},
+                { text: "hae", start: 53.2, end: 54.5},
+                { text: "\N還用", start: 50, end: 54.5},
+                { text: "多說", start: 53, end: 54.5},
+                { text: "嗎？", start: 53.2, end: 54.5}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Yeah ", start: 53.6, end: 54.5},
+              ]
+             }
+            ]
+           },
+           {
+          time: 54.5,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "One ", start: 54.5, end: 56.7}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "너를 사랑하는 이유", start: 55.2, end: 56.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n一、", start: 54.5, end: 56.7}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "愛上你的理由", start: 55.2, end: 56.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 56.7,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Two ", start: 56.7, end: 58.8}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "아무 이유 없는 기분", start: 57.4, end: 58.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n二、", start: 56.7, end: 58.8}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "毫無理由的好心情", start: 57.4, end: 58.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 58.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Three ", start: 58.8, end: 60.7},
+                { text: "to the ", start: 59.6, end: 60.7},
+                { text: "four", start: 59.9, end: 60.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 60.7,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "그냥 five, six, seven ", start: 58.8, end: 63.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 62.5, end: 63.2}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n就五、六、七 ", start: 58.8, end: 63.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 62.5, end: 63.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 63.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "One ", start: 63.2, end: 65.4}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "너를 사랑하는 이유", start: 63.9, end: 65.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              word:[
+                { text: "\n一、", start: 63.2, end: 65.4}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "愛上你的理由", start: 63.9, end: 65.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 65.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Two ", start: 65.4, end: 67.5}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "아무 이유 없는 기분", start: 66.1, end: 67.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n二、", start: 65.4, end: 67.5}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "毫無理由的好心情", start: 66.1, end: 67.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 67.5,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Three ", start: 67.5, end: 69.5},
+                { text: "to the ", start: 68.3, end: 69.5},
+                { text: "four", start: 68.6, end: 69.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 69.5,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "그냥 five, six, seven ", start: 69.5, end: 72}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 71.3, end: 72}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n就五、六、七 ", start: 69.5, end: 72}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 71.3, end: 72}
+              ]
+             }
+            ]
+           },
+           {
+          time: 72,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "지금부터 천천히 널 설명할게\N現在開始慢慢向你說明", start: 72, end: 76}
+              ]
+             }
+            ]
+           },
+           {
+          time: 76,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Oh, 정리 안 된 머릿속은 도대체 왜\N哦，我混亂的腦袋到底為什麼", start: 72, end: 80}
+              ]
+             }
+            ]
+           },
+           {
+          time: 80,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "어지러워 ", start: 80, end: 81.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Oh)", start: 81.2, end: 81.8}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n會頭昏腦脹", start: 72, end: 81.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Oh)", start: 81.2, end: 81.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 81.8,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "핑핑 돌아 ", start: 81.8, end: 84}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(돌아)", start: 82.8, end: 84}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00(two拿)", start: 82.8, end: 84}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n會頭昏腦脹", start: 81.8, end: 81.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(打轉)", start: 82.8, end: 84}
+              ]
+             }
+            ]
+           },
+           {
+          time: 84,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "온종일 비상사태\N一整天都是緊急狀態", start: 84, end: 85.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 85.8,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "네 앞에 서면\N只要站在你面前", start: 85.8, end: 87.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 87.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "찌릿 ", start: 87.2, end: 89.4},
+                { text: "찌릿 ", start: 87.7, end: 89.4},
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "백만 볼트", start: 88.3, end: 89.4},
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n痴呢(ne1)", start: 87.2, end: 89.4},
+                { text: "痴呢(ne1)", start: 87.7, end: 89.4},
+                { text: "\n就像百萬", start: 87.2, end: 89.4},
+                { text: "伏特的電流", start: 87.7, end: 89.4},
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "劈啪作響", start: 88.3, end: 89.4},
+              ]
+             }
+            ]
+           },
+           {
+          time: 89.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "One ", start: 89.4, end: 91.5}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "너를 사랑하는 이유", start: 90.2, end: 91.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n一、", start: 89.4, end: 91.5}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "愛上你的理由", start: 90.2, end: 91.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 91.5,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Two ", start: 91.5, end: 93.6}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "아무 이유 없는 기분", start: 92.4, end: 93.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n二、", start: 91.5, end: 93.6}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "毫無理由的好心情", start: 92.4, end: 93.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 93.6,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Three ", start: 93.6, end: 95.6},
+                { text: "to the ", start: 94.5, end: 95.6},
+                { text: "four", start: 94.8, end: 95.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 95.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "그냥 five, six, seven ", start: 95.6, end: 98.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 97.4, end: 98.1}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n就五、六、七 ", start: 95.6, end: 98.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 97.4, end: 98.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 98.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "One ", start: 98.1, end: 100.3}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "너를 사랑하는 이유", start: 98.9, end: 100.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              word:[
+                { text: "\n一、", start: 98.1, end: 100.3}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "愛上你的理由", start: 98.9, end: 100.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 100.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Two ", start: 100.3, end: 102.4}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "아무 이유 없는 기분", start: 101.1, end: 102.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n二、", start: 100.3, end: 102.4}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "毫無理由的好心情", start: 101.1, end: 102.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 102.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Three ", start: 102.4, end: 104.4},
+                { text: "to the ", start: 103.2, end: 104.4},
+                { text: "four", start: 103.5, end: 104.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 104.4,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "그냥 five, six, seven ", start: 104.4, end: 106.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 106.1, end: 106.8}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n就五、六、七 ", start: 104.4, end: 106.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 106.1, end: 106.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 106.8,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "우주 속에서 널 마주한 건\N在宇宙中遇見你", start: 106.8, end: 111.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 111.2,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "Cause it's only you\n因為只有你", start: 111.2, end: 113.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 113.6,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "말해 ", start: 119.6, end: 115.7},
+                { text: "뭐 ", start: 114, end: 115.7},
+                { text: "해?", start: 114.2, end: 115.7},
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Yeah ", start: 114.8, end: 115.7},
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\N媽呢 ", start: 119.6, end: 115.7},
+                { text: "摸", start: 114, end: 115.7},
+                { text: "hae", start: 114.2, end: 115.7},
+                { text: "\N還用", start: 119.6, end: 115.7},
+                { text: "多說", start: 114, end: 115.7},
+                { text: "嗎？", start: 114.2, end: 115.7}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Yeah ", start: 114.8, end: 115.7},
+              ]
+             }
+            ]
+           },
+           {
+          time: 115.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "오늘 밤 널 데리러 갈게 ", start: 115.7, end: 118}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(응!)", start: 117.2, end: 118},
+                { text: "\n\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00\u0A00(嗯!)", start: 117.2, end: 118}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n今晚我會去接你", start: 115.7, end: 118}
+              ]
+             },
+              {
+              color: "#ff962d",
+              words: [
+                { text: "(嗯!)", start: 117.2, end: 118}
+              ]
+             }
+            ]
+           },
+           {
+          time: 118,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "나와주기만 해, babe\n你只要出來就好，寶貝", start: 118, end: 120.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 120.1,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "드림로 433 근처야 십분 뒤에 만나요\n在Dream路 433附近，十分鐘後見面", start: 120.1, end: 124.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 124.5,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "준비돼 있지 완벽한 플리\n準備好完美歌單", start: 124.5, end: 125.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 125.5,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "준비돼 있지 완벽한 플리\n準備好完美歌單", start: 125.5, end: 126.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 126.7,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "온습도까지 ", start: 126.7, end: 128.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(와~)", start: 128.1, end: 128.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n\u0A00\u0A00\u0A00\u0A00\u0A00(嘩~)", start: 128.1, end: 128.8}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n連溫濕度都調好了", start: 126.7, end: 128.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(嘩~)", start: 128.1, end: 128.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 128.8,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "우연인지 운명인지?\n是偶然還是命運？", start: 128.8, end: 130.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 130.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Everything's so good\n一切都太美好", start: 130.8, end: 132.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 132.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "One ", start: 132.9, end: 135.2}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "너를 사랑하는 이유", start: 133.9, end: 135.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n一、", start: 132.9, end: 135.2}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "愛上你的理由", start: 133.9, end: 135.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 135.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Two ", start: 135.2, end: 137.3}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "아무 이유 없는 기분", start: 136, end: 137.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n二、", start: 135.2, end: 137.3}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "毫無理由的好心情", start: 136, end: 137.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 137.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Three ", start: 137.3, end: 139.3},
+                { text: "to the ", start: 138.1, end: 139.3},
+                { text: "four", start: 138.4, end: 139.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 139.3,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "그냥 five, six, seven ", start: 139.3, end: 141.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 141, end: 141.7}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n就五、六、七 ", start: 139.3, end: 141.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 141, end: 141.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 141.7,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "One ", start: 141.7, end: 143.9}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "너를 사랑하는 이유", start: 142.4, end: 143.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              word:[
+                { text: "\n一、", start: 141.7, end: 143.9}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "愛上你的理由", start: 142.4, end: 143.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 143.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Two ", start: 143.9, end: 146.1}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "아무 이유 없는 기분", start: 144.6, end: 146.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n二、", start: 143.9, end: 146.1}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "毫無理由的好心情", start: 144.6, end: 146.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 146.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Three ", start: 146.1, end: 148},
+                { text: "to the ", start: 146.9, end: 148},
+                { text: "four", start: 147.2, end: 148}
+              ]
+             }
+            ]
+           },
+           {
+          time: 148,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "그냥 five, six, seven ", start: 148, end: 150.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 149.8, end: 150.7}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n就五、六、七 ", start: 148, end: 150.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 149.8, end: 150.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 150.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I ain't done love before\n我以前從沒真正談過戀愛", start: 150.7, end: 154.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 154.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "But she says\n但她說", start: 153.7, end: 156.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 156.4,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "'I can tell this time we could be the true love'\n「我感覺這次我們會是真愛」", start: 156.4, end: 159.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 159.5,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "You ain't done love in this world before?\n你以前沒在這世界上談過戀愛嗎？", start: 159.5, end: 164.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 164.1,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Before, before", start: 164.1, end: 153.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(플 ", start: 165.7, end: 170},
+                { text: "레 ", start: 166.2, end: 170},
+                { text: "이 ", start: 166.7, end: 170},
+                { text: "브 ", start: 167.3, end: 170},
+                { text: " BBUU~)", start: 167.8, end: 170},
+                { text: "\n(噗 ", start: 165.7, end: 170},
+                { text: "呢 ", start: 166.2, end: 170},
+                { text: "伊 ", start: 166.7, end: 170},
+                { text: "bu ", start: 167.3, end: 170},
+                { text: " BBUU~)", start: 167.8, end: 170},
+                { text: "\n(P ", start: 165.7, end: 170},
+                { text: "L A ", start: 166.2, end: 170},
+                { text: "V ", start: 166.7, end: 170},
+                { text: "E ", start: 167.3, end: 170},
+                { text: " BBUU~)", start: 167.8, end: 170}
+              ]
+             }
+            ]
+           },
+           {
+          time: 170,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "One ", start: 170, end: 172.2}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "두근두근 대는 기분", start: 1170.9, end: 172.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n一、", start: 170, end: 172.2}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "怦怦心動的感覺", start: 1170.9, end: 172.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 172.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Two ", start: 172.2, end: 174.3}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "増え続けるミス분", start: 173.1, end: 174.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n二、", start: 172.2, end: 174.3}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "持續增加的失誤", start: 173.1, end: 174.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 174.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Three ", start: 174.3, end: 176.3},
+                { text: "to the ", start: 175.2, end: 176.3},
+                { text: "four", start: 175.5, end: 176.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 176.3,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "그냥 five, six, seven ", start: 176.3, end: 178.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 178.1, end: 178.9}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n就五、六、七 ", start: 176.3, end: 178.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 178.1, end: 178.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 178.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "One ", start: 178.9, end: 180.9}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "every day I wanna see you", start: 179.7, end: 180.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n一、", start: 178.9, end: 180.9}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "我每天都想見你", start: 179.7, end: 180.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 180.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Two ", start: 180.9, end: 183.2}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "也許你就是我的禮物", start: 181.8, end: 183.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n二、", start: 180.9, end: 183.2}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "也許你就是我的禮物", start: 181.8, end: 183.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 183.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Three ", start: 183.2, end: 185},
+                { text: "to the ", start: 184, end: 185},
+                { text: "four", start: 184.2, end: 185}
+              ]
+             }
+            ]
+           },
+           {
+          time: 185,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "그냥 five, six, seven ", start: 185, end: 187.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 187, end: 187.5}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n就五、六、七 ", start: 185, end: 187.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Bbuu)", start: 187, end: 187.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 187.5,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "일,", start: 187.5, end: 189.7},
+                { text: "이,", start: 187.8, end: 189.7},
+                { text: "삼,", start: 188, end: 189.7},
+                { text: "사,", start: 188.6, end: 189.7},
+                { text: "오,", start: 188.9, end: 189.7},
+                { text: "육", start: 189.1, end: 189.7},
+                { text: "\n伊、", start: 187.5, end: 189.7},
+                { text: "呢(ne1)、", start: 187.8, end: 189.7},
+                { text: "衫、", start: 188, end: 189.7},
+                { text: "沙、", start: 188.6, end: 189.7},
+                { text: "烏、", start: 188.9, end: 189.7},
+                { text: "撩(liu1)", start: 189.1, end: 189.7},
+                { text: "\n一、", start: 187.5, end: 189.7},
+                { text: "二、", start: 187.8, end: 189.7},
+                { text: "三、", start: 188, end: 189.7},
+                { text: "四、", start: 188.6, end: 189.7},
+                { text: "五、", start: 188.9, end: 189.7},
+                { text: "六", start: 189.1, end: 189.7},
+              ]
+             }
+            ]
+           },
+           {
+          time: 189.7,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "셀 ", start: 189.7, end: 192},
+                { text: "수 ", start: 190, end: 192},
+                { text: "없어 ", start: 190.3, end: 192},
+                { text: "다 ", start: 190.8, end: 192}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: " eh ", start: 191.4, end: 192}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n些 ", start: 189.7, end: 192},
+                { text: "舒 ", start: 190, end: 192},
+                { text: "up梳 ", start: 190.3, end: 192},
+                { text: "達 ", start: 190.8, end: 192}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: " eh ", start: 191.4, end: 192}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n多", start: 189.7, end: 192},
+                { text: "得", start: 190, end: 192},
+                { text: "數不", start: 190.3, end: 192},
+                { text: "完", start: 190.8, end: 192}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: " eh ", start: 191.4, end: 192}
+              ]
+             }
+            ]
+           },
+           {
+          time: 192,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너를", start: 192, end: 196.3},
+                { text: "사", start: 192.4, end: 196.3},
+                { text: "랑하는 ", start: 193.1, end: 196.3},
+                { text: "이유를 ", start: 194, end: 196.3},
+                { text: "말이야 ", start: 194.9, end: 196.3}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: " eh ", start: 195.7, end: 196.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n囉攣", start: 192, end: 196.3},
+                { text: "沙", start: 192.4, end: 196.3},
+                { text: "拉夏攣 ", start: 193.1, end: 196.3},
+                { text: "이유呢(ne1)妖攣 ", start: 194, end: 196.3},
+                { text: "嘛呢(ne1)呀", start: 194.9, end: 196.3},
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n愛你", start: 192, end: 196.3},
+                { text: "的", start: 192.4, end: 196.3},
+                { text: "理", start: 193.1, end: 196.3},
+                { text: "由", start: 194, end: 196.3},
+                { text: "啊 ", start: 194.9, end: 196.3}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: " eh ", start: 195.7, end: 196.3}
+              ]
+             },
+            ]
+           },
+           {
+          time: 196.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "일,", start: 196.3, end: 198.4},
+                { text: "이,", start: 196.5, end: 198.4},
+                { text: "삼,", start: 196.8, end: 198.4},
+                { text: "사,", start: 197.4, end: 198.4},
+                { text: "오,", start: 197.6, end: 198.4},
+                { text: "육", start: 197.9, end: 198.4},
+                { text: "\n伊、", start: 196.3, end: 198.4},
+                { text: "呢(ne1)、", start: 196.5, end: 198.4},
+                { text: "衫、", start: 196.8, end: 198.4},
+                { text: "沙、", start: 197.4, end: 198.4},
+                { text: "烏、", start: 197.6, end: 198.4},
+                { text: "撩(liu1)", start: 197.9, end: 198.4},
+                { text: "\n一、", start: 196.3, end: 198.4},
+                { text: "二、", start: 196.5, end: 198.4},
+                { text: "三、", start: 196.8, end: 198.4},
+                { text: "四、", start: 197.4, end: 198.4},
+                { text: "五、", start: 197.6, end: 198.4},
+                { text: "六", start: 197.9, end: 198.4},
+              ]
+             }
+            ]
+           },
+           {
+          time: 198.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "세어만 ", start: 198.4, end: 200},
+                { text: "보", start: 199.2, end: 200},
+                { text: "다", start: 199.6, end: 200},
+                { text: "\n些噢掹 ", start: 198.4, end: 200},
+                { text: "Bu", start: 199.2, end: 200},
+                { text: "打", start: 199.6, end: 200},
+                { text: "\n一邊", start: 198.4, end: 200},
+                { text: "數", start: 199.2, end: 200},
+                { text: "著", start: 199.6, end: 200}
+              ]
+             }
+            ]
+           },
+           {
+          time: 200,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "깜", start: 200, end: 202.7},
+                { text: "빡 ", start: 201.1, end: 202.7},
+                { text: "스", start: 201.7, end: 202.7},
+                { text: "르", start: 202, end: 202.7},
+                { text: "륵", start: 202.2, end: 202.7},
+                { text: "\n班", start: 200, end: 202.7},
+                { text: "啪 ", start: 201.1, end: 202.7},
+                { text: "舒", start: 201.7, end: 202.7},
+                { text: "lu", start: 202, end: 202.7},
+                { text: "lu", start: 202.2, end: 202.7},
+                { text: "\n不", start: 200, end: 202.7},
+                { text: "小", start: 201.1, end: 202.7},
+                { text: "心", start: 201.7, end: 202.7}
+              ]
+             },
+            ]
+           },
+           {
+          time: 202.7,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "잠이 ", start: 200, end: 202.7},
+                { text: "들", start: 203.3, end: 202.7},
+                { text: "었", start: 203.6, end: 202.7},
+                { text: "다 ", start: 203.8, end: 202.7},
+  
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "(아이쿠)", start: 204.5, end: 205.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n參伊 ", start: 200, end: 202.7},
+                { text: "嘟", start: 203.3, end: 202.7},
+                { text: "哦", start: 203.6, end: 202.7},
+                { text: "打 ", start: 203.8, end: 202.7},
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n就", start: 200, end: 202.7},
+                { text: "睡", start: 203.3, end: 202.7},
+                { text: "著", start: 203.6, end: 202.7},
+                { text: "了", start: 203.8, end: 202.7},
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "(哎呀)", start: 204.5, end: 205.2}
+              ]
+             },
+            ]
+           },
+           {
+          time: 205.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 205.2, end: 211}
+              ]
+             },
+            ]
+           },
+          ]
+         },
     advanced: {
       videoId: "zYfM_sYClnY",
       lyrics: []
