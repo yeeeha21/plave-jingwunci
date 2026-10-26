@@ -3683,7 +3683,7 @@ const SONGS = [
     normal: {
       videoId: "ma3evv4vnW0",
       lyrics: [
-          
+          {
           time: 36.9,
           segments: [
              {
