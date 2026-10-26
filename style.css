@@ -1024,12 +1024,6 @@ body {
   color: #7a6b96;
 }
 
-/* 單字發亮 */
-.lyric-word.word-active {
-  color: var(--accent);
-  text-shadow: 0 0 10px var(--accent);
-}
-
 /* 保留空格 */
 .lyric-word,
 .lyric-line {
@@ -1050,12 +1044,6 @@ body {
 .lyric-line {
   color: #c8bdd9;          /* 還沒唸到：正常偏暗 */
   transition: color 0.2s, background 0.2s;
-}
-
-.lyric-line.active {
-  color: #ffffff;          /* 正在唸：正常亮色 */
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
-  text-shadow: none;
 }
 
 .lyric-line.past {
