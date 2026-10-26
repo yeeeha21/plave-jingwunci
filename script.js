@@ -4700,7 +4700,7 @@ const SONGS = [
     normal: {
       videoId: "ma3evv4vnW0",
       lyrics: [
-          {
+           {
           time: 36.9,
           segments: [
              {
@@ -4800,10 +4800,10 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "\n媽呢 ", start: 52.4, end: 54.5},
-                { text: "摸", start: 53, end: 54.5},
+                { text: "摸", start: 52.9, end: 54.5},
                 { text: "hae", start: 53.2, end: 54.5},
                 { text: "\n還用", start: 52.4, end: 54.5},
-                { text: "多說", start: 53, end: 54.5},
+                { text: "多說", start: 52.9, end: 54.5},
                 { text: "嗎？", start: 53.2, end: 54.5}
               ]
              },
@@ -5055,7 +5055,7 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                { text: "\n會頭昏腦脹", start: 72, end: 81.8}
+                { text: "\n會頭昏腦脹", start: 80, end: 81.8}
               ]
              },
              {
@@ -5090,7 +5090,7 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                { text: "\n會頭昏腦脹", start: 81.8, end: 81.8}
+                { text: "\n會頭昏腦脹", start: 81.8, end: 84}
               ]
              },
              {
@@ -5795,7 +5795,7 @@ const SONGS = [
              {
               color: "#b81818",
               words: [
-                { text: "Before, before", start: 164.1, end: 153.2}
+                { text: "Before, before", start: 164.1, end: 170}
               ]
              },
              {
@@ -5861,7 +5861,7 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "増え続けるミス분", start: 173.1, end: 174.3}
+                { text: "増え続けるミス", start: 173.1, end: 174.3}
               ]
              },
              {
@@ -6221,10 +6221,10 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "잠이 ", start: 200, end: 202.7},
-                { text: "들", start: 203.3, end: 202.7},
-                { text: "었", start: 203.6, end: 202.7},
-                { text: "다 ", start: 203.8, end: 202.7},
+                { text: "잠이 ", start: 200, end: 205.2},
+                { text: "들", start: 203.3, end: 205.2},
+                { text: "었", start: 203.6, end: 205.2},
+                { text: "다 ", start: 203.8, end: 205.2},
   
               ]
              },
@@ -6237,19 +6237,19 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\n參伊 ", start: 200, end: 202.7},
-                { text: "嘟", start: 203.3, end: 202.7},
-                { text: "哦", start: 203.6, end: 202.7},
-                { text: "打 ", start: 203.8, end: 202.7},
+                { text: "\n參伊 ", start: 200, end: 205.2},
+                { text: "嘟", start: 203.3, end: 205.2},
+                { text: "哦", start: 203.6, end: 205.2},
+                { text: "打 ", start: 203.8, end: 205.2},
               ]
              },
              {
               color: "#ff962d",
               words: [
-                { text: "\n就", start: 200, end: 202.7},
-                { text: "睡", start: 203.3, end: 202.7},
-                { text: "著", start: 203.6, end: 202.7},
-                { text: "了", start: 203.8, end: 202.7},
+                { text: "\n就", start: 200, end: 205.2},
+                { text: "睡", start: 203.3, end: 205.2},
+                { text: "著", start: 203.6, end: 205.2},
+                { text: "了", start: 203.8, end: 205.2},
               ]
              },
              {
