@@ -5623,31 +5623,6 @@ function openSong(songId, version = "normal") {
     }
 
     updateLyrics(0);
-    // 只在目前句子改變時捲動，避免每次同步都重新捲動
-if (
-  nextActiveLineIndex >= 0 &&
-  nextActiveLineIndex !== lastScrolledLineIndex
-) {
-  const activeElement = lineElements[nextActiveLineIndex];
-
-  if (activeElement) {
-    // 檢查目前使用者是否正在看歌詞區域
-    const lyricsContainer = el.lyricsList; // 或你的歌詞容器
-    const rect = lyricsContainer.getBoundingClientRect();
-    const isLyricsVisible = rect.top < window.innerHeight && rect.bottom > 0;
-
-    // 只有歌詞區域在畫面上時，才自動捲動
-    if (isLyricsVisible) {
-      activeElement.scrollIntoView({
-        behavior: "smooth",
-        block: "center"
-      });
-    }
-  }
-
-  lastScrolledLineIndex = nextActiveLineIndex;
-}
-
     setStatus(
       `${versionLabel}尚未設定 YouTube 影片 ID。請輸入網址或 ID。`
     );
@@ -5866,6 +5841,32 @@ function updateLyrics(time) {
       );
     });
   });
+
+    if (
+    nextActiveLineIndex >= 0 &&
+    nextActiveLineIndex !== lastScrolledLineIndex
+  ) {
+    const activeElement = lineElements[nextActiveLineIndex];
+
+    if (activeElement) {
+      const container = el.lyricsList || activeElement.parentElement;
+      const rect = container.getBoundingClientRect();
+
+      const isMostlyVisible =
+        rect.top < window.innerHeight * 0.7 &&
+        rect.bottom > window.innerHeight * 0.3;
+
+      if (isMostlyVisible) {
+        activeElement.scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
+      }
+    }
+
+    lastScrolledLineIndex = nextActiveLineIndex;
+  }
+
 
   // 只在目前句子改變時捲動，避免每次同步都重新捲動。
   if (
