@@ -4702,7 +4702,7 @@ const SONGS = [
           }
          },     
 
-  {
+ {
     id: 10,
     title: "BBUU!",
     cover: "Image/PLBBUU.jpg",
@@ -4943,7 +4943,7 @@ const SONGS = [
              {
               color: "#ff962d",
               word:[
-                { text: "\n 一、", start: 63.2, end: 65.4}
+                { text: "\n一、", start: 63.2, end: 65.4}
               ]
              },
              {
@@ -5284,7 +5284,7 @@ const SONGS = [
              {
               color: "#ff962d",
               word:[
-                { text: "\n 一、", start: 98.1, end: 100.3}
+                { text: "\n一、", start: 98.1, end: 100.3}
               ]
              },
              {
@@ -5673,7 +5673,7 @@ const SONGS = [
              {
               color: "#ff962d",
               word:[
-                { text: "\n 一、", start: 141.7, end: 143.9}
+                { text: "\n一、", start: 141.7, end: 143.9}
               ]
              },
              {
@@ -6283,13 +6283,11 @@ const SONGS = [
            },
           ]
          },
-
     advanced: {
       videoId: "zYfM_sYClnY",
       lyrics: []
     }
   },
-
   {
     id: 11,
     title: "Born Savage",
