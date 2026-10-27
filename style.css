@@ -1160,3 +1160,33 @@ body > footer,
 hr, .divider, .line {
   display: none !important;
 }
+
+/* 歌曲卡片 hover */
+.song-card {
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.song-card:hover {
+  border-color: #B82649;
+  box-shadow: 0 6px 16px rgba(184, 38, 73, 0.25);
+  transform: translateY(-3px);
+}
+
+/* 練習LASSGO! 按鈕 hover */
+.start-btn {
+  transition: all 0.2s;
+  border: 1.5px solid #E83E66;
+}
+
+.start-btn:hover {
+  background: #B82649;
+  border-color: #B82649;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(184, 38, 73, 0.35);
+  transform: translateY(-1px);
+}
+
+.start-btn:hover .btn-black,
+.start-btn:hover .btn-pink {
+  color: #fff;
+}
