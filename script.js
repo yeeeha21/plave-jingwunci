@@ -8861,45 +8861,29 @@ function renderSongList() {
     const card = document.createElement("article");
     card.className = "song-card";
 
-    const heading = document.createElement("div");
-    heading.className = "song-card-heading";
-
+    // 歌名
     const title = document.createElement("div");
-    title.className = "song-card-title";
+    title.className = "song-title";
     title.textContent = song.title;
 
-    heading.appendChild(title);
+    // 專輯圖片（先用占位）
+    const albumArt = document.createElement("div");
+    albumArt.className = "album-art";
+    albumArt.textContent = "專輯圖片";
 
-    const description = document.createElement("div");
-    description.className = "song-card-description";
-    description.textContent = song.description || "";
-
-    const versionButtons = document.createElement("div");
-    versionButtons.className = "song-version-buttons";
-
-    const normalButton = document.createElement("button");
-    normalButton.type = "button";
-    normalButton.className = "song-version-button normal-version";
-    normalButton.textContent = "普通版";
-    normalButton.addEventListener("click", () => {
-      openSong(song.id, "normal");
+    // 練習按鈕
+    const startBtn = document.createElement("button");
+    startBtn.type = "button";
+    startBtn.className = "start-btn";
+    startBtn.textContent = "練習，開始！";
+    startBtn.addEventListener("click", () => {
+      // 使用目前選擇的版本（普通版 / 進階版）
+      openSong(song.id, currentVersion || "normal");
     });
 
-    const advancedButton = document.createElement("button");
-    advancedButton.type = "button";
-    advancedButton.className =
-      "song-version-button advanced-version";
-    advancedButton.textContent = "進階版";
-    advancedButton.addEventListener("click", () => {
-      openSong(song.id, "advanced");
-    });
-
-    versionButtons.append(normalButton, advancedButton);
-    card.append(heading, description, versionButtons);
+    card.append(title, albumArt, startBtn);
     el.songList.appendChild(card);
   });
-
-  setText(el.songTotal, String(SONGS.length));
 }
 
 /* =========================================================
