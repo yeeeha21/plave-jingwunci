@@ -7589,7 +7589,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(永遠都! ", start: 59.4, end: 55.4},
+                { text: "(永遠都! ", start: 53.4, end: 55.4},
                 { text: "在一起!)", start: 54.1, end: 55.4}
               ]
              }
