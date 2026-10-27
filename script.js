@@ -3440,7 +3440,7 @@ const SONGS = [
    {
     id: 8,
     title: "かくれんぼ",
-    cover: "Image/かくれんぼ (Hide and Seek).jpg",
+    cover: "Image/かくれんぼ.jpg",
     description: "",
     normal: {
       videoId: "lSNygjXQ8fc",
@@ -3454,7 +3454,7 @@ const SONGS = [
   {
     id: 9,
     title: "숨바꼭질",
-    cover: "Image/숨바꼭질 (Hide and Seek).jpg",
+    cover: "Image/숨바꼭질.jpg",
     description: "",
     normal: {
       videoId: "mGqYMma_YIk",
