@@ -1100,3 +1100,27 @@ a:focus-visible,
 .song-card .start-btn {
   margin-top: auto; /* 讓按鈕固定在卡片底部 */
 }
+
+/* 強制清除紫色背景 */
+body,
+html,
+#home-page,
+.hero,
+.intro,
+.list-toolbar,
+main,
+.container {
+  background: #FFE6EC !important;
+  background-color: #FFE6EC !important;
+  background-image: none !important;
+}
+
+/* 隱藏可能殘留的舊標題 */
+.eyebrow,
+.intro-text,
+.list-note,
+.section-number,
+.count-badge,
+#song-total {
+  display: none !important;
+}
