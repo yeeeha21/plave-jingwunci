@@ -1073,3 +1073,6 @@ a:focus-visible,
   color: #E83E66;
 }
 
+* {
+  font-family: "BoutiqueBitmap", "Galmuri11", "Noto Sans TC", "Microsoft JhengHei", sans-serif !important;
+}
