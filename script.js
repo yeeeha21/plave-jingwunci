@@ -7481,13 +7481,1141 @@ const SONGS = [
     description: "",
     normal: {
       videoId: "2UZ4MLjFDG0",
-      lyrics: []
-    },
+      lyrics: [ {
+          time: 34,
+          segments: [
+             {
+              color: "#954b01",
+              words: [
+                { text: "MUSIC START!", start: 34, end: 35}
+              ]
+             }
+            ]
+           },
+           {
+          time: 35,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 35, end: 39.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 39.6,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "남예준 ", start: 39.6, end: 44},
+                { text: "한노아 ", start: 40.5, end: 44},
+                { text: "채밤비 ", start: 41.1, end: 44},
+                { text: "도은호 ", start: 42, end: 44},
+                { text: "유하민", start: 42.7, end: 44},
+                { text: "\n躝夜轉 ", start: 39.6, end: 44},
+                { text: "慳糯也 ", start: 40.5, end: 44},
+                { text: "車扮B ", start: 41.1, end: 44},
+                { text: "Do䟴呵 ", start: 42, end: 44},
+                { text: "you夏mean", start: 42.7, end: 44},
+                { text: "\n南藝俊 ", start: 39.6, end: 44},
+                { text: "韓諾亞 ", start: 40.5, end: 44},
+                { text: "蔡斑比 ", start: 41.1, end: 44},
+                { text: "都銀虎 ", start: 42, end: 44},
+                { text: "柳河玟", start: 42.7, end: 44},
+              ]
+             }
+            ]
+           },
+           {
+          time: 44,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플! ", start: 44, end: 45.6},
+                { text: "레! ", start: 44.3, end: 45.6},
+                { text: "이! ", start: 44.6, end: 45.6},
+                { text: "브!", start: 45, end: 45.6},
+                { text: "\n噗! ", start: 44, end: 45.6},
+                { text: "呢! ", start: 44.3, end: 45.6},
+                { text: "伊! ", start: 44.6, end: 45.6},
+                { text: "bu!", start: 45, end: 45.6},
+                { text: "\nP ", start: 44, end: 45.6},
+                { text: "LA ", start: 44.3, end: 45.6},
+                { text: "V ", start: 44.6, end: 45.6},
+                { text: "E!", start: 45, end: 45.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 45.6,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "I'm alone, but I don't really feel alone\n我孤身一人 但我從不感到孤獨", start: 45.6, end: 51}
+              ]
+             }
+            ]
+           },
+           {
+          time: 51,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "언제든 어디서든 보이니까 ", start: 51, end: 55.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(언제나! ", start: 59.4, end: 55.4},
+                { text: "함께해!)", start: 54.1, end: 55.4},
+                { text: "\n(on借啦! ", start: 59.4, end: 55.4},
+                { text: "哼嘅er!)", start: 54.1, end: 55.4}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n因為何時何地都能看見 ", start: 51, end: 55.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(永遠都! ", start: 59.4, end: 55.4},
+                { text: "在一起!)", start: 54.1, end: 55.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 55.4,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Don't wanna live without\n我不願活在失去", start: 55.4, end: 58}
+              ]
+             }
+            ]
+           },
+           {
+          time: 58,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "stars that light the sky\n星光照耀的夜空下", start: 58, end: 61.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 61.4,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "just, tell me what it's like, to see the other side\n請告訴我遙望對面 是種什麼樣的感覺", start: 61.4, end: 65.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 65.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Star ", start: 65.8, end: 67.6},
+                { text: "Race!", start: 66.5, end: 67.6},
+              ]
+             }
+            ]
+           },
+           {
+          time: 67.6,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "I'm stuck here loving afar, my ", start: 67.6, end: 70.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "desire", start: 69, end: 70.2}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n我被困在此處 遠遠愛著我的", start: 67.6, end: 70.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "摯愛", start: 69, end: 70.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 70.2,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "When we're apart, it never grows ", start: 70.2, end: 73.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "tired", start: 71.9, end: 73.1}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n當我們分離 這份愛意不會讓我", start: 70.2, end: 73.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "疲憊", start: 71.9, end: 73.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 73.1,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "I need it ", start: 73.1, end: 75.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(We ", start: 74.3, end: 75.9},
+                { text: "need ", start: 74.7, end: 75.9},
+                { text: "you!)", start: 75.2, end: 75.9}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n我需要它", start: 73.1, end: 75.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(我們 ", start: 74.3, end: 75.9},
+                { text: "需要 ", start: 74.7, end: 75.9},
+                { text: "你!)", start: 75.2, end: 75.9},
+              ]
+             }
+            ]
+           },
+           {
+          time: 75.9,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "Can you hear me ", start: 75.9, end: 78.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(I can ", start: 77, end: 78.3},
+                { text: "hear ", start: 77.5, end: 78.3},
+                { text: "you!)", start: 77.9, end: 78.3}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n你可曾聽見我的聲音", start: 75.9, end: 78.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(我 聽 ", start: 77, end: 78.3},
+                { text: "見 ", start: 77.5, end: 78.3},
+                { text: "你!)", start: 77.9, end: 78.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 78.3,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "I couldn't wait till you pull me up ", start: 78.3, end: 81.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 81.2, end: 81.8}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "\n我等不及你來救我 ", start: 78.3, end: 81.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 81.2, end: 81.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 81.8,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "When a star falls on you\n當繁星向你墜落", start: 81.8, end: 83.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 83.6,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너를 ", start: 83.6, end: 84.9},
+                { text: "위", start: 83.6, end: 84.9},
+                { text: "해서", start: 84.4, end: 84.9},
+                { text: "서", start: 84.7, end: 84.9},
+                { text: "\n囉攣 ", start: 83.6, end: 84.9},
+                { text: "we/", start: 83.6, end: 84.9},
+                { text: "er/", start: 84.4, end: 84.9},
+                { text: "sor", start: 84.7, end: 84.9},
+                { text: "\n只要", start: 83.6, end: 84.9},
+                { text: "為", start: 83.6, end: 84.9},
+                { text: "了", start: 84.4, end: 84.9},
+                { text: "你", start: 84.7, end: 84.9},
+              ]
+             }
+            ]
+           },
+           {
+          time: 84.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "I want it to be close to you right now\n現在我就想再離你更近一些", start: 84.9, end: 89.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 89.3,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I can't contain this, you light me up", start: 89.3, end: 92.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 92.1, end: 92.9}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n我無法抑制這份愛 你點亮了我的世界", start: 89.3, end: 92.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 92.1, end: 92.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 92.9,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "When a star falls on you\n當繁星向你墜落", start: 92.9, end: 94.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 94.6,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너를 ", start: 94.6, end: 95.9},
+                { text: "위", start: 95.1, end: 95.9},
+                { text: "해", start: 95.3, end: 95.9},
+                { text: "서", start: 95.7, end: 95.9},
+                { text: "\n囉攣 ", start: 94.6, end: 95.9},
+                { text: "we/", start: 95.1, end: 95.9},
+                { text: "er/", start: 95.3, end: 95.9},
+                { text: "sor", start: 95.7, end: 95.9},
+                { text: "\n只要", start: 94.6, end: 95.9},
+                { text: "為", start: 95.1, end: 95.9},
+                { text: "了", start: 95.3, end: 95.9},
+                { text: "你", start: 95.7, end: 95.9},
+              ]
+             }
+            ]
+           },
+           {
+          time: 95.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "I want it to be close to you right now\n現在我就想再離你更近一些", start: 95.9, end: 99.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 99.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "HO!", start: 99.8, end: 100.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 111.1,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Moves like a signal pulling me ", start: 111.1, end: 113.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "again", start: 112.8, end: 113.8}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "訊號再次牽引著我", start: 111.1, end: 113.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "前行", start: 112.8, end: 113.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 113.8,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "떨어지는 별의 선이 ", start: 113.8, end: 116.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "빛", start: 115.3, end: 116.6},
+                { text: "날 ", start: 115.6, end: 116.6},
+                { text: "때", start: 116, end: 116.6},
+                { text: "\n騙 ", start: 115.3, end: 116.6},
+                { text: "night ", start: 115.6, end: 116.6},
+                { text: "嗲", start: 116, end: 116.6},
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "當流星的軌跡照", start: 113.8, end: 116.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                 { text: "\n亮", start: 115.3, end: 116.6},
+                { text: "夜", start: 115.6, end: 116.6},
+                { text: "空", start: 116, end: 116.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 116.6,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Baby it's a feeling that I've ", start: 116.6, end: 119.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "never felt", start: 118, end: 119.1}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "這種感覺我從", start: 116.6, end: 119.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "未有過", start: 118, end: 119.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 119.1,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Trust me, I will hold you, and we'll ", start: 119.1, end: 122.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "be okay", start: 120.8, end: 122.4}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "相信我 我會緊抱住你 我們都會", start: 119.1, end: 122.4}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "沒事的", start: 120.8, end: 122.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 122.4,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I'm stuck here loving afar, my ", start: 122.4, end: 125}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "desire", start: 124.1, end: 125}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n我被困在此處 遠遠愛著我的", start: 122.4, end: 125}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "摯愛", start: 124.1, end: 125}
+              ]
+             }
+            ]
+           },
+           {
+          time: 125,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "When we're apart, it never grows ", start: 125, end: 127.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "tired", start: 126.9, end: 127.9}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n當我們分離 這份愛意不會讓我", start: 125, end: 127.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "疲憊", start: 126.9, end: 127.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 127.9,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "I need it ", start: 127.9, end: 130.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(We ", start: 129.4, end: 130.7},
+                { text: "need ", start: 129.7, end: 130.7},
+                { text: "you!)", start: 130, end: 130.7}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n我需要它", start: 127.9, end: 130.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(我們 ", start: 129.4, end: 130.7},
+                { text: "需要 ", start: 129.7, end: 130.7},
+                { text: "你!)", start: 130, end: 130.7},
+              ]
+             }
+            ]
+           },
+           {
+          time: 130.7,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "Can you hear me ", start: 130.7, end: 133.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(I can ", start: 122, end: 133.3},
+                { text: "hear ", start: 122.4, end: 133.3},
+                { text: "you!)", start: 122.8, end: 133.3}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n你可曾聽見我的聲音", start: 130.7, end: 133.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(我 聽 ", start: 122, end: 133.3},
+                { text: "見 ", start: 122.4, end: 133.3},
+                { text: "你!)", start: 122.8, end: 133.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 133.3,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "I couldn't wait till you pull me up ", start: 133.3, end: 136.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 136.1, end: 136.7}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n我等不及你來救我 ", start: 133.3, end: 136.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 136.1, end: 136.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 136.7,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "When a star falls on you\n當繁星向你墜落", start: 136.7, end: 138.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 138.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너를 ", start: 138.4, end: 139.8},
+                { text: "위", start: 139, end: 139.8},
+                { text: "해", start: 139.3, end: 139.8},
+                { text: "서", start: 139.6, end: 139.8},
+                { text: "\n囉攣 ", start: 138.4, end: 139.8},
+                { text: "we/", start: 139, end: 139.8},
+                { text: "er/", start: 139.3, end: 139.8},
+                { text: "sor", start: 139.6, end: 139.8},
+                { text: "\n只要", start: 138.4, end: 139.8},
+                { text: "為", start: 139, end: 139.8},
+                { text: "了", start: 139.3, end: 139.8},
+                { text: "你", start: 139.6, end: 139.8},
+              ]
+             }
+            ]
+           },
+           {
+          time: 139.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "I want it to be close to you right now\n現在我就想再離你更近一些", start: 139.8, end: 143.9}
+              ]
+             }
+            ]
+           },
+            {
+          time: 143.9,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I can't contain this, you light me up", start: 143.9, end: 147.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 147, end: 147.7}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n我無法抑制這份愛 你點亮了我的世界", start: 143.9, end: 147.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 147, end: 147.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 147.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "When a star falls on you\n當繁星向你墜落", start: 147.7, end: 149.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 149.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너를 ", start: 149.3, end: 150.8},
+                { text: "위", start: 150, end: 150.8},
+                { text: "해", start: 150.3, end: 150.8},
+                { text: "서", start: 150.6, end: 150.8},
+                { text: "\n囉攣 ", start: 149.3, end: 150.8},
+                { text: "we/", start: 150, end: 150.8},
+                { text: "er/", start: 150.3, end: 150.8},
+                { text: "sor", start: 150.6, end: 150.8},
+                { text: "\n只要", start: 149.3, end: 150.8},
+                { text: "為", start: 150, end: 150.8},
+                { text: "了", start: 150.3, end: 150.8},
+                { text: "你", start: 150.6, end: 150.8},
+              ]
+             }
+            ]
+           },
+           {
+          time: 150.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "I want it to be close to you right now\n現在我就想再離你更近一些", start: 150.8, end: 153.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 153.5,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 153.5, end: 155}
+              ]
+             }
+            ]
+           },
+           {
+          time: 155,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Wow-o Wo-o-oh", start: 155, end: 160.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 160.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Wow-o Wo-o-oh", start: 160.3, end: 165.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 165.3,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "This is the time of our lives\n此刻就是我們人生的瞬間", start: 165.3, end: 174.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 176.6,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Go!", start: 176.6, end: 177}
+              ]
+             }
+            ]
+           },
+           {
+          time: 177,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "남예준 ", start: 177, end: 181.1},
+                { text: "한노아 ", start: 177.7, end: 181.1},
+                { text: "채밤비 ", start: 178.3, end: 181.1},
+                { text: "도은호 ", start: 179, end: 181.1},
+                { text: "유하민", start: 179.7, end: 181.1},
+                { text: "\n躝夜轉 ", start: 177, end: 181.1},
+                { text: "慳糯也 ", start: 177.7, end: 181.1},
+                { text: "車扮B ", start: 178.3, end: 181.1},
+                { text: "Do䟴呵 ", start: 179, end: 181.1},
+                { text: "you夏mean", start: 179.7, end: 181.1},
+                { text: "\n南藝俊 ", start: 177, end: 181.1},
+                { text: "韓諾亞 ", start: 177.7, end: 181.1},
+                { text: "蔡斑比 ", start: 178.3, end: 181.1},
+                { text: "都銀虎 ", start: 179, end: 181.1},
+                { text: "柳河玟", start: 179.7, end: 181.1},
+              ]
+             }
+            ]
+           },
+           {
+          time: 181.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플! ", start: 181.1, end: 182.5},
+                { text: "레! ", start: 181.4, end: 182.5},
+                { text: "이! ", start: 181.8, end: 182.5},
+                { text: "브!", start: 182, end: 182.5},
+                { text: "\n噗! ", start: 181.1, end: 182.5},
+                { text: "呢! ", start: 181.4, end: 182.5},
+                { text: "伊! ", start: 181.8, end: 182.5},
+                { text: "bu!", start: 182, end: 182.5},
+                { text: "\nP! ", start: 181.1, end: 182.5},
+                { text: "L! A! ", start: 181.4, end: 182.5},
+                { text: "V! ", start: 181.8, end: 182.5},
+                { text: "E!", start: 182, end: 182.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 182.5,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "남예준 ", start: 182.5, end: 186.6},
+                { text: "한노아 ", start: 183.1, end: 186.6},
+                { text: "채밤비 ", start: 183.8, end: 186.6},
+                { text: "도은호 ", start: 184.6, end: 186.6},
+                { text: "유하민", start: 185.2, end: 186.6},
+                { text: "\n躝夜轉 ", start: 182.5, end: 186.6},
+                { text: "慳糯也 ", start: 183.1, end: 186.6},
+                { text: "車扮B ", start: 183.8, end: 186.6},
+                { text: "Do䟴呵 ", start: 184.6, end: 186.6},
+                { text: "you夏mean", start: 185.2, end: 186.6},
+                { text: "\n南藝俊 ", start: 182.5, end: 186.6},
+                { text: "韓諾亞 ", start: 183.1, end: 186.6},
+                { text: "蔡斑比 ", start: 183.8, end: 186.6},
+                { text: "都銀虎 ", start: 184.6, end: 186.6},
+                { text: "柳河玟", start: 185.2, end: 186.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 186.6,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플! ", start: 186.6, end: 187.9},
+                { text: "레! ", start: 186.8, end: 187.9},
+                { text: "이! ", start: 187.2, end: 187.9},
+                { text: "브!", start: 187.6, end: 187.9},
+                { text: "\n噗! ", start: 186.6, end: 187.9},
+                { text: "呢! ", start: 186.8, end: 187.9},
+                { text: "伊! ", start: 187.2, end: 187.9},
+                { text: "bu!", start: 187.6, end: 187.9},
+                { text: "\nP! ", start: 186.6, end: 187.9},
+                { text: "L! A! ", start: 186.8, end: 187.9},
+                { text: "V! ", start: 187.2, end: 187.9},
+                { text: "E!", start: 187.6, end: 187.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 187.9,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "I couldn't wait till you pull me up ", start: 187.9, end: 191.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 190.8, end: 191.5}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "\n我等不及你來救我 ", start: 187.9, end: 191.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 190.8, end: 191.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 191.5,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "When a star falls on you\n當繁星向你墜落", start: 191.5, end: 193.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 193.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너를 ", start: 193.2, end: 194.5},
+                { text: "위", start: 193.8, end: 194.5},
+                { text: "해서", start: 194.1, end: 194.5},
+                { text: "서", start: 194.5, end: 194.5},
+                { text: "\n囉攣 ", start: 193.2, end: 194.5},
+                { text: "we/", start: 193.8, end: 194.5},
+                { text: "er/", start: 194.1, end: 194.5},
+                { text: "sor", start: 194.5, end: 194.5},
+                { text: "\n只要", start: 193.2, end: 194.5},
+                { text: "為", start: 193.8, end: 194.5},
+                { text: "了", start: 194.1, end: 194.5},
+                { text: "你", start: 194.5, end: 194.5},
+              ]
+             }
+            ]
+           },
+           {
+          time: 194.5,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "I want it to be close to you right now\n現在我就想再離你更近一些", start: 194.5, end: 199}
+              ]
+             }
+            ]
+           },
+           {
+          time: 199,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I can't contain this, you light me up", start: 199, end: 202.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 201.8, end: 202.5}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n我無法抑制這份愛 你點亮了我的世界", start: 199, end: 202.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(up)", start: 201.8, end: 202.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 202.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "When a star falls on you\n當繁星向你墜落", start: 202.5, end: 204.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 204.2,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "너를 ", start: 204.2, end: 205.6},
+                { text: "위", start: 204.7, end: 205.6},
+                { text: "해", start: 205.1, end: 205.6},
+                { text: "서", start: 205.4, end: 205.6},
+                { text: "\n囉攣 ", start: 204.2, end: 205.6},
+                { text: "we/", start: 204.7, end: 205.6},
+                { text: "er/", start: 205.1, end: 205.6},
+                { text: "sor", start: 205.4, end: 205.6},
+                { text: "\n只要", start: 204.2, end: 205.6},
+                { text: "為", start: 204.7, end: 205.6},
+                { text: "了", start: 205.1, end: 205.6},
+                { text: "你", start: 205.4, end: 205.6},
+              ]
+             }
+            ]
+           },
+           {
+          time: 205.6,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "I want it to be close to you right now\n現在我就想再離你更近一些", start: 205.6, end: 210.2}
+              ]
+             }
+            ]
+           }
+          ]
+         },
+
     advanced: {
       videoId: "hxYPZpPZJ7o",
       lyrics: []
       }
-     }   
+     }  
     ];
 
 /* =========================================================
