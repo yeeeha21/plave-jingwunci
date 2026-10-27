@@ -8872,14 +8872,13 @@ function renderSongList() {
     albumArt.textContent = "專輯圖片";
 
     // 練習按鈕
-    const startBtn = document.createElement("button");
-    startBtn.type = "button";
-    startBtn.className = "start-btn";
-    startBtn.textContent = "練習，開始！";
-    startBtn.addEventListener("click", () => {
-      // 使用目前選擇的版本（普通版 / 進階版）
-      openSong(song.id, currentVersion || "normal");
-    });
+   const startBtn = document.createElement("button");
+startBtn.type = "button";
+startBtn.className = "start-btn";
+startBtn.innerHTML = `<span class="btn-black">練習</span><span class="btn-pink">LASSGO!</span>`;
+startBtn.addEventListener("click", () => {
+  openSong(song.id, currentListVersion || "normal");
+});
 
     card.append(title, albumArt, startBtn);
     el.songList.appendChild(card);
