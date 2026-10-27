@@ -19,7 +19,7 @@ const SONGS = [
  {
     id: 1,
     title: "Wait for you",
-    image: "Image/ASTERUM,jpg",
+    cover: "Image/ASTERUM,jpg",
     description: "",
     normal: {
       videoId: "IYojNEdcvbg",
@@ -1067,7 +1067,7 @@ const SONGS = [
    {
     id: 2,
     title: "Pixel World",
-    image: "Image/pixel world.jpg",
+    cover: "Image/pixel world.jpg",
     description: "",
     normal: {
       videoId: "9ZuqkkALRHk",
@@ -2328,7 +2328,7 @@ const SONGS = [
    {
     id: 3,
     title: "The 6th summer",
-    image: "Image/ASTERUM The Shape of Things to Come.jpg",
+    cover: "Image/ASTERUM The Shape of Things to Come.jpg",
     description: "",
     normal: {
       videoId: "KhPe6jC-jaQ",
@@ -3334,7 +3334,7 @@ const SONGS = [
   {
     id: 4,
     title: "Why?Why?Why?",
-    image: "Image/왜요 왜요 왜.jpg",
+    cover: "Image/왜요 왜요 왜.jpg",
     description: "",
     normal: {
       videoId: "jF4B7Yvct-c",
@@ -3398,7 +3398,7 @@ const SONGS = [
   {
     id: 5,
     title: "WAT 4 LUV",
-    image: "Image/ASTERUM 134-1.jpg",
+    cover: "Image/ASTERUM 134-1.jpg",
     description: "",
     normal: {
       videoId: "tRSvtYMjsxw",
@@ -3412,7 +3412,7 @@ const SONGS = [
   {
     id: 6,
     title: "Pump Up The Volume!",
-    image: "Image/Pump Up The Volume!.jpg",
+    cover: "Image/Pump Up The Volume!.jpg",
     description: "",
     normal: {
       videoId: "zLLHEZp_gbM",
@@ -3426,7 +3426,7 @@ const SONGS = [
   {
     id: 7,
     title: "Dash",
-    image: "Image/Caligo Pt.1.jpg",
+    cover: "Image/Caligo Pt.1.jpg",
     description: "",
     normal: {
       videoId: "9FopMGItmOw",
@@ -3440,7 +3440,7 @@ const SONGS = [
   {
     id: 8,
     title: "かくれんぼ/Hide and Seek",
-    image: "Image/かくれんぼ (Hide and Seek).jpg",
+    cover: "Image/かくれんぼ (Hide and Seek).jpg",
     description: "",
     normal: {
       videoId: "lSNygjXQ8fc",
@@ -3454,7 +3454,7 @@ const SONGS = [
   {
     id: 9,
     title: "숨바꼭질/Hide and Seek",
-    image: "Image/숨바꼭질 (Hide and Seek).jpg",
+    cover: "Image/숨바꼭질 (Hide and Seek).jpg",
     description: "",
     normal: {
       videoId: "mGqYMma_YIk",
@@ -4704,7 +4704,7 @@ const SONGS = [
   {
     id: 10,
     title: "BBUU!",
-    image: "Image/PLBBUU.jpg",
+    cover: "Image/PLBBUU.jpg",
     description: "",
     normal: {
       videoId: "ma3evv4vnW0",
@@ -6289,7 +6289,7 @@ const SONGS = [
   {
     id: 11,
     title: "Born Savage",
-    image: "Image/Caligo Pt.2.jpg",
+    cover: "Image/Caligo Pt.2.jpg",
     description: "",
     normal: {
       videoId: "fVH5atHZtys",
@@ -7488,7 +7488,7 @@ const SONGS = [
   {
     id: 12,
     title: "Star Trace",
-    image: "Image/HYPERDRIVE.jpg",
+    cover: "Image/HYPERDRIVE.jpg",
     description: "",
     normal: {
       videoId: "2UZ4MLjFDG0",
