@@ -34,37 +34,30 @@
 
     <main>
 
-      <!-- =========================
-           頁面一：歌曲列表
-           ========================= -->
-      <section id="home-page">
+     <!-- =========================
+     頁面一：歌曲列表
+     ========================= -->
+  <section id="home-page">
 
-        <section class="intro">
-          <p class="eyebrow"> </p> 
-          <h1>練習，<span>開始! </span></h1>
-          <p class="intro-text">
-          </p>
-        </section>
+  <h1 class="main-title">PLAVE應援練習</h1>
 
-        <!-- 歌曲總數與說明 -->
-        <div class="list-toolbar">
-          <div>
-            <span class="section-number">PLAYLIST</span>
-          </div>
+  <h2 class="playlist-title">PLAYLIST</h2>
 
-          <span id="song-total" class="count-badge">12 SONGS</span>
-        </div>
+  <div class="version-switcher">
+    <button id="version-prev" type="button">◀</button>
+    <span id="version-label">同大家一齊應援！</span>
+    <button id="version-next" type="button">▶</button>
+  </div>
 
-        <!--
-          JavaScript 會根據 SONGS 陣列，
-          自動產生 12 張歌曲卡片。
-        -->
-        <div id="song-list" class="song-grid"></div>
+  <!-- JavaScript 會根據 SONGS 陣列自動產生歌曲卡片 -->
+  <div id="song-list" class="song-grid"></div>
 
-        <p class="list-note">
-        </p>
-      </section>
+  <footer class="site-footer">
+    有任何問題可以DM<span class="highlight">@bambybambybam</span><br>
+    :D
+  </footer>
 
+  </section>
 
       <!-- =========================
            頁面二：同步歌詞播放器
