@@ -19,7 +19,7 @@ const SONGS = [
  {
     id: 1,
     title: "Wait for you",
-    cover: "Image/ASTERUM,jpg",
+    cover: "Image/ASTERUM.jpg",
     description: "",
     normal: {
       videoId: "IYojNEdcvbg",
@@ -2328,7 +2328,7 @@ const SONGS = [
    {
     id: 3,
     title: "The 6th summer",
-    cover: "Image/ASTERUM The Shape of Things to Come.jpg",
+    cover: "Image/ASTERUM-The-Shape-of-Things-to-Come.jpg",
     description: "",
     normal: {
       videoId: "KhPe6jC-jaQ",
@@ -3398,7 +3398,7 @@ const SONGS = [
   {
     id: 5,
     title: "WAT 4 LUV",
-    cover: "Image/ASTERUM 134-1.jpg",
+    cover: "Image/ASTERUM-134-1.jpg",
     description: "",
     normal: {
       videoId: "tRSvtYMjsxw",
