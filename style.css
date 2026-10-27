@@ -1071,3 +1071,11 @@ a:focus-visible,
 * {
   font-family: "BoutiqueBitmap", "Galmuri11", "Noto Sans TC", "Microsoft JhengHei", sans-serif !important;
 }
+
+.start-btn .btn-black {
+  color: #000;
+}
+
+.start-btn .btn-pink {
+  color: #E83E66;
+}
