@@ -1079,3 +1079,24 @@ a:focus-visible,
 .start-btn .btn-pink {
   color: #E83E66;
 }
+
+.song-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 260px; /* 可依實際調整 */
+}
+
+.song-card .song-title {
+  margin-bottom: 12px;
+}
+
+.song-card .album-art {
+  margin-bottom: 14px;
+}
+
+.song-card .start-btn {
+  margin-top: auto; /* 讓按鈕固定在卡片底部 */
+}
