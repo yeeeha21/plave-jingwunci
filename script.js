@@ -9584,8 +9584,6 @@ function updateVersionLabel() {
         ? "同大家一齊應援！"
         : "我要自己嚟！";
   }
-
- let currentListVersion = "normal";
    
 }
 
