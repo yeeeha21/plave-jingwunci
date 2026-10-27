@@ -8879,8 +8879,19 @@ function renderSongList() {
 
     // 專輯圖片（先用占位）
     const albumArt = document.createElement("div");
-    albumArt.className = "album-art";
-    albumArt.textContent = "專輯圖片";
+albumArt.className = "album-art";
+
+if (song.cover) {
+  const img = document.createElement("img");
+  img.src = song.cover;          // 這裡會自動使用你在 SONGS 裡寫的路徑
+  img.alt = song.title;
+  img.style.width = "100%";
+  img.style.height = "100%";
+  img.style.objectFit = "cover";
+  albumArt.appendChild(img);
+} else {
+  albumArt.textContent = "專輯圖片";
+}
 
     // 練習按鈕
    const startBtn = document.createElement("button");
