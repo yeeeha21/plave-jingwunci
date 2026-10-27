@@ -9554,6 +9554,31 @@ function bindEvents() {
 
 function init() {
   renderSongList();
+   // ========== 版本切換 ==========
+let currentListVersion = "normal";
+
+function updateVersionLabel() {
+  const label = document.getElementById("version-label");
+  if (label) {
+    label.textContent =
+      currentListVersion === "normal"
+        ? "同大家一齊應援！"
+        : "我要自己嚟！";
+  }
+}
+
+document.getElementById("version-prev")?.addEventListener("click", () => {
+  currentListVersion = currentListVersion === "normal" ? "advanced" : "normal";
+  updateVersionLabel();
+});
+
+document.getElementById("version-next")?.addEventListener("click", () => {
+  currentListVersion = currentListVersion === "normal" ? "advanced" : "normal";
+  updateVersionLabel();
+});
+
+// 初始化顯示
+updateVersionLabel();
   bindEvents();
   showHomePage();
   loadYouTubeApi();
