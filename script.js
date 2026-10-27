@@ -16,9 +16,10 @@
    ========================================================= */
 
 const SONGS = [
-  {
+ {
     id: 1,
     title: "Wait for you",
+    image: "Image/ASTERUM,jpg",
     description: "",
     normal: {
       videoId: "IYojNEdcvbg",
@@ -594,7 +595,7 @@ const SONGS = [
              ]
             }
           ]
-          },
+         },
           {
             time: 140.1,
             segments: [
@@ -645,7 +646,7 @@ const SONGS = [
                {
               color: "#ff962d",
               words: [
-                 { text: "매일 이 ", start: 151.1, end: 159.5 },
+                { text: "매일 이 ", start: 151.1, end: 159.5 },
                  { text: "렇", start: 152, end: 159.5 },
                  { text: "게 ", start: 152.2, end: 159.5 },
                  { text: "난 늘 ", start: 153, end: 159.5 },
@@ -1035,7 +1036,7 @@ const SONGS = [
            {
             time: 223.5,
             segments: [
-             {
+           {
               color: "#ff962d",
               words: [
                  { text: "기다릴게\nKey帶呢(ne1)嘅\n等待著你", start: 223.5, end: 226 }
@@ -1048,7 +1049,7 @@ const SONGS = [
     advanced: {
       videoId: "T_gJpnjJsnk",
       lyrics: [ 
-            {
+        {
             time: 179.3,
             segments: [
             {
@@ -1066,6 +1067,7 @@ const SONGS = [
    {
     id: 2,
     title: "Pixel World",
+    image: "Image/pixel world.jpg",
     description: "",
     normal: {
       videoId: "9ZuqkkALRHk",
@@ -2046,7 +2048,7 @@ const SONGS = [
               }
              ]
             },
-            {
+             {
             time: 140.2,
             segments: [
               {
@@ -2305,7 +2307,7 @@ const SONGS = [
              ]
             }
            ] 
-          },     
+         },     
     advanced: {
       videoId: "mk_7saG0rEE",
       lyrics: [
@@ -2323,10 +2325,10 @@ const SONGS = [
            ] 
           }
          },     
-
    {
     id: 3,
     title: "The 6th summer",
+    image: "Image/ASTERUM The Shape of Things to Come.jpg",
     description: "",
     normal: {
       videoId: "KhPe6jC-jaQ",
@@ -3309,8 +3311,9 @@ const SONGS = [
              }
             ]
            }
-          ]
-         },
+
+      ]
+    },
     advanced: {
       videoId: "dE_ddOigeZA",
       lyrics: [ 
@@ -3331,6 +3334,7 @@ const SONGS = [
   {
     id: 4,
     title: "Why?Why?Why?",
+    image: "Image/왜요 왜요 왜.jpg",
     description: "",
     normal: {
       videoId: "jF4B7Yvct-c",
@@ -3372,8 +3376,8 @@ const SONGS = [
              }
             ]
            },
-      ]
-    },
+          ]
+         },
     advanced: {
       videoId: "9WQ-kx-Y6m8",
       lyrics: [   
@@ -3394,6 +3398,7 @@ const SONGS = [
   {
     id: 5,
     title: "WAT 4 LUV",
+    image: "Image/ASTERUM 134-1.jpg",
     description: "",
     normal: {
       videoId: "tRSvtYMjsxw",
@@ -3407,6 +3412,7 @@ const SONGS = [
   {
     id: 6,
     title: "Pump Up The Volume!",
+    image: "Image/Pump Up The Volume!.jpg",
     description: "",
     normal: {
       videoId: "zLLHEZp_gbM",
@@ -3420,6 +3426,7 @@ const SONGS = [
   {
     id: 7,
     title: "Dash",
+    image: "Image/Caligo Pt.1.jpg",
     description: "",
     normal: {
       videoId: "9FopMGItmOw",
@@ -3433,6 +3440,7 @@ const SONGS = [
   {
     id: 8,
     title: "かくれんぼ/Hide and Seek",
+    image: "Image/かくれんぼ (Hide and Seek).jpg",
     description: "",
     normal: {
       videoId: "lSNygjXQ8fc",
@@ -3446,6 +3454,7 @@ const SONGS = [
   {
     id: 9,
     title: "숨바꼭질/Hide and Seek",
+    image: "Image/숨바꼭질 (Hide and Seek).jpg",
     description: "",
     normal: {
       videoId: "mGqYMma_YIk",
@@ -3661,7 +3670,7 @@ const SONGS = [
                 { text: "레 ", start: 96, end: 97.3},
                 { text: "이 ", start: 96.3, end: 97.3},
                 { text: "브)", start: 96.7, end: 97.3},
-                { text: "\n           (噗 ", start: 95.8, end: 97.3},
+                { text: "\n(噗 ", start: 95.8, end: 97.3},
                 { text: " 呢 ", start: 96, end: 97.3},
                 { text: " 伊 ", start: 96.3, end: 97.3},
                 { text: " bu)", start: 96.7, end: 97.3}
@@ -3733,7 +3742,7 @@ const SONGS = [
                 { text: " 바 ", start: 110.7, end: 112.6},
                 { text: " 꼭 ", start: 111.2, end: 112.6},
                 { text: " 질)", start: 111.8, end: 112.6},
-                { text: "\n           (Zoo ", start: 110, end: 112.6},
+                { text: "\n(Zoo ", start: 110, end: 112.6},
                 { text: " 拍 ", start: 110.7, end: 112.6},
                 { text: " 谷 ", start: 111.2, end: 112.6},
                 { text: " 知)", start: 111.9, end: 112.6}
@@ -3840,20 +3849,20 @@ const SONGS = [
              {
               color: "#b81818",
               words: [
-                { text: "이젠 알겠어 ", start: 125.8, end: 129.2}
+                { text: "이젠 알겠어 ", start: 127.8, end: 129.2}
               ]
              },
              {
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 128.9, end: 129.2},
-                { text: "\n       (艾嘅傻)", start: 128.9, end: 129.2},
+                { text: "\n(艾嘅傻)", start: 128.9, end: 129.2},
               ]
              },
              {
               color: "#b81818",
               words: [
-                { text: "\n現在明白了 ", start: 125.8, end: 129.2}
+                { text: "\n現在明白了 ", start: 127.8, end: 129.2}
               ]
              },
              {
@@ -3877,7 +3886,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 130.2, end: 130.6},
-                { text: "\n     (括(打daa1)啦傻)", start: 130.2, end: 130.6},
+                { text: "\n(括(打daa1)啦傻)", start: 130.2, end: 130.6},
               ]
              },
              {
@@ -3930,7 +3939,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 139.3, end: 140.6},
                 { text: "껏", start: 140, end: 140.6},
-                { text: "\n     謙", start: 139.3, end: 140.6},
+                { text: "\n謙", start: 139.3, end: 140.6},
                 { text: "鋸", start: 140, end: 140.6},
               ]
              },
@@ -3963,7 +3972,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 141.9, end: 143.3},
                 { text: "껏", start: 142.6, end: 143.3},
-                { text: "\n     謙", start: 141.9, end: 143.3},
+                { text: "\n謙", start: 141.9, end: 143.3},
                 { text: "鋸", start: 142.6, end: 143.3},
               ]
              },
@@ -3996,7 +4005,7 @@ const SONGS = [
               words: [
                 { text: "지", start: 144.5, end: 145.9},
                 { text: "금", start: 145.2, end: 145.9},
-                { text: "\n     次", start: 144.5, end: 145.9},
+                { text: "\n次", start: 144.5, end: 145.9},
                 { text: "捐", start: 145.2, end: 145.9},
               ]
              },
@@ -4039,7 +4048,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 149.7, end: 150.2},
-                { text: "\n       (艾嘅傻)", start: 149.7, end: 150.2},
+                { text: "\n(艾嘅傻)", start: 149.7, end: 150.2},
               ]
              },
              {
@@ -4069,7 +4078,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 151, end: 151.4},
-                { text: "\n     (括(打daa1)啦傻)", start: 151, end: 151.4},
+                { text: "\n(括(打daa1)啦傻)", start: 151, end: 151.4},
               ]
              },
              {
@@ -4121,7 +4130,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "너였어", start: 160.8, end: 161.8},
-                { text: "\n        囉your傻", start: 160.8, end: 161.8},
+                { text: "\n囉your傻", start: 160.8, end: 161.8},
               ]
              },
              {
@@ -4151,7 +4160,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(되찾았어)", start: 164, end: 164.6},
-                { text: "\n                   (車差揸sor)", start: 164, end: 164.6},
+                { text: "\n(車差揸sor)", start: 164, end: 164.6},
               ]
              },
              {
@@ -4263,7 +4272,7 @@ const SONGS = [
                 { text: "아", start: 183.7, end: 185.4},
                 { text: "갈", start: 184.3, end: 185.4},
                 { text: "게)", start: 185, end: 185.4},
-                { text: "\n           (差", start: 183, end: 185.4},
+                { text: "\n(差", start: 183, end: 185.4},
                 { text: "齋", start: 183.7, end: 185.4},
                 { text: "哀", start: 184.3, end: 185.4},
                 { text: "嘅)", start: 185, end: 185.4}
@@ -4314,7 +4323,7 @@ const SONGS = [
                 { text: "레 ", start: 188.9, end: 190.4},
                 { text: "이 ", start: 189.5, end: 190.4},
                 { text: "브)", start: 190.2, end: 190.4},
-                { text: "\n            (噗 ", start: 188.3, end: 190.4},
+                { text: "\n(噗 ", start: 188.3, end: 190.4},
                 { text: "呢 ", start: 188.9, end: 190.4},
                 { text: "伊 ", start: 189.5, end: 190.4},
                 { text: "bu)", start: 190.2, end: 190.4}
@@ -4400,7 +4409,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 201.9, end: 202.3},
-                { text: "\n       (艾嘅傻)", start: 201.9, end: 202.3},
+                { text: "\n(艾嘅傻)", start: 201.9, end: 202.3},
               ]
              },
              {
@@ -4430,7 +4439,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 203.2, end: 203.7},
-                { text: "\n     (括(打daa1)啦傻)", start: 203.2, end: 203.7},
+                { text: "\n(括(打daa1)啦傻)", start: 203.2, end: 203.7},
               ]
              },
              {
@@ -4483,7 +4492,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 212.3, end: 213.8},
                 { text: "껏", start: 213, end: 213.8},
-                { text: "\n     謙", start: 212.3, end: 213.8},
+                { text: "\n謙", start: 212.3, end: 213.8},
                 { text: "鋸", start: 213, end: 213.8}
               ]
              },
@@ -4516,7 +4525,7 @@ const SONGS = [
               words: [
                 { text: "힘", start: 215, end: 216.3},
                 { text: "껏", start: 215.7, end: 216.3},
-                { text: "\n     謙", start: 215, end: 216.3},
+                { text: "\n謙", start: 215, end: 216.3},
                 { text: "鋸", start: 215.7, end: 216.3}
               ]
              },
@@ -4549,7 +4558,7 @@ const SONGS = [
               words: [
                 { text: "지", start: 217.6, end: 219},
                 { text: "금", start: 218.3, end: 219},
-                { text: "\n     次", start: 217.6, end: 219},
+                { text: "\n次", start: 217.6, end: 219},
                 { text: "捐", start: 218.3, end: 219}
               ]
              },
@@ -4592,7 +4601,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(알겠어)", start: 222.7, end: 223.1},
-                { text: "\n       (艾嘅傻)", start: 222.7, end: 223.1},
+                { text: "\n(艾嘅傻)", start: 222.7, end: 223.1},
               ]
              },
              {
@@ -4622,7 +4631,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(깨달았어)", start: 224, end: 224.5},
-                { text: "\n     (括(打daa1)啦傻)", start: 224, end: 224.5},
+                { text: "\n(括(打daa1)啦傻)", start: 224, end: 224.5},
               ]
              },
              {
@@ -4692,15 +4701,15 @@ const SONGS = [
            ] 
           }
          },     
-
   {
     id: 10,
     title: "BBUU!",
+    image: "Image/PLBBUU.jpg",
     description: "",
     normal: {
       videoId: "ma3evv4vnW0",
       lyrics: [
-           {
+          {
           time: 36.9,
           segments: [
              {
@@ -5084,7 +5093,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\n      (two拿)", start: 82.8, end: 84}
+                { text: "\n(two拿)", start: 82.8, end: 84}
               ]
              },
              {
@@ -5427,7 +5436,7 @@ const SONGS = [
               color: "#ff962d",
               words: [
                 { text: "(응!)", start: 117.2, end: 118},
-                { text: "\n              (嗯!)", start: 117.2, end: 118}
+                { text: "\n(嗯!)", start: 117.2, end: 118}
               ]
              },
              {
@@ -5506,7 +5515,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "\n     (嘩~)", start: 128.1, end: 128.8}
+                { text: "\n(嘩~)", start: 128.1, end: 128.8}
               ]
              },
              {
@@ -6221,35 +6230,34 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "잠이 ", start: 200, end: 205.2},
-                { text: "들", start: 203.3, end: 205.2},
-                { text: "었", start: 203.6, end: 205.2},
-                { text: "다 ", start: 203.8, end: 205.2},
-  
+                { text: "잠이 ", start: 200, end: 20},
+                { text: "들", start: 203.3, end: 20},
+                { text: "었", start: 203.6, end: 20},
+                { text: "다 ", start: 203.8, end: 20}
               ]
              },
              {
               color: "#b81818",
               words: [
-                { text: "(아이쿠)", start: 204.5, end: 205.2}
+                { text: "(아이쿠)", start: 204.5, end: 20}
               ]
              },
              {
               color: "#ff962d",
               words: [
-                { text: "\n參伊 ", start: 200, end: 205.2},
-                { text: "嘟", start: 203.3, end: 205.2},
-                { text: "哦", start: 203.6, end: 205.2},
-                { text: "打 ", start: 203.8, end: 205.2},
+                { text: "\n參伊 ", start: 200, end: 20},
+                { text: "嘟", start: 203.3, end: 20},
+                { text: "哦", start: 203.6, end: 20},
+                { text: "打 ", start: 203.8, end: 20},
               ]
              },
              {
               color: "#ff962d",
               words: [
-                { text: "\n就", start: 200, end: 205.2},
-                { text: "睡", start: 203.3, end: 205.2},
-                { text: "著", start: 203.6, end: 205.2},
-                { text: "了", start: 203.8, end: 205.2},
+                { text: "\n就", start: 200, end: 20},
+                { text: "睡", start: 203.3, end: 20},
+                { text: "著", start: 203.6, end: 20},
+                { text: "了", start: 203.8, end: 20},
               ]
              },
              {
@@ -6281,11 +6289,12 @@ const SONGS = [
   {
     id: 11,
     title: "Born Savage",
+    image: "Image/Caligo Pt.2.jpg",
     description: "",
     normal: {
       videoId: "fVH5atHZtys",
-      lyrics: [ 
-          {
+      lyrics: [
+         {
           time: 28.5,
           segments: [
              {
@@ -7470,6 +7479,7 @@ const SONGS = [
            }
           ]
          },
+
     advanced: {
       videoId: "3zvHS4-C4uo",
       lyrics: []
@@ -7478,10 +7488,11 @@ const SONGS = [
   {
     id: 12,
     title: "Star Trace",
+    image: "Image/HYPERDRIVE.jpg",
     description: "",
     normal: {
       videoId: "2UZ4MLjFDG0",
-      lyrics: [  
+      lyrics: [
           {
           time: 34,
           segments: [
@@ -7544,7 +7555,7 @@ const SONGS = [
                 { text: "伊! ", start: 44.6, end: 45.6},
                 { text: "bu!", start: 45, end: 45.6},
                 { text: "\nP ", start: 43.8, end: 45.6},
-                { text: "LA ", start: 44.3, end: 45.6},
+                { text: "L A ", start: 44.3, end: 45.6},
                 { text: "V ", start: 44.6, end: 45.6},
                 { text: "E!", start: 45, end: 45.6}
               ]
@@ -7987,7 +7998,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                 { text: "\n亮", start: 115.2, end: 116.6},
+                 { text: "亮", start: 115.2, end: 116.6},
                 { text: "夜", start: 115.6, end: 116.6},
                 { text: "空", start: 116, end: 116.6}
               ]
@@ -8637,7 +8648,7 @@ const SONGS = [
       videoId: "hxYPZpPZJ7o",
       lyrics: []
       }
-     }  
+     } 
     ];
 
 /* =========================================================
