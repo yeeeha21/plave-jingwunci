@@ -1124,3 +1124,39 @@ main,
 #song-total {
   display: none !important;
 }
+
+/* 隱藏最上方的 LYRICS CLUB 和 logo */
+.site-header,
+.header,
+.logo,
+.brand,
+.nav,
+[class*="logo"],
+[class*="brand"] {
+  display: none !important;
+}
+
+/* 隱藏最下方的 MADE FOR EVERY FAN 和說明文字 */
+.site-footer:not(.site-footer),
+.footer,
+.credit,
+.made-for,
+.list-note,
+.intro-text,
+p:has(+ .list-note),
+.bottom-note {
+  display: none !important;
+}
+
+/* 更精準隱藏底部文字 */
+body > footer,
+#home-page + footer,
+.main-footer,
+.page-footer {
+  display: none !important;
+}
+
+/* 清除可能的邊界線 */
+hr, .divider, .line {
+  display: none !important;
+}
