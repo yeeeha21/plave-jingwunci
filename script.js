@@ -9573,9 +9573,7 @@ function bindEvents() {
    12. 初始化
    ========================================================= */
 
-function init() {
-  renderSongList();
-   // ========== 版本切換 ==========
+// ========== 版本切換 ==========
 let currentListVersion = "normal";
 
 function updateVersionLabel() {
@@ -9588,18 +9586,20 @@ function updateVersionLabel() {
   }
 }
 
-document.getElementById("version-prev")?.addEventListener("click", () => {
-  currentListVersion = currentListVersion === "normal" ? "advanced" : "normal";
-  updateVersionLabel();
-});
+function init() {
+  renderSongList();
 
-document.getElementById("version-next")?.addEventListener("click", () => {
-  currentListVersion = currentListVersion === "normal" ? "advanced" : "normal";
-  updateVersionLabel();
-});
+  document.getElementById("version-prev")?.addEventListener("click", () => {
+    currentListVersion = currentListVersion === "normal" ? "advanced" : "normal";
+    updateVersionLabel();
+  });
 
-// 初始化顯示
-updateVersionLabel();
+  document.getElementById("version-next")?.addEventListener("click", () => {
+    currentListVersion = currentListVersion === "normal" ? "advanced" : "normal";
+    updateVersionLabel();
+  });
+
+  updateVersionLabel();
   bindEvents();
   showHomePage();
   loadYouTubeApi();
