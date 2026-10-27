@@ -932,3 +932,39 @@ a:focus-visible,
 .lyric-line.active .lyric-segment {
   filter: brightness(1.15);
 }
+
+/* 歌詞：保留原本顏色，只加粗正在唸的句子 */
+.lyric-line {
+  color: inherit;                /* 不覆蓋原本顏色 */
+  font-weight: 500;
+  transition: font-weight 0.2s, background 0.2s;
+}
+
+.lyric-line.active {
+  font-weight: 800;              /* 只加粗 */
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.06), transparent);
+  text-shadow: none;
+  color: inherit;                /* 保持原本顏色 */
+}
+
+.lyric-line.past {
+  opacity: 0.55;                 /* 已經過的稍微變淡 */
+  color: inherit;
+}
+
+/* 單字也不要強制變色 */
+.lyric-word.word-active {
+  font-weight: 800;
+  color: inherit;
+  text-shadow: none;
+}
+
+.lyric-word.word-past {
+  opacity: 0.55;
+  color: inherit;
+}
+
+.lyric-word.word-upcoming {
+  color: inherit;
+}
+
