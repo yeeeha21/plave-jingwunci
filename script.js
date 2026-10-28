@@ -4702,7 +4702,7 @@ const SONGS = [
           }
          },     
 
- {
+    {
     id: 10,
     title: "BBUU!",
     cover: "Image/PLBBUU.jpg",
@@ -6278,12 +6278,12 @@ const SONGS = [
               words: [
                 { text: "(歡呼!!)", start: 205.2, end: 211}
               ]
-             },
+             }
             ]
-           },
+           }
           ]
          },
-  {
+   {
     id: 11,
     title: "Born Savage",
     cover: "Image/Caligo Pt.2.jpg",
