@@ -4710,7 +4710,7 @@ const SONGS = [
     normal: {
       videoId: "ma3evv4vnW0",
       lyrics: [
-          {
+         {
           time: 36.9,
           segments: [
              {
@@ -4942,7 +4942,7 @@ const SONGS = [
              },
              {
               color: "#ff962d",
-              word:[
+              words:[
                 { text: "\n一、", start: 63.2, end: 65.4}
               ]
              },
@@ -5283,7 +5283,7 @@ const SONGS = [
              },
              {
               color: "#ff962d",
-              word:[
+              words:[
                 { text: "\n一、", start: 98.1, end: 100.3}
               ]
              },
@@ -5672,7 +5672,7 @@ const SONGS = [
              },
              {
               color: "#ff962d",
-              word:[
+              words:[
                 { text: "\n一、", start: 141.7, end: 143.9}
               ]
              },
@@ -6283,11 +6283,6 @@ const SONGS = [
            },
           ]
          },
-    advanced: {
-      videoId: "zYfM_sYClnY",
-      lyrics: []
-    }
-  },
   {
     id: 11,
     title: "Born Savage",
@@ -9176,6 +9171,7 @@ function updateLyrics(time) {
         end > start;
 
       const isWordActive =
+        isActive &&
         hasTiming &&
         currentVideoTime >= start &&
         currentVideoTime < end;
