@@ -4913,7 +4913,7 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "\n就五、六、七 ", start: 58.8, end: 63.2}
+                { text: "\n就五、六、七 ", start: 60.7, end: 63.2}
               ]
              },
              {
