@@ -4701,7 +4701,6 @@ const SONGS = [
            ] 
           }
          },     
-
     {
     id: 10,
     title: "BBUU!",
@@ -6283,6 +6282,11 @@ const SONGS = [
            }
           ]
          },
+      advanced: {
+      videoId: "zYfM_sYClnY",
+      lyrics: []
+    }
+   },
    {
     id: 11,
     title: "Born Savage",
