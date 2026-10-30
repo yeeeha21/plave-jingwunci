@@ -6277,9 +6277,9 @@ const SONGS = [
               words: [
                 { text: "(歡呼!!)", start: 205.2, end: 211}
               ]
-             }
+             },
             ]
-           }
+           },
           ]
          },
       advanced: {
