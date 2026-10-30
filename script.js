@@ -3459,7 +3459,7 @@ const SONGS = [
     normal: {
       videoId: "mGqYMma_YIk",
       lyrics: [
-          {
+        {
           time: 45,
           segments: [
              {
@@ -3504,24 +3504,24 @@ const SONGS = [
                 { text: "플 ", start: 61.8, end: 65.7},
                 { text: "레 ", start: 62.2, end: 65.7},
                 { text: "이 ", start: 62.5, end: 65.7},
-                { text: "브 ", start: 62.9, end: 65.7},
-                { text: " 숨 ", start: 63.1, end: 65.7},
+                { text: "브 ", start: 62.7, end: 65.7},
+                { text: " 숨 ", start: 63, end: 65.7},
                 { text: "바 ", start: 63.8, end: 65.7},
                 { text: "꼭 ", start: 64.4, end: 65.7},
                 { text: "질", start: 65.1, end: 65.7},
                 { text: "\n噗 ", start: 61.8, end: 65.7},
                 { text: "呢 ", start: 62.2, end: 65.7},
                 { text: "伊 ", start: 62.5, end: 65.7},
-                { text: "bu ", start: 62.9, end: 65.7},
-                { text: " Zoo ", start: 63.1, end: 65.7},
+                { text: "bu ", start: 62.7, end: 65.7},
+                { text: " Zoo ", start: 63, end: 65.7},
                 { text: " 拍 ", start: 63.8, end: 65.7},
                 { text: " 谷 ", start: 64.4, end: 65.7},
                 { text: " 知", start: 65.1, end: 65.7},
                 { text: "\nP ", start: 61.8, end: 65.7},
                 { text: "L A ", start: 62.2, end: 65.7},
                 { text: "V ", start: 62.5, end: 65.7},
-                { text: "E ", start: 62.9, end: 65.7},
-                { text: " 捉 ", start: 63.1, end: 65.7},
+                { text: "E ", start: 62.7, end: 65.7},
+                { text: " 捉 ", start: 63, end: 65.7},
                 { text: " 迷 ", start: 63.8, end: 65.7},
                 { text: " 藏 ", start: 64.4, end: 65.7},
               ]
@@ -3838,18 +3838,18 @@ const SONGS = [
              {
               color: "#cfa7eb",
               words: [
-                { text: "천국인걸\n天國", start: 125.7, end: 127.8}
+                { text: "천국인걸\n天國", start: 125.7, end: 127.6}
               ]
              }
             ]
            },
            {
-          time: 127.8,
+          time: 127.6,
           segments: [
              {
               color: "#b81818",
               words: [
-                { text: "이젠 알겠어 ", start: 127.8, end: 129.2}
+                { text: "이젠 알겠어 ", start: 127.6, end: 129.2}
               ]
              },
              {
@@ -3862,7 +3862,7 @@ const SONGS = [
              {
               color: "#b81818",
               words: [
-                { text: "\n現在明白了 ", start: 127.8, end: 129.2}
+                { text: "\n現在明白了 ", start: 127.6, end: 129.2}
               ]
              },
              {
@@ -4194,7 +4194,7 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                { text: "벅차오름은 다시 또 한걸음 가까워져", start: 166.9, end: 170.4}
+                { text: "벅차오름은 다시 또 한걸음 가까워져 ", start: 166.9, end: 170.4}
               ]
              },
              {
@@ -4206,7 +4206,7 @@ const SONGS = [
               {
               color: "#2a2a2a",
               words: [
-                { text: "\n心潮澎湃又再次向你靠近一步", start: 166.9, end: 170.4}
+                { text: "\n心潮澎湃又再次向你靠近一步 ", start: 166.9, end: 170.4}
               ]
              },
              {
@@ -4683,7 +4683,6 @@ const SONGS = [
            }
           ]
          },
-
     advanced: {
       videoId: "g2VTFOnp51E",
       lyrics: [ 
