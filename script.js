@@ -3459,15 +3459,15 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "플 ", start: 33.7, end: 36.4},
+                { text: "플 ", start: 33.4, end: 36.4},
                 { text: "레 ", start: 34.1, end: 36.4},
                 { text: "이 ", start: 34.7, end: 36.4},
                 { text: "브", start: 35.3, end: 36.4},
-                { text: "\n噗 ", start: 33.7, end: 36.4},
+                { text: "\n噗 ", start: 33.4, end: 36.4},
                 { text: "呢 ", start: 34.1, end: 36.4},
                 { text: "伊 ", start: 34.7, end: 36.4},
                 { text: "bu", start: 35.3, end: 36.4},
-                { text: "\nP ", start: 33.7, end: 36.4},
+                { text: "\nP ", start: 33.4, end: 36.4},
                 { text: "L A ", start: 34.1, end: 36.4},
                 { text: "V ", start: 34.7, end: 36.4},
                 { text: "E", start: 35.3, end: 36.4}
@@ -4403,10 +4403,10 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "Immortal, ", start: 178, end: 178},
-                { text: "Immortal", start: 180.3, end: 178},
-                { text: "\nImmortal, ", start: 182.6, end: 178},
-                { text: "Immortal", start: 185, end: 178}
+                { text: "Immortal, ", start: 178, end: 187.6},
+                { text: "Immortal", start: 180.3, end: 187.6},
+                { text: "\nImmortal, ", start: 182.6, end: 187.6},
+                { text: "Immortal", start: 185, end: 187.6}
               ]
              }
             ]
@@ -4450,19 +4450,20 @@ const SONGS = [
                 { text: " got", start: 195.2, end: 197},
                 { text: "ta ", start: 195.7, end: 197},
                 { text: "dash", start: 196.4, end: 197},
-              ]
-             },
-             {
-              color: "#ff962d",
-              words: [
                 { text: "\n噗 ", start: 193.4, end: 197},
                 { text: "呢 ", start: 193.7, end: 197},
                 { text: "伊 ", start: 194, end: 197},
                 { text: "bu", start: 194.3, end: 197},
+                { text: " got", start: 195.2, end: 197},
+                { text: "ta ", start: 195.7, end: 197},
+                { text: "dash", start: 196.4, end: 197},
                 { text: "\nP ", start: 193.4, end: 197},
                 { text: "L A ", start: 193.7, end: 197},
                 { text: "V ", start: 194, end: 197},
                 { text: "E ", start: 194.3, end: 197},
+                { text: " got", start: 195.2, end: 197},
+                { text: "ta ", start: 195.7, end: 197},
+                { text: "dash", start: 196.4, end: 197},
               ]
              }
             ]
