@@ -3459,15 +3459,15 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "플 ", start: 33.5, end: 36.4},
+                { text: "플 ", start: 33.7, end: 36.4},
                 { text: "레 ", start: 34.1, end: 36.4},
                 { text: "이 ", start: 34.7, end: 36.4},
                 { text: "브", start: 35.3, end: 36.4},
-                { text: "\n噗 ", start: 33.5, end: 36.4},
+                { text: "\n噗 ", start: 33.7, end: 36.4},
                 { text: "呢 ", start: 34.1, end: 36.4},
                 { text: "伊 ", start: 34.7, end: 36.4},
                 { text: "bu", start: 35.3, end: 36.4},
-                { text: "\nP ", start: 33.5, end: 36.4},
+                { text: "\nP ", start: 33.7, end: 36.4},
                 { text: "L A ", start: 34.1, end: 36.4},
                 { text: "V ", start: 34.7, end: 36.4},
                 { text: "E", start: 35.3, end: 36.4}
@@ -3693,7 +3693,10 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(I gotta dash)", start: 78.1, end: 79.3}
+                { text: "(I ", start: 78.1, end: 79.3},
+                { text: "got", start: 78.5, end: 79.3},
+                { text: "ta ", start: 78.7, end: 79.3},
+                { text: "dash)", start: 78.9, end: 79.3}
               ]
              }
             ]
@@ -3715,24 +3718,27 @@ const SONGS = [
              {
               color: "#cfa7eb",
               words: [
-                { text: "I'm in my devil ", start: 81.7, end: 84.1}
+                { text: "I'm in my devil ", start: 81.7, end: 83.9}
               ]
              },
              {
               color: "#ff962d",
               words: [
-                { text: "(I'm in my devil)", start: 82.9, end: 84.1}
+                { text: "(I'm ", start: 82.9, end: 83.9},
+                { text: "in ", start: 83, end: 83.9},
+                { text: "my ", start: 83.3, end: 83.9},
+                { text: "devil)", start: 83.5, end: 83.9}
               ]
              }
             ]
            },
            {
-          time: 84.1,
+          time: 83.9,
           segments: [
              {
               color: "#cfa7eb",
               words: [
-                { text: "Don't make me mad", start: 84.1, end: 87}
+                { text: "Don't make me mad", start: 83.9, end: 87}
               ]
              }
             ]
@@ -3766,7 +3772,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "peace ", start: 88.5, end: 89.3}
+                { text: "this ", start: 88.5, end: 89.3}
               ]
              },
              {
@@ -3830,7 +3836,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(Who ", start: 94.1, end: 95.5},
+                { text: "(Who ", start: 94.7, end: 95.5},
                 { text: "Who)", start: 94.8, end: 95.5},
               ]
              },
@@ -3932,8 +3938,14 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(지켜줄게)", start: 106.9, end: 108},
-                { text: "\n(切溝啜嘅)", start: 106.9, end: 108}
+                { text: "(지", start: 106.9, end: 108},
+                { text: "켜", start: 107.2, end: 108},
+                { text: "줄", start: 107.5, end: 108},
+                { text: "게)", start: 107.8, end: 108},
+                { text: "\n(切", start: 106.9, end: 108},
+                { text: "溝", start: 107.2, end: 108},
+                { text: "啜", start: 107.5, end: 108},
+                { text: "嘅)", start: 107.8, end: 108}
               ]
              },
              {
@@ -3945,7 +3957,10 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(守護著你)", start: 106.9, end: 108}
+                { text: "(守", start: 106.9, end: 108},
+                { text: "護", start: 107.2, end: 108},
+                { text: "著", start: 107.5, end: 108},
+                { text: "你)", start: 107.8, end: 108},
               ]
              }
             ]
@@ -3962,8 +3977,14 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(지워버려)", start: 109.2, end: 110.5},
-                { text: "\n(之喎波糯)", start: 109.2, end: 110.5}
+                { text: "(지", start: 109.2, end: 110.5},
+                { text: "워", start: 109.5, end: 110.5},
+                { text: "버", start: 109.9, end: 110.5},
+                { text: "려)", start: 110.1, end: 110.5},
+                { text: "\n(之", start: 109.2, end: 110.5},
+                { text: "喎", start: 109.5, end: 110.5},
+                { text: "波", start: 109.9, end: 110.5},
+                { text: "糯)", start: 110.1, end: 110.5},
               ]
              },
              {
@@ -3975,7 +3996,10 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(全部抹除)", start: 109.2, end: 110.5}
+                { text: "(全", start: 109.2, end: 110.5},
+                { text: "部", start: 109.5, end: 110.5},
+                { text: "抹", start: 109.9, end: 110.5},
+                { text: "除)", start: 110.1, end: 110.5},
               ]
              }
             ]
@@ -4149,12 +4173,12 @@ const SONGS = [
             ]
            },
            {
-          time: 138.5,
+          time: 147.6,
           segments: [
              {
               color: "#8bc1ff",
               words: [
-                { text: "다시 뒤바뀌는 결말은\n重新改變的結局", start: 138.5, end: 145.2}
+                { text: "약속했던 그날의 숨결\n約定的那天的氣息", start: 147.6, end: 154.4}
               ]
              }
             ]
@@ -4236,17 +4260,6 @@ const SONGS = [
                 { text: "始", start: 165.3, end: 166.4},
                 { text: "起", start: 165.5, end: 166.4},
                 { text: "來", start: 165.9, end: 166.4}
-              ]
-             }
-            ]
-           },
-           {
-          time: 165.9,
-          segments: [
-             {
-              color: "#ffafcf",
-              words: [
-                { text: "Don't make me mad", start: 165.9, end: 168.9}
               ]
              }
             ]
@@ -4355,37 +4368,26 @@ const SONGS = [
             ]
            },
            {
-          time: 175.1,
-          segments: [
-             {
-              color: "#ffafcf",
-              words: [
-                { text: "Don't make me mad", start: 175.1, end: 178}
-              ]
-             }
-            ]
-           },
-           {
           time: 175.7,
           segments: [
              {
               color: "#ff962d",
               words: [
-                { text: "일어나 ", start: 178, end: 178},
+                { text: "일어나 ", start: 175.7, end: 178},
                 { text: "영광", start: 176.3, end: 178},
                 { text: "은 ", start: 176.7, end: 178},
                 { text: "우", start: 176.9, end: 178},
                 { text: "리", start: 177.1, end: 178},
                 { text: "의 ", start: 177.3, end: 178},
                 { text: "것", start: 177.7, end: 178},
-                { text: "\ne攞啦 ", start: 178, end: 178},
+                { text: "\ne攞啦 ", start: 175.7, end: 178},
                 { text: "嗡關", start: 176.3, end: 178},
                 { text: "奀(ngan1) ", start: 176.7, end: 178},
                 { text: "護", start: 176.9, end: 178},
                 { text: "呢(ne1)", start: 177.1, end: 178},
                 { text: "er ", start: 177.3, end: 178},
                 { text: "覺", start: 177.7, end: 178},
-                { text: "\n榮", start: 178, end: 178},
+                { text: "\n榮", start: 175.7, end: 178},
                 { text: "耀", start: 176.3, end: 178},
                 { text: "屬", start: 176.7, end: 178},
                 { text: "於", start: 176.9, end: 178},
@@ -4446,7 +4448,7 @@ const SONGS = [
                 { text: "브 ", start: 194.3, end: 197},
                 { text: " I ", start: 194.6, end: 197},
                 { text: " got", start: 195.2, end: 197},
-                { text: " ta ", start: 195.7, end: 197},
+                { text: "ta ", start: 195.7, end: 197},
                 { text: "dash", start: 196.4, end: 197},
               ]
              },
@@ -4476,13 +4478,13 @@ const SONGS = [
              }
             ]
            },
-      ]
-    },
+          ]
+         },
     advanced: {
       videoId: "MxIm2v4W9h8",
       lyrics: []
     }
-  },
+   },
    {
     id: 8,
     title: "かくれんぼ",
