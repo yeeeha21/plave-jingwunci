@@ -3430,7 +3430,1053 @@ const SONGS = [
     description: "",
     normal: {
       videoId: "9FopMGItmOw",
-      lyrics: []
+      lyrics: [
+          {
+          time: 26,
+          segments: [
+             {
+              color: "#954b01",
+              words: [
+                { text: "MUSIC START!", start: 26, end: 27.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 27.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 27.1, end: 33.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 33.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플 ", start: 33.5, end: 36.4},
+                { text: "레 ", start: 34.1, end: 36.4},
+                { text: "이 ", start: 34.7, end: 36.4},
+                { text: "브", start: 35.3, end: 36.4},
+                { text: "\n噗 ", start: 33.5, end: 36.4},
+                { text: "呢 ", start: 34.1, end: 36.4},
+                { text: "伊 ", start: 34.7, end: 36.4},
+                { text: "bu", start: 35.3, end: 36.4},
+                { text: "\nP ", start: 33.5, end: 36.4},
+                { text: "L A ", start: 34.1, end: 36.4},
+                { text: "V ", start: 34.7, end: 36.4},
+                { text: "E", start: 35.3, end: 36.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 36.4,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "실낱같았던\n我看到了", start: 36.4, end: 41.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 41.1,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "한 줄기의 빛을 봤어\n一絲微弱的光芒", start: 41.1, end: 45.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 45.8,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "칠흑 같은 어둠 속에\n在一片漆黑裡", start: 45.8, end: 50.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 50.4,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "끝을 헤매고 있어\n我徘徊在盡頭", start: 50.4, end: 54.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 54.4,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "아름답던 ", start: 54.4, end: 56.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(플 ", start: 55.5, end: 56.8},
+                { text: "레 ", start: 56, end: 56.8},
+                { text: "이 ", start: 56.3, end: 56.8},
+                { text: "브)", start: 56.5, end: 56.8},
+                { text: "\n(噗 ", start: 55.5, end: 56.8},
+                { text: "呢 ", start: 56, end: 56.8},
+                { text: "伊 ", start: 56.3, end: 56.8},
+                { text: "bu)", start: 56.5, end: 56.8},
+               ]
+              },
+              {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n像美麗的 ", start: 54.4, end: 56.8}
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                { text: "(P ", start: 55.5, end: 56.8},
+                { text: "L A ", start: 56, end: 56.8},
+                { text: "V ", start: 56.3, end: 56.8},
+                { text: "E)", start: 56.3, end: 56.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 56.8,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "영원처럼 ", start: 56.8, end: 59.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(영 ", start: 57.9, end: 59.2},
+                { text: "원 ", start: 58.3, end: 59.2},
+                { text: "하 ", start: 58.6, end: 59.2},
+                { text: "자)", start: 58.8, end: 59.2},
+                { text: "\n(嗡 ", start: 57.9, end: 59.2},
+                { text: "wong ", start: 58.3, end: 59.2},
+                { text: "哈 ", start: 58.6, end: 59.2},
+                { text: "炸)", start: 58.8, end: 59.2},
+               ]
+              },
+              {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n永恆一樣 ", start: 56.8, end: 59.2}
+               ]
+              },
+              {
+              color: "#ff962d",
+              words: [
+                { text: "(永 ", start: 57.9, end: 59.2},
+                { text: "遠 ", start: 58.3, end: 59.2},
+                { text: "一 ", start: 58.6, end: 59.2},
+                { text: "起)", start: 58.8, end: 59.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 59.2,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "아득히 펼쳐진 꿈\n那遙遠延展的夢", start: 59.2, end: 64.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 64.1,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Time is freakin' running out ", start: 64.1, end: 67.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(歡呼!!)", start: 66.3, end: 67.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 67.8,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I gotta dash ", start: 67.8, end: 70}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(dash)", start: 69, end: 70}
+              ]
+             }
+            ]
+           },
+           {
+          time: 70,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Break up the way", start: 70, end: 72.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 72.3,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I'm in my devil ", start: 72.3, end: 74.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(devil)", start: 73.7, end: 74.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 74.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Don't make me mad", start: 74.6, end: 76.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 76.9,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I gotta dash ", start: 76.9, end: 79.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(I gotta dash)", start: 78.1, end: 79.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 79.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Break up the way", start: 79.3, end: 76.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 81.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I'm in my devil ", start: 81.7, end: 84.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(I'm in my devil)", start: 82.9, end: 84.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 84.1,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Don't make me mad", start: 84.1, end: 87}
+              ]
+             }
+            ]
+           },
+           {
+          time: 87,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "I fly for ", start: 87, end: 88}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "peace", start: 87.6, end: 88}
+              ]
+             }
+            ]
+           },
+           {
+          time: 88,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Never lose in ", start: 88, end: 89.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "peace ", start: 88.5, end: 89.3}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "place", start: 89, end: 89.3}
+              ]
+             },
+            ]
+           },
+           {
+          time: 89.3,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "거침 따위 전혀 보이지 ", start: 89.3, end: 91.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "않지", start: 90.8, end: 91.6},
+                { text: "\n漢痴", start: 90.8, end: 91.6}
+              ]
+             },
+                          {
+              color: "#b81818",
+              words: [
+                { text: "\n區區阻礙 我視若", start: 89.3, end: 91.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "無睹", start: 90.8, end: 91.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 91.6,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "My prime series New chapter, let's get it", start: 91.6, end: 94.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 94.1,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "Don't slow down ", start: 94.1, end: 95.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Who ", start: 94.1, end: 95.5},
+                { text: "Who)", start: 94.8, end: 95.5},
+              ]
+             },
+            ]
+           },
+           {
+          time: 95.5,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "Never repeat it", start: 95.5, end: 96.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 96.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Don't stop for life", start: 96.3, end: 98.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 98.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Give me give me that Oh, we'll rock", start: 98.1, end: 100.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 100.5,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "The question is where you at now", start: 100.5, end: 102}
+              ]
+             }
+            ]
+           },
+           {
+          time: 102,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Take it easy now", start: 102, end: 103.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 103.1,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "어차피 정해진 답은 없으니 ", start: 103.1, end: 105.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "keep it up", start: 104.5, end: 105.8}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "\n反正沒有既定答案，就堅持下去吧 ", start: 103.1, end: 105.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "keep it up", start: 104.5, end: 105.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 105.8,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "날 깨워줘 ", start: 105.8, end: 108}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(지켜줄게)", start: 106.9, end: 108},
+                { text: "\n(切溝啜嘅)", start: 106.9, end: 108}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n喚醒我 ", start: 105.8, end: 108}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(守護著你)", start: 106.9, end: 108}
+              ]
+             }
+            ]
+           },
+           {
+          time: 108,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "악몽처럼 ", start: 108, end: 110.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(지워버려)", start: 109.2, end: 110.5},
+                { text: "\n(之喎波糯)", start: 109.2, end: 110.5}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n像惡夢一樣 ", start: 108, end: 110.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(全部抹除)", start: 109.2, end: 110.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 110.5,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "까맣게 뒤덮인 꿈\n被黑暗籠罩的夢想", start: 110.5, end: 115.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 115.5,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Time is frеakin' running out ", start: 115.5, end: 119.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(歡呼)", start: 117.5, end: 119.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 119.2,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I gotta dash ", start: 119.2, end: 121.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(dash)", start: 120.3, end: 121.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 121.3,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Break up the way", start: 121.3, end: 123.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 123.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I'm in my devil ", start: 123.6, end: 125.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(devil)", start: 124.9, end: 125.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 125.8,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Don't make me mad", start: 125.8, end: 128.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 128.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I gotta dash ", start: 128.3, end: 130.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(I ", start: 129.3, end: 130.6},
+                { text: "got", start: 129.7, end: 130.6},
+                { text: "ta ", start: 130, end: 130.6},
+                { text: "dash)", start: 130.2, end: 130.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 130.6,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Break up the way", start: 130.6, end: 132.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 132.8,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I'm in my devil ", start: 132.8, end: 135.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(I'm ", start: 134.1, end: 135.1},
+                { text: "in ", start: 134.1, end: 135.1},
+                { text: "my ", start: 134.5, end: 135.1},
+                { text: "devil)", start: 134.9, end: 135.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 135.1,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Don't make me mad", start: 135.1, end: 138.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 138.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "다시 뒤바뀌는 결말은\n重新改變的結局", start: 138.5, end: 145.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 145.2,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "네 선택에 놓여\n取決於你的選擇", start: 145.2, end: 147.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 138.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "다시 뒤바뀌는 결말은\n重新改變的結局", start: 138.5, end: 145.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 154.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼)", start: 154.4, end: 158.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 158.9,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "I gotta dash ", start: 158.9, end: 161.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(dash)", start: 160.1, end: 161.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 161.1,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Break up the way", start: 161.1, end: 163.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 163.4,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "I'm in my devil", start: 163.4, end: 163.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 164.7,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "혁", start: 164.7, end: 166.4},
+                { text: "명", start: 164.9, end: 166.4},
+                { text: "은 ", start: 165.1, end: 166.4},
+                { text: "시", start: 165.2, end: 166.4},
+                { text: "작", start: 165.3, end: 166.4},
+                { text: "됐", start: 165.5, end: 166.4},
+                { text: "어", start: 165.9, end: 166.4},
+                { text: "\n兇", start: 164.7, end: 166.4},
+                { text: "廟", start: 164.9, end: 166.4},
+                { text: "奀(ngan1) ", start: 165.1, end: 166.4},
+                { text: "施", start: 165.2, end: 166.4},
+                { text: "渣", start: 165.3, end: 166.4},
+                { text: "剁", start: 165.5, end: 166.4},
+                { text: "所", start: 165.9, end: 166.4},
+                { text: "\n革命", start: 164.7, end: 166.4},
+                { text: "已", start: 164.9, end: 166.4},
+                { text: "經", start: 165.1, end: 166.4},
+                { text: "開", start: 165.2, end: 166.4},
+                { text: "始", start: 165.3, end: 166.4},
+                { text: "起", start: 165.5, end: 166.4},
+                { text: "來", start: 165.9, end: 166.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 165.9,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Don't make me mad", start: 165.9, end: 168.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 166.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "일어나 ", start: 166.4, end: 168.9},
+                { text: "영광", start: 166.9, end: 168.9},
+                { text: "은 ", start: 167.4, end: 168.9},
+                { text: "우", start: 167.6, end: 168.9},
+                { text: "리", start: 167.7, end: 168.9},
+                { text: "의 ", start: 168, end: 168.9},
+                { text: "것", start: 168.3, end: 168.9},
+                { text: "\ne攞啦 ", start: 166.4, end: 168.9},
+                { text: "嗡關", start: 166.9, end: 168.9},
+                { text: "奀(ngan1) ", start: 167.4, end: 168.9},
+                { text: "護", start: 167.6, end: 168.9},
+                { text: "呢(ne1)", start: 167.7, end: 168.9},
+                { text: "er ", start: 168, end: 168.9},
+                { text: "覺", start: 168.3, end: 168.9},
+                { text: "\n榮", start: 166.4, end: 168.9},
+                { text: "耀", start: 166.9, end: 168.9},
+                { text: "屬", start: 167.4, end: 168.9},
+                { text: "於", start: 167.6, end: 168.9},
+                { text: "我", start: 167.7, end: 168.9},
+                { text: "們", start: 168, end: 168.9},
+              ]
+             }
+            ]
+           },
+           {
+          time: 168.9,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I gotta dash ", start: 168.9, end: 130.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(I ", start: 169.4, end: 170.5},
+                { text: "got", start: 169.5, end: 170.5},
+                { text: "ta ", start: 169.8, end: 170.5},
+                { text: "dash)", start: 170.1, end: 170.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 170.5,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Break up the way", start: 170.5, end: 172.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 172.8,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "I'm in my devil ", start: 172.8, end: 174}
+              ]
+             }
+            ]
+           },
+           {
+          time: 174,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "혁", start: 174, end: 175.7},
+                { text: "명", start: 174.2, end: 175.7},
+                { text: "은 ", start: 174.3, end: 175.7},
+                { text: "시", start: 174.4, end: 175.7},
+                { text: "작", start: 174.5, end: 175.7},
+                { text: "됐", start: 174.8, end: 175.7},
+                { text: "어", start: 175.2, end: 175.7},
+                { text: "\n兇", start: 174, end: 175.7},
+                { text: "廟", start: 174.2, end: 175.7},
+                { text: "奀(ngan1) ", start: 174.3, end: 175.7},
+                { text: "施", start: 174.4, end: 175.7},
+                { text: "渣", start: 174.5, end: 175.7},
+                { text: "剁", start: 174.8, end: 175.7},
+                { text: "所", start: 175.2, end: 175.7},
+                { text: "\n革命", start: 174, end: 175.7},
+                { text: "已", start: 174.2, end: 175.7},
+                { text: "經", start: 174.3, end: 175.7},
+                { text: "開", start: 174.4, end: 175.7},
+                { text: "始", start: 174.5, end: 175.7},
+                { text: "起", start: 174.8, end: 175.7},
+                { text: "來", start: 175.2, end: 175.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 175.1,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Don't make me mad", start: 175.1, end: 178}
+              ]
+             }
+            ]
+           },
+           {
+          time: 175.7,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "일어나 ", start: 178, end: 178},
+                { text: "영광", start: 176.3, end: 178},
+                { text: "은 ", start: 176.7, end: 178},
+                { text: "우", start: 176.9, end: 178},
+                { text: "리", start: 177.1, end: 178},
+                { text: "의 ", start: 177.3, end: 178},
+                { text: "것", start: 177.7, end: 178},
+                { text: "\ne攞啦 ", start: 178, end: 178},
+                { text: "嗡關", start: 176.3, end: 178},
+                { text: "奀(ngan1) ", start: 176.7, end: 178},
+                { text: "護", start: 176.9, end: 178},
+                { text: "呢(ne1)", start: 177.1, end: 178},
+                { text: "er ", start: 177.3, end: 178},
+                { text: "覺", start: 177.7, end: 178},
+                { text: "\n榮", start: 178, end: 178},
+                { text: "耀", start: 176.3, end: 178},
+                { text: "屬", start: 176.7, end: 178},
+                { text: "於", start: 176.9, end: 178},
+                { text: "我", start: 177.1, end: 178},
+                { text: "們", start: 177.3, end: 178},
+              ]
+             }
+            ]
+           },
+           {
+          time: 178,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Immortal, ", start: 178, end: 178},
+                { text: "Immortal", start: 180.3, end: 178},
+                { text: "\nImmortal, ", start: 182.6, end: 178},
+                { text: "Immortal", start: 185, end: 178}
+              ]
+             }
+            ]
+           },
+           {
+          time: 187.6,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "남예준 ", start: 187.6, end: 193.4},
+                { text: "한노아 ", start: 188.6, end: 193.4},
+                { text: "채밤비 ", start: 189.8, end: 193.4},
+                { text: "도은호 ", start: 191, end: 193.4},
+                { text: "유하민", start: 192.3, end: 193.4},
+                { text: "\n躝夜轉 ", start: 187.6, end: 193.4},
+                { text: "慳糯也 ", start: 188.6, end: 193.4},
+                { text: "車扮B ", start: 189.8, end: 193.4},
+                { text: "Do䟴呵 ", start: 191, end: 193.4},
+                { text: "you夏mean", start: 192.3, end: 193.4},
+                { text: "\n南藝俊 ", start: 187.6, end: 193.4},
+                { text: "韓諾亞 ", start: 188.6, end: 193.4},
+                { text: "蔡斑比 ", start: 189.8, end: 193.4},
+                { text: "都銀虎 ", start: 191, end: 193.4},
+                { text: "柳河玟", start: 192.3, end: 193.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 193.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플 ", start: 193.4, end: 197},
+                { text: "레 ", start: 193.7, end: 197},
+                { text: "이 ", start: 194, end: 197},
+                { text: "브 ", start: 194.3, end: 197},
+                { text: " I ", start: 194.6, end: 197},
+                { text: " got", start: 195.2, end: 197},
+                { text: " ta ", start: 195.7, end: 197},
+                { text: "dash", start: 196.4, end: 197},
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n噗 ", start: 193.4, end: 197},
+                { text: "呢 ", start: 193.7, end: 197},
+                { text: "伊 ", start: 194, end: 197},
+                { text: "bu", start: 194.3, end: 197},
+                { text: "\nP ", start: 193.4, end: 197},
+                { text: "L A ", start: 193.7, end: 197},
+                { text: "V ", start: 194, end: 197},
+                { text: "E ", start: 194.3, end: 197},
+              ]
+             }
+            ]
+           },
+           {
+          time: 197,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 197, end: 201.4}
+              ]
+             }
+            ]
+           },
+      ]
     },
     advanced: {
       videoId: "MxIm2v4W9h8",
