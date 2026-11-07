@@ -3824,13 +3824,13 @@ const SONGS = [
              {
               color: "transparent",
               words: [
-                { text: "바보야, 네 얘기란 말야 ", start: 79.5, end: 85.1}
+                { text: "\n바보야, 네 얘기란 말야 ", start: 79.5, end: 85.1}
               ]
              },
              {
               color: "#ff962d",
               words: [
-                { text: "\n(車 ", start: 83.5, end: 85.1},
+                { text: "(車 ", start: 83.5, end: 85.1},
                 { text: "扮 ", start: 83.8, end: 85.1},
                 { text: "B)", start: 84.1, end: 85.1}
               ]
