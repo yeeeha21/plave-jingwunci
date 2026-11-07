@@ -10977,6 +10977,9 @@ function setLyricsStatus(message) {
 }
 
 function escapeColor(color) {
+  if (color === "transparent" || color === "rgba(0,0,0,0)") {
+    return color;
+  }
   return /^#[0-9a-fA-F]{3,8}$/.test(color || "")
     ? color
     : "#FF6FAE";
