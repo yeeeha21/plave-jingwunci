@@ -3402,8 +3402,1490 @@ const SONGS = [
     description: "",
     normal: {
       videoId: "tRSvtYMjsxw",
-      lyrics: []
-    },
+      lyrics: [
+         {
+          time: 11.9,
+          segments: [
+             {
+              color: "#954b01",
+              words: [
+                { text: "MUSIC START!", start: 11.9, end: 41.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 15.2,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv, oh", start: 15.2, end: 18.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 18.8,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv", start: 18.8, end: 22.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 22.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv", start: 22.7, end: 28.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 28.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플 ", start: 28.3, end: 30.2},
+                { text: "레 ", start: 28.7, end: 30.2},
+                { text: "이 ", start: 29.2, end: 30.2},
+                { text: "브", start: 29.7, end: 30.2},
+                { text: "\n噗 ", start: 28.3, end: 30.2},
+                { text: "呢 ", start: 28.7, end: 30.2},
+                { text: "伊 ", start: 29.2, end: 30.2},
+                { text: "bu", start: 29.7, end: 30.2},
+                { text: "\nP ", start: 28.3, end: 30.2},
+                { text: "L A ", start: 28.7, end: 30.2},
+                { text: "V ", start: 29.2, end: 30.2},
+                { text: "E", start: 29.7, end: 30.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 30.2,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv", start: 30.2, end: 31.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 31.9,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv ", start: 31.9, end: 34}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Way ", start: 33, end: 34},
+                { text: "4 ", start: 33.3, end: 34},
+                { text: "Luv)", start: 33.5, end: 34}
+              ]
+             }
+            ]
+           },
+           {
+          time: 34,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv", start: 34, end: 35.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 35.6,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv ", start: 35.6, end: 37.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Way ", start: 36.7, end: 37.8},
+                { text: "4 ", start: 37.1, end: 37.8},
+                { text: "Luv)", start: 37.3, end: 37.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 37.8,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "거짓말이라도 믿을게 ", start: 37.8, end: 41.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(믿", start: 40.7, end: 41.6},
+                { text: "을", start: 40.9, end: 41.6},
+                { text: "게)", start: 41.1, end: 41.6}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n거짓말이라도 믿을게 ", start: 37.8, end: 41.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(瞇", start: 40.7, end: 41.6},
+                { text: "do", start: 40.9, end: 41.6},
+                { text: "嘅)", start: 41.1, end: 41.6}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n即使是謊言我也會相信", start: 37.8, end: 41.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(會", start: 40.7, end: 41.6},
+                { text: "相", start: 40.9, end: 41.6},
+                { text: "信)", start: 41.1, end: 41.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 41.6,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "영화 같은 스토리의 끝에\n在如同電影般的故事的盡頭", start: 41.6, end: 44.5}
+              ]
+             }
+            ]
+           },
+          {
+          time: 44.5,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "It's like a movie", start: 44.5, end: 47.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 47.5,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "우린 참 어렸었지\n那時候我們還很小", start: 47.5, end: 51.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 51.2,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "저 별들을 닮기엔\n想要像這些星星", start: 51.2, end: 55}
+              ]
+             }
+            ]
+           },
+           {
+          time: 55,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "모든 게 서툴렀지 Oh, yeah\n卻一切都很生疏 Oh, yeah", start: 55, end: 58.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 58.8,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "뜨거웠던 숨은 꿈이 되어\n熾熱的氣息成了一場夢", start: 58.8, end: 61.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 61.2,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "내 심장에 불을 지폈어 날 멈출 수 없도록 ", start: 61.2, end: 65.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "더욱", start: 64.7, end: 65.2}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n내 심장에 불을 지폈어 날 멈출 수 없도록", start: 61.2, end: 65.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: " 滔", start: 64.7, end: 65.2}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n點燃了我的心，以至於讓我無法", start: 61.2, end: 65.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "停止", start: 64.7, end: 65.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 65.2,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "떨어져가는 ", start: 65.2, end: 66.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "폭", start: 66.1, end: 66.9},
+                { text: "포", start: 66.6, end: 66.9}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n떨어져가는 ", start: 65.2, end: 66.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "葡", start: 66.1, end: 66.9},
+                { text: "葡", start: 66.6, end: 66.9}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n如同墜落的瀑布", start: 65.2, end: 66.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "一", start: 66.1, end: 66.9},
+                { text: "樣", start: 66.6, end: 66.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 66.9,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "처럼 내 몸을 던졌어 ", start: 66.9, end: 68.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(어)", start: 68.4, end: 68.8}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n처럼 내 몸을 던졌어 ", start: 66.9, end: 68.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(sor)", start: 68.4, end: 68.8}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n將我的身體投下 ", start: 66.9, end: 68.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(下)", start: 68.4, end: 68.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 68.8,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "그 속에 피어난 flo", start: 68.8, end: 71.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(wer)", start: 70.3, end: 71.1}
+              ]
+             },
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "\n其中綻放出的一朵flo", start: 68.8, end: 71.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(wer)", start: 70.3, end: 71.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 71.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "어느새 노을이 지고 있어 그곳으로\n不知何時夕陽西下，落向那邊", start: 71.1, end: 75.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n(歡呼!!)", start: 75.1, end: 75.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 75.6,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Moonlight", start: 75.6, end: 77.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 77.5,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "끝이 없는 ", start: 77.5, end: 79.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Mid", start: 78.4, end: 79.3},
+                { text: "night", start: 78.8, end: 79.3}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "\n無盡的", start: 77.5, end: 79.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Mid", start: 78.4, end: 79.3},
+                { text: "night", start: 78.8, end: 79.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 79.3,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Sunshine", start: 79.3, end: 81.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 81.2,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "반복되는 ", start: 81.2, end: 83.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "High", start: 82.2, end: 83.2},
+                { text: "light", start: 82.6, end: 83.2}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "\n反覆的", start: 81.2, end: 83.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "High", start: 82.2, end: 83.2},
+                { text: "light", start: 82.6, end: 83.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 83.2,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Woo woo woo woo woo woo woo", start: 83.2, end: 85}
+              ]
+             }
+            ]
+           },
+           {
+          time: 85,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Woo woo woo woo woo woo woo)", start: 85, end: 87}
+              ]
+             }
+            ]
+           },
+           {
+          time: 87,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Woo woo woo woo woo woo woo", start: 87, end: 88.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 88.8,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Woo woo woo woo woo woo woo)", start: 88.8, end: 90.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 90.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv", start: 90.7, end: 92.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 92.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv ", start: 92.3, end: 94.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Way ", start: 93.5, end: 94.5},
+                { text: "4 ", start: 93.8, end: 94.5},
+                { text: "Luv)", start: 93.9, end: 94.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 94.5,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv", start: 94.5, end: 96}
+              ]
+             }
+            ]
+           },
+           {
+          time: 96,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv ", start: 96, end: 98.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Way ", start: 97.2, end: 98.3},
+                { text: "4 ", start: 97.5, end: 98.3},
+                { text: "Luv)", start: 97.8, end: 98.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 98.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "거짓말이라도 믿을게 ", start: 98.3, end: 102}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(믿", start: 101, end: 102},
+                { text: "을", start: 101.4, end: 102},
+                { text: "게)", start: 101.5, end: 102}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n거짓말이라도 믿을게 ", start: 98.3, end: 102}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(瞇", start: 101, end: 102},
+                { text: "do", start: 101.4, end: 102},
+                { text: "嘅)", start: 101.5, end: 102}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n即使是謊言我也會相信", start: 98.3, end: 102}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(會", start: 101, end: 102},
+                { text: "相", start: 101.4, end: 102},
+                { text: "信)", start: 101.5, end: 102}
+              ]
+             }
+            ]
+           },
+           {
+          time: 102,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "영화 같은 스토리의 끝에\n在如同電影般的故事的盡頭", start: 102, end: 105.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 105.8,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Way 4 Luv", start: 105.8, end: 107.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 107.3,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Uh way 4 Luv ", start: 107.3, end: 109.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Way ", start: 108.6, end: 109.6},
+                { text: "4 ", start: 108.8, end: 109.6},
+                { text: "Luv)", start: 109.1, end: 109.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 109.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "사계절이 되어줘 my Venus\n請成為四季 my Venus", start: 109.6, end: 113.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 113.3,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "거짓말이라도 믿을래 ", start: 113.3, end: 117.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(믿", start: 116.1, end: 117.2},
+                { text: "을", start: 116.4, end: 117.2},
+                { text: "래)", start: 116.6, end: 117.2}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n거짓말이라도 믿을래 ", start: 113.3, end: 117.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(瞇", start: 116.1, end: 117.2},
+                { text: "do", start: 116.4, end: 117.2},
+                { text: "呢)", start: 116.6, end: 117.2}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n即使是謊言我也會相信", start: 113.3, end: 117.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(會", start: 116.1, end: 117.2},
+                { text: "相", start: 116.4, end: 117.2},
+                { text: "信)", start: 116.6, end: 117.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 117.2,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "황홀한 이 여정의 끝에\n在這段迷人的旅程的盡頭", start: 117.2, end: 120.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 120.8,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "쏟아지는 유성 아래 형 형색의 Rainbow ", start: 120.8, end: 124.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(bow)", start: 124.2, end: 124.8}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n在傾盆流星中，形形色色的Rainbow ", start: 120.8, end: 124.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(bow)", start: 124.2, end: 124.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 124.8,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "지나치게 아름다워\n過於美麗", start: 124.8, end: 126.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 126.6,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "A to T, I'm driving now ", start: 126.6, end: 128.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(now)", start: 127.9, end: 128.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 128.5,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "There's no rush hour", start: 128.5, end: 129.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 129.5,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Let's go Eiffel tower", start: 129.5, end: 131.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 131.8,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Imagine we smile at the same time", start: 131.8, end: 136.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 134.8, end: 136.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 136.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Moonlight", start: 136.1, end: 137.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 137.9,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "끝이 없는 ", start: 137.9, end: 139.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Mid", start: 138.9, end: 139.8},
+                { text: "night", start: 139.3, end: 139.8}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n無盡的", start: 137.9, end: 139.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "Mid", start: 138.9, end: 139.8},
+                { text: "night", start: 139.3, end: 139.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 139.8,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Sunshine", start: 139.8, end: 141.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 141.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "반복되는 ", start: 141.6, end: 143.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "High", start: 142.6, end: 143.7},
+                { text: "light", start: 143, end: 143.7}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n反覆的", start: 141.6, end: 143.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "High", start: 142.6, end: 143.7},
+                { text: "light", start: 143, end: 143.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 143.7,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Woo woo woo woo woo woo woo", start: 143.7, end: 145.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 145.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Woo woo woo woo woo woo woo)", start: 145.4, end: 147.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 147.4,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Woo woo woo woo woo woo woo", start: 147.4, end: 149.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 149.3,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Woo woo woo woo woo woo woo)", start: 149.3, end: 151.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 151.1,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Way 4 Luv", start: 151.1, end: 152.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 152.7,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Way 4 Luv ", start: 152.7, end: 155}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Way ", start: 153.9, end: 155},
+                { text: "4 ", start: 154.2, end: 155},
+                { text: "Luv)", start: 154.4, end: 155}
+              ]
+             }
+            ]
+           },
+           {
+          time: 155,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Way 4 Luv", start: 155, end: 156.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 156.5,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Way 4 Luv ", start: 156.5, end: 158.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Way ", start: 157.7, end: 158.7},
+                { text: "4 ", start: 158, end: 158.7},
+                { text: "Luv)", start: 158.3, end: 158.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 158.7,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "거짓말이라도 믿을게 ", start: 158.7, end: 162.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(믿", start: 161.5, end: 162.5},
+                { text: "을", start: 161.7, end: 162.5},
+                { text: "게)", start: 161.9, end: 162.5}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n거짓말이라도 믿을게 ", start: 158.7, end: 162.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(瞇", start: 161.5, end: 162.5},
+                { text: "do", start: 161.7, end: 162.5},
+                { text: "嘅)", start: 161.9, end: 162.5}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "\n即使是謊言我也會相信", start: 158.7, end: 162.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(會", start: 161.5, end: 162.5},
+                { text: "相", start: 161.7, end: 162.5},
+                { text: "信)", start: 161.9, end: 162.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 162.5,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "영화 같은 스토리의 끝에\n在如同電影般的故事的盡頭", start: 162.5, end: 166.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 166.2,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "같은 시선 속에 맞닿은 우리야\n在同一視線中相遇的我們啊", start: 166.2, end: 171}
+              ]
+             }
+            ]
+           },
+           {
+          time: 171,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "너와 날 닮은 이 순간\n你和我相似的這一刻", start: 171, end: 174.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 174.7,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "끝나지 않을 여행이라\n是不會停止的旅行", start: 174.7, end: 179}
+              ]
+             }
+            ]
+           },
+           {
+          time: 179,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "It's a beautiful life", start: 179, end: 183.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "\n플 ", start: 181.4, end: 183.3},
+                { text: "레 ", start: 181.8, end: 183.3},
+                { text: "이 ", start: 182.3, end: 183.3},
+                { text: "브", start: 182.8, end: 183.3},
+                { text: "\n噗 ", start: 181.4, end: 183.3},
+                { text: "呢 ", start: 181.8, end: 183.3},
+                { text: "伊 ", start: 182.3, end: 183.3},
+                { text: "bu", start: 182.8, end: 183.3},
+                { text: "\nP ", start: 181.4, end: 183.3},
+                { text: "L A ", start: 181.8, end: 183.3},
+                { text: "V ", start: 182.3, end: 183.3},
+                { text: "E", start: 182.8, end: 183.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 183.3,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Way 4 Luv", start: 183.3, end: 185.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 185.9,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Oh way 4 Luv ", start: 185.9, end: 188.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 188.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Way ", start: 188.9, end: 190.9},
+                { text: "伊 ", start: 189.4, end: 190.9},
+                { text: "4 ", start: 189.9, end: 190.9},
+                { text: "Luv)", start: 190.4, end: 190.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 190.9,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "거짓말이라도 믿을게 ", start: 190.9, end: 194.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(믿", start: 193.6, end: 194.7},
+                { text: "을", start: 194, end: 194.7},
+                { text: "게)", start: 194.2, end: 194.7}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n거짓말이라도 믿을게 ", start: 190.3, end: 194.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(瞇", start: 193.6, end: 194.7},
+                { text: "do", start: 194, end: 194.7},
+                { text: "嘅)", start: 194.2, end: 194.7}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n即使是謊言我也會相信", start: 190.3, end: 194.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(會", start: 193.6, end: 194.7},
+                { text: "相", start: 194, end: 194.7},
+                { text: "信)", start: 194.2, end: 194.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 194.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "영화 같은 스토리의 ", start: 194.7, end: 198.4}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "끝에", start: 194.7, end: 198.4}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n在如同電影般的故事的", start: 194.7, end: 198.4}
+              ]
+             },
+             {
+              color: "#b81818",
+              words: [
+                { text: "盡頭", start: 194.7, end: 198.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 198.4,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Way 4 Luv", start: 198.4, end: 199.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 199.7,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "Uh way 4 Luv ", start: 199.7, end: 202.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 202.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "사계절이 되어", start: 202.1, end: 206.1}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "줘 my Venus ", start: 202.1, end: 206.1}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "(oh)", start: 205.6, end: 206.1}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n請成為四", start: 202.1, end: 206.1}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "季 my Venus ", start: 202.1, end: 206.1}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "(oh)", start: 205.6, end: 206.1}
+              ]
+             },
+            ]
+           },
+           {
+          time: 206.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "거짓말이라도 믿을래 ", start: 206.1, end: 209.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(믿", start: 208.7, end: 209.8},
+                { text: "을", start: 209.1, end: 209.8},
+                { text: "래)", start: 209.2, end: 209.8}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n거짓말이라도 믿을래 ", start: 206.1, end: 209.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(瞇", start: 208.7, end: 209.8},
+                { text: "do", start: 209.1, end: 209.8},
+                { text: "呢)", start: 209.2, end: 209.8}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n即使是謊言我也會相信", start: 206.1, end: 209.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(會", start: 208.7, end: 209.8},
+                { text: "相", start: 209.1, end: 209.8},
+                { text: "信)", start: 209.2, end: 209.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 209.8,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "황홀한 이 여정의 끝에\n在這段迷人的旅程的盡頭", start: 209.8, end: 212}
+              ]
+             }
+            ]
+           },
+           {
+          time: 212,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Woo woo woo woo", start: 212, end: 215.4}
+              ]
+             },
+             {
+              color: "#954b01",
+              words: [
+                { text: "\n3 ", start: 213.7, end: 215.4},
+                { text: "2 ", start: 214.3, end: 215.4},
+                { text: "1 ", start: 214.8, end: 215.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 215.4,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "남예준 ", start: 215.4, end: 220.1},
+                { text: "한노아 ", start: 216.3, end: 220.1},
+                { text: "채밤비 ", start: 217.3, end: 220.1},
+                { text: "도은호 ", start: 218.3, end: 220.1},
+                { text: "유하민", start: 219.1, end: 220.1},
+                { text: "\n躝夜轉 ", start: 215.4, end: 220.1},
+                { text: "慳糯也 ", start: 216.3, end: 220.1},
+                { text: "車扮B ", start: 217.3, end: 220.1},
+                { text: "Do䟴呵 ", start: 218.3, end: 220.1},
+                { text: "you夏mean", start: 219.1, end: 220.1},
+                { text: "\n南藝俊 ", start: 215.4, end: 220.1},
+                { text: "韓諾亞 ", start: 216.3, end: 220.1},
+                { text: "蔡斑比 ", start: 217.3, end: 220.1},
+                { text: "都銀虎 ", start: 218.3, end: 220.1},
+                { text: "柳河玟", start: 219.1, end: 220.1},
+              ]
+             }
+            ]
+           },
+           {
+          time: 220.1,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "플", start: 220.1, end: 222.9},
+                { text: "레", start: 220.3, end: 222.9},
+                { text: "이", start: 220.6, end: 222.9},
+                { text: "브", start: 220.8, end: 222.9},
+                { text: " 웨 ", start: 221.1, end: 222.9},
+                { text: "이 ", start: 221.5, end: 222.9},
+                { text: "폴 ", start: 222, end: 222.9},
+                { text: "럽", start: 222.4, end: 222.9},
+                { text: "\n噗", start: 220.1, end: 222.9},
+                { text: "呢", start: 220.3, end: 222.9},
+                { text: "伊", start: 220.6, end: 222.9},
+                { text: "bu ", start: 220.8, end: 222.9},
+                { text: " Way", start: 221.1, end: 222.9},
+                { text: "伊", start: 221.5, end: 222.9},
+                { text: "4 ", start: 222, end: 222.9},
+                { text: "luv", start: 222.4, end: 222.9},
+                { text: "\nP", start: 220.1, end: 222.9},
+                { text: "LA", start: 220.3, end: 222.9},
+                { text: "V", start: 220.6, end: 222.9},
+                { text: "E ", start: 220.8, end: 222.9},
+                { text: " WA", start: 221.1, end: 222.9},
+                { text: "Y ", start: 221.5, end: 222.9},
+                { text: "4 ", start: 222, end: 222.9},
+                { text: "LUV", start: 222.4, end: 222.9},
+              ]
+             }
+            ]
+           },
+           {
+          time: 222.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(歡呼!!)", start: 222.9, end: 228.1}
+              ]
+             }
+            ]
+           },
+          ]
+         },
     advanced: {
       videoId: "n5uw7ErnzKs",
       lyrics: []
