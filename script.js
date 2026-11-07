@@ -3775,7 +3775,7 @@ const SONGS = [
               ]
              },
              {
-              color: "transparentb",
+              color: "transparent",
               words: [
                 { text: "\n짜릿한 이 순간 바래왔던 이 느낌 ", start: 74.1, end: 79.5}
               ]
@@ -4413,7 +4413,7 @@ const SONGS = [
           time: 178.7,
           segments: [
             {
-              color: "transparentf",
+              color: "transparent",
               words: [
                 { text: "그곳에 기다려준 너에게 나 말할게", start: 178.7, end: 188}
               ]
