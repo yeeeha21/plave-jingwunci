@@ -3965,7 +3965,24 @@ const SONGS = [
                 { text: "너", start: 106.8, end: 108.9},
                 { text: "에", start: 107.3, end: 108.9},
                 { text: "게 ", start: 107.4, end: 108.9},
-                { text: "나 ", start: 107.7, end: 108.9},
+                { text: "나 ", start: 107.7, end: 108.9}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "말할게", start: 108.2, end: 108.9}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "그곳에 ", start: 104.2, end: 108.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
                 { text: "\nkey帶", start: 106.2, end: 108.9},
                 { text: "糯津 ", start: 106.5, end: 108.9},
                 { text: "糯", start: 106.8, end: 108.9},
@@ -3975,7 +3992,7 @@ const SONGS = [
               ]
              },
              {
-              color: "#8bc1ff",
+              color: "transparent",
               words: [
                 { text: "말할게", start: 108.2, end: 108.9}
               ]
