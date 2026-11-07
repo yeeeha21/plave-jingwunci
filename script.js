@@ -4065,7 +4065,7 @@ const SONGS = [
               ]
              },
              {
-              color: "##ff962d",
+              color: "#ff962d",
               words: [
                 { text: "돌아오겠지", start: 120.8, end: 122.2}
               ]
@@ -4077,7 +4077,7 @@ const SONGS = [
               ]
              },
              {
-              color: "##ff962d",
+              color: "#ff962d",
               words: [
                 { text: "脫啦啊嘅知", start: 120.8, end: 122.2}
               ]
@@ -4089,7 +4089,7 @@ const SONGS = [
               ]
              },
              {
-              color: "##ff962d",
+              color: "#ff962d",
               words: [
                 { text: "會回來的吧", start: 120.8, end: 122.2}
               ]
@@ -4106,7 +4106,7 @@ const SONGS = [
               ]
              },
              {
-              color: "##ff962d",
+              color: "#ff962d",
               words: [
                 { text: "전화하겠지", start: 123.4, end: 124.4}
               ]
@@ -4118,7 +4118,7 @@ const SONGS = [
               ]
              },
              {
-              color: "##ff962d",
+              color: "#ff962d",
               words: [
                 { text: "錯啦啊嘅知", start: 123.4, end: 124.4}
               ]
@@ -4130,7 +4130,7 @@ const SONGS = [
               ]
              },
              {
-              color: "##ff962d",
+              color: "#ff962d",
               words: [
                 { text: "打電話來吧", start: 123.4, end: 124.4}
               ]
