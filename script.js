@@ -3622,7 +3622,7 @@ const SONGS = [
              {
               color: "#b81818",
               words: [
-                { text: "널 향해 심장이 뛰고 있단 걸 ", start: 57.4, end: 57.4}
+                { text: "널 향해 심장이 뛰고 있단 걸 ", start: 57.4, end: 63}
               ]
              },
              {
@@ -3636,7 +3636,7 @@ const SONGS = [
              {
               color: "transparent",
               words: [
-                { text: "\n널 향해 심장이 뛰고 있단 걸 ", start: 57.4, end: 57.4}
+                { text: "\n널 향해 심장이 뛰고 있단 걸 ", start: 57.4, end: 63}
               ]
              },
              {
@@ -3650,7 +3650,7 @@ const SONGS = [
              {
               color: "#b81818",
               words: [
-                { text: "\n明明心臟不停為你而跳動 ", start: 57.4, end: 57.4}
+                { text: "\n明明心臟不停為你而跳動 ", start: 57.4, end: 63}
               ]
              },
              {
