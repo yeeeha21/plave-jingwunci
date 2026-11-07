@@ -4590,10 +4590,18 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(Way ", start: 188.9, end: 190.9},
+                { text: "(웨 ", start: 188.9, end: 190.9},
+                { text: "이 ", start: 189.4, end: 190.9},
+                { text: "폴 ", start: 189.9, end: 190.9},
+                { text: "럽)", start: 190.4, end: 190.9},
+                { text: "\n(Way ", start: 188.9, end: 190.9},
                 { text: "伊 ", start: 189.4, end: 190.9},
                 { text: "4 ", start: 189.9, end: 190.9},
-                { text: "Luv)", start: 190.4, end: 190.9}
+                { text: "Luv)", start: 190.4, end: 190.9},
+                { text: "\n(WA", start: 188.9, end: 190.9},
+                { text: "Y ", start: 189.4, end: 190.9},
+                { text: "4 ", start: 189.9, end: 190.9},
+                { text: "LUV)", start: 190.4, end: 190.9}
               ]
              }
             ]
@@ -4790,18 +4798,18 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "황홀한 이 여정의 끝에\n在這段迷人的旅程的盡頭", start: 209.8, end: 212}
+                { text: "황홀한 이 여정의 끝에\n在這段迷人的旅程的盡頭", start: 209.8, end: 213}
               ]
              }
             ]
            },
            {
-          time: 212,
+          time: 213,
           segments: [
              {
               color: "#ffafcf",
               words: [
-                { text: "Woo woo woo woo", start: 212, end: 215.4}
+                { text: "Woo woo woo woo", start: 213, end: 215.4}
               ]
              },
              {
