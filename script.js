@@ -3417,7 +3417,7 @@ const SONGS = [
     normal: {
       videoId: "zLLHEZp_gbM",
       lyrics: [
-         {
+        {
           time: 28.6,
           segments: [
              {
@@ -3547,7 +3547,7 @@ const SONGS = [
                 { text: "레 ", start: 49, end: 50.1},
                 { text: "이 ", start: 49.3, end: 50.1},
                 { text: "브", start: 49.5, end: 50.1},
-                { text: "\n慳", start: 47.4, end: 50.1},
+                { text: "\n慳 ", start: 47.4, end: 50.1},
                 { text: "嘅 ", start: 47.8, end: 50.1},
                 { text: "hea ", start: 48.1, end: 50.1},
                 { text: " 噗 ", start: 48.7, end: 50.1},
@@ -3722,7 +3722,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(남 ", start: 72.9, end: 74.1},
+                { text: "(남 ", start: 72.8, end: 74.1},
                 { text: "예 ", start: 73.2, end: 74.1},
                 { text: "준)", start: 73.5, end: 74.1}
               ]
@@ -3736,7 +3736,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(躝 ", start: 72.9, end: 74.1},
+                { text: "(躝 ", start: 72.8, end: 74.1},
                 { text: "夜 ", start: 73.2, end: 74.1},
                 { text: "轉)", start: 73.5, end: 74.1}
               ]
@@ -3750,7 +3750,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "(南 ", start: 72.9, end: 74.1},
+                { text: "(南 ", start: 72.8, end: 74.1},
                 { text: "藝 ", start: 73.2, end: 74.1},
                 { text: "俊)", start: 73.5, end: 74.1}
               ]
@@ -3777,7 +3777,7 @@ const SONGS = [
              {
               color: "transparentb",
               words: [
-                { text: "짜릿한 이 순간 바래왔던 이 느낌 ", start: 74.1, end: 79.5}
+                { text: "\n짜릿한 이 순간 바래왔던 이 느낌 ", start: 74.1, end: 79.5}
               ]
              },
              {
@@ -3863,7 +3863,7 @@ const SONGS = [
              {
               color: "#ff962d",
               words: [
-                { text: "아\n(歡呼!!)", start: 86.7, end: 87.5}
+                { text: "\n(歡呼!!)", start: 86.7, end: 87.5}
               ]
              }
             ]
@@ -3965,19 +3965,8 @@ const SONGS = [
                 { text: "너", start: 106.8, end: 108.9},
                 { text: "에", start: 107.3, end: 108.9},
                 { text: "게 ", start: 107.4, end: 108.9},
-                { text: "나 ", start: 107.7, end: 108.9}
-              ]
-             },
-             {
-              color: "transparent",
-              words: [
-                { text: "\n그곳에 ", start: 104.2, end: 108.9}
-              ]
-             },
-             {
-              color: "#ff962d",
-              words: [
-                { text: "key帶", start: 106.2, end: 108.9},
+                { text: "나 ", start: 107.7, end: 108.9},
+                { text: "\nkey帶", start: 106.2, end: 108.9},
                 { text: "糯津 ", start: 106.5, end: 108.9},
                 { text: "糯", start: 106.8, end: 108.9},
                 { text: "er", start: 107.3, end: 108.9},
@@ -4028,7 +4017,7 @@ const SONGS = [
              {
               color: "#2a2a2a",
               words: [
-                { text: "'\n사랑해', 이 말을 못해서 너를\n'我愛你' 無法說出口", start: 108.9, end: 111.6}
+                { text: "\n'사랑해', 이 말을 못해서 너를\n'我愛你' 無法說出口", start: 108.9, end: 111.6}
               ]
              }
             ]
@@ -4179,7 +4168,7 @@ const SONGS = [
              {
               color: "transparent",
               words: [
-                { text: "\n이젠 더는 신경 쓰지 않을래 널 ", start: 127.3, end: 130.2}
+                { text: "\n이젠 더는 신경 쓰지 않을래 널", start: 127.3, end: 130.2}
               ]
              },
              {
@@ -4426,7 +4415,7 @@ const SONGS = [
             {
               color: "transparentf",
               words: [
-                { text: "\n그곳에 기다려준 너에게 나 말할게", start: 178.7, end: 188}
+                { text: "그곳에 기다려준 너에게 나 말할게", start: 178.7, end: 188}
               ]
              },
              {
@@ -4438,7 +4427,7 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "그곳에 기다려준 너에게 나 말할게\n我要對在那處等待著的你說", start: 178.7, end: 188}
+                { text: "\n그곳에 기다려준 너에게 나 말할게\n我要對在那處等待著的你說", start: 178.7, end: 188}
               ]
              }
             ]
@@ -4562,7 +4551,7 @@ const SONGS = [
              {
               color: "transparent",
               words: [
-                { text: "그곳에 ", start: 200.1, end: 204.4}
+                { text: "\n그곳에 ", start: 200.1, end: 204.4}
               ]
              },
              {
@@ -4579,7 +4568,7 @@ const SONGS = [
              {
               color: "#8bc1ff",
               words: [
-                { text: "我要奔", start: 200.1, end: 204.4}
+                { text: "\n我要奔", start: 200.1, end: 204.4}
               ]
              },
              {
