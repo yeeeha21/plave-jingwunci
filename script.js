@@ -3339,39 +3339,1141 @@ const SONGS = [
     normal: {
       videoId: "jF4B7Yvct-c",
       lyrics: [
-          {
+         {
           time: 5.1,
           segments: [
              {
               color: "#ff962d",
               words: [
-                { text: "플 ", start: 5.1, end: 10.5},
-                { text: "레 ", start: 5.9, end: 10.5},
-                { text: "이 ", start: 6.6, end: 10.5},
-                { text: "브 ", start: 7.2, end: 10.5},
-                { text: "왜", start: 7.8, end: 10.5},
-                { text: "요 ", start: 8.4, end: 10.5},
-                { text: "왜", start: 8.9, end: 10.5},
-                { text: "요 ", start: 9.4, end: 10.5},
-                { text: "왜", start: 9.5, end: 10.5},
-                { text: "\n噗 ", start: 5.1, end: 10.5},
-                { text: "呢 ", start: 5.9, end: 10.5},
-                { text: "伊 ", start: 6.6, end: 10.5},
-                { text: "bu ", start: 7.2, end: 10.5},
-                { text: "where ", start: 7.8, end: 10.5},
-                { text: "yo ", start: 8.4, end: 10.5},
-                { text: "where/", start: 8.9, end: 10.5},
-                { text: "yo/", start: 9.4, end: 10.5},
-                { text: "where", start: 9.5, end: 10.5},
-                { text: "\nP ", start: 5.1, end: 10.5},
-                { text: "L A ", start: 5.9, end: 10.5},
-                { text: "V ", start: 6.6, end: 10.5},
-                { text: "E ", start: 7.2, end: 10.5},
-                { text: "《Wh", start: 7.8, end: 10.5},
-                { text: "y ", start: 8.4, end: 10.5},
-                { text: "Wh", start: 8.9, end: 10.5},
-                { text: "y ", start: 9.4, end: 10.5},
-                { text: "Why?》", start: 9.5, end: 10.5}
+                { text: "플 ", start: 5.2, end: 10.4},
+                { text: "레 ", start: 5.9, end: 10.4},
+                { text: "이 ", start: 6.6, end: 10.4},
+                { text: "브 ", start: 7.2, end: 10.4},
+                { text: "왜", start: 7.8, end: 10.4},
+                { text: "요 ", start: 8.3, end: 10.4},
+                { text: "왜", start: 8.9, end: 10.4},
+                { text: "요 ", start: 9.2, end: 10.4},
+                { text: "왜", start: 9.5, end: 10.4},
+                { text: "\n噗 ", start: 5.2, end: 10.4},
+                { text: "呢 ", start: 5.9, end: 10.4},
+                { text: "伊 ", start: 6.6, end: 10.4},
+                { text: "bu ", start: 7.2, end: 10.4},
+                { text: "where ", start: 7.8, end: 10.4},
+                { text: "yo ", start: 8.3, end: 10.4},
+                { text: "where/", start: 8.9, end: 10.4},
+                { text: "yo/", start: 9.2, end: 10.4},
+                { text: "where", start: 9.5, end: 10.4},
+                { text: "\nP ", start: 5.2, end: 10.4},
+                { text: "L A ", start: 5.9, end: 10.4},
+                { text: "V ", start: 6.6, end: 10.4},
+                { text: "E ", start: 7.2, end: 10.4},
+                { text: "《Wh", start: 7.8, end: 10.4},
+                { text: "y ", start: 8.3, end: 10.4},
+                { text: "Wh", start: 8.9, end: 10.4},
+                { text: "y ", start: 9.2, end: 10.4},
+                { text: "Why?》", start: 9.5, end: 10.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 10.4,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Make you go ", start: 10.4, end: 12.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "click, ", start: 11.2, end: 12.7},
+                { text: "click", start: 11.8, end: 12.7},
+              ]
+             }
+            ]
+           },
+           {
+          time: 12.7,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Make you go ", start: 12.7, end: 15.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "mad, ", start: 13.6, end: 15.3},
+                { text: "mad", start: 14.1, end: 15.3},
+              ]
+             }
+            ]
+           },
+           {
+          time: 15.3,
+          segments: [
+             {
+              color: "#b81818",
+              words: [
+                { text: "Make you go ", start: 15.3, end: 17.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "rec, ", start: 16, end: 17.6},
+                { text: "rec", start: 16.5, end: 17.6},
+              ]
+             }
+            ]
+           },
+           {
+          time: 17.6,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "I know, I know 뻔해\nI know, I know 顯而易見", start: 17.6, end: 18.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 18.9,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "너 정말 왜요 ", start: 18.9, end: 22.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 20.8, end: 22.1},
+                { text: "요 ", start: 21.2, end: 22.1},
+                { text: "왜", start: 21.6, end: 22.1}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n너 정말 ", start: 18.9, end: 22.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "where/", start: 20.8, end: 22.1},
+                { text: "yo/", start: 21.2, end: 22.1},
+                { text: "where", start: 21.6, end: 22.1}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n你真的 ", start: 18.9, end: 22.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "為什麼 ", start: 20.8, end: 22.1},
+                { text: "為什麼 ", start: 21.2, end: 22.1},
+                { text: "為什麼？", start: 21.6, end: 22.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 22.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "왜요 ", start: 22.1, end: 24.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 23.2, end: 24.5},
+                { text: "요 ", start: 23.7, end: 24.5},
+                { text: "왜", start: 23.9, end: 24.5},
+                { text: "\nwhere/", start: 23.2, end: 24.5},
+                { text: "yo/", start: 23.7, end: 24.5},
+                { text: "where", start: 23.9, end: 24.5},
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n為 ", start: 22.1, end: 24.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "什麼 ", start: 23.2, end: 24.5},
+                { text: "為什麼 ", start: 23.7, end: 24.5},
+                { text: "為什麼？", start: 23.9, end: 24.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 24.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I don't wanna hear anymore ", start: 24.5, end: 28.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(nope, ", start: 27.1, end: 28.7},
+                { text: "nope, ", start: 27.8, end: 28.7},
+                { text: "nope)", start: 28.3, end: 28.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 28.7,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "저한테 왜요 ", start: 28.7, end: 31.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 30.5, end: 31.7},
+                { text: "요 ", start: 30.8, end: 31.7},
+                { text: "왜", start: 31.1, end: 31.7}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n저한테 ", start: 28.7, end: 31.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "where/", start: 30.5, end: 31.7},
+                { text: "yo/", start: 30.8, end: 31.7},
+                { text: "where", start: 31.1, end: 31.7}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n對我…為", start: 28.7, end: 31.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "什麼 ", start: 30.5, end: 31.7},
+                { text: "為什麼 ", start: 30.8, end: 31.7},
+                { text: "為什麼？", start: 31.1, end: 31.7}
+              ]
+             },
+            ]
+           },
+           {
+          time: 31.7,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "왜요 ", start: 31.7, end: 34.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 32.8, end: 34.1},
+                { text: "요 ", start: 33.2, end: 34.1},
+                { text: "왜", start: 33.5, end: 34.1},
+                { text: "\nwhere/", start: 32.8, end: 34.1},
+                { text: "yo/", start: 33.2, end: 34.1},
+                { text: "where", start: 33.5, end: 34.1},
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n為 ", start: 31.7, end: 34.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "什麼 ", start: 32.8, end: 34.1},
+                { text: "為什麼 ", start: 33.2, end: 34.1},
+                { text: "為什麼？", start: 33.5, end: 34.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 34.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I don't wanna hear anymore ", start: 34.1, end: 39.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(啊啊啊!!)", start: 36.5, end: 39.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 39.2,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "We make a trend", start: 39.2, end: 39.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 39.9,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "흔해빠진 밈들은 전부 **** off ", start: 39.9, end: 43.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(넣", start: 42.4, end: 43.9},
+                { text: "어", start: 42.8, end: 43.9},
+                { text: "둬)", start: 43.2, end: 43.9}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n흔해빠진 밈들은 전부 **** off ", start: 39.9, end: 43.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(囉", start: 42.4, end: 43.9},
+                { text: "哦", start: 42.8, end: 43.9},
+                { text: "多)", start: 43.2, end: 43.9}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n氾濫的梗全部 **** off ", start: 39.9, end: 43.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(放", start: 42.4, end: 43.9},
+                { text: "一", start: 42.8, end: 43.9},
+                { text: "邊)", start: 43.2, end: 43.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 43.9,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "We make a friend", start: 43.9, end: 44.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 44.7,
+          segments: [
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "트렌드를 아는 freak 모두 모여 ", start: 44.7, end: 48.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(여", start: 47.3, end: 48.8},
+                { text: "기", start: 47.6, end: 48.8},
+                { text: "로)", start: 47.9, end: 48.8}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n트렌드를 아는 freak 모두 모여 ", start: 44.7, end: 48.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(yo", start: 47.3, end: 48.8},
+                { text: "健", start: 47.6, end: 48.8},
+                { text: "囉)", start: 47.9, end: 48.8}
+              ]
+             },
+             {
+              color: "#2a2a2a",
+              words: [
+                { text: "\n懂流行的freak 全部集合 ", start: 44.7, end: 48.8}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(在", start: 47.3, end: 48.8},
+                { text: "這", start: 47.6, end: 48.8},
+                { text: "裏)", start: 47.9, end: 48.8}
+              ]
+             }
+            ]
+           },
+           {
+          time: 48.8,
+          segments: [
+             {
+              color: "#ce2626",
+              words: [
+                { text: "멋을 아는 shake it ", start: 48.8, end: 51.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(뿌", start: 50.4, end: 51.3},
+                { text: "뿌)", start: 50.6, end: 51.3}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n멋을 아는 shake it ", start: 48.8, end: 51.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(砵", start: 50.4, end: 51.3},
+                { text: "砵)", start: 50.6, end: 51.3}
+              ]
+             },
+             {
+              color: "#ce2626",
+              words: [
+                { text: "\n懂得酷的 shake it ", start: 48.8, end: 51.3}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(BUU", start: 50.4, end: 51.3},
+                { text: "BUU)", start: 50.6, end: 51.3}
+              ]
+             }
+            ]
+           },
+           {
+          time: 51.3,
+          segments: [
+             {
+              color: "#ce2626",
+              words: [
+                { text: "Muscle 위한 프로틴 ", start: 51.3, end: 53.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(yeah, buddy)", start: 52.6, end: 53.7}
+              ]
+             },
+             {
+              color: "#ce2626",
+              words: [
+                { text: "\n為了Muscle的蛋白質 ", start: 51.3, end: 53.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(yeah, buddy)", start: 52.6, end: 53.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 53.7,
+          segments: [
+             {
+              color: "#ce2626",
+              words: [
+                { text: "안오는 놈들은 뭐야\n不來的家夥們是怎樣？", start: 53.7, end: 55.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 55.7,
+          segments: [
+             {
+              color: "#ce2626",
+              words: [
+                { text: "나 집에 안갈꼬야 ", start: 55.7, end: 58.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(가지마)", start: 57.5, end: 58.1}
+              ]
+             },
+             {
+              color: "#ce2626",
+              words: [
+                { text: "\n我不打算回家", start: 55.7, end: 58.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(不要走)", start: 57.5, end: 58.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 58.1,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Tell me what you want 더 보여줄게\nTell me what you want 給你展現更多", start: 58.1, end: 62.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 62.7,
+          segments: [
+             {
+              color: "#ffafcf",
+              words: [
+                { text: "Tell me what you do I'll be your Rolex", start: 62.7, end: 67}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(啊啊啊!!)", start: 65.3, end: 67}
+              ]
+             }
+            ]
+           },
+           {
+          time: 67,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "너 정말 왜요 ", start: 67, end: 70.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 68.9, end: 70.1},
+                { text: "요 ", start: 69.2, end: 70.1},
+                { text: "왜", start: 69.4, end: 70.1}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n너 정말 ", start: 67, end: 70.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "where/", start: 68.9, end: 70.1},
+                { text: "yo/", start: 69.2, end: 70.1},
+                { text: "where", start: 69.4, end: 70.1}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n你真的 ", start: 67, end: 70.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "為什麼 ", start: 68.9, end: 70.1},
+                { text: "為什麼 ", start: 69.2, end: 70.1},
+                { text: "為什麼？", start: 69.4, end: 70.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 70.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "왜요 ", start: 70.1, end: 72.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 71.3, end: 72.5},
+                { text: "요 ", start: 71.5, end: 72.5},
+                { text: "왜", start: 71.8, end: 72.5},
+                { text: "\nwhere/", start: 71.3, end: 72.5},
+                { text: "yo/", start: 71.5, end: 72.5},
+                { text: "where", start: 71.8, end: 72.5},
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n為 ", start: 70.1, end: 72.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "什麼 ", start: 71.3, end: 72.5},
+                { text: "為什麼 ", start: 71.5, end: 72.5},
+                { text: "為什麼？", start: 71.8, end: 72.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 72.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I don't wanna hear anymore ", start: 72.5, end: 76.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(nope, ", start: 75.1, end: 76.5},
+                { text: "nope, ", start: 75.7, end: 76.5},
+                { text: "nope)", start: 76.3, end: 76.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 76.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "저한테 왜요 ", start: 76.5, end: 79.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 78.4, end: 79.7},
+                { text: "요 ", start: 78.7, end: 79.7},
+                { text: "왜", start: 79.2, end: 79.7}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n저한테 ", start: 76.5, end: 79.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "where/", start: 78.4, end: 79.7},
+                { text: "yo/", start: 78.7, end: 79.7},
+                { text: "where", start: 79.2, end: 79.7}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n對我…為", start: 76.5, end: 79.7}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "什麼 ", start: 78.4, end: 79.7},
+                { text: "為什麼 ", start: 78.7, end: 79.7},
+                { text: "為什麼？", start: 79.2, end: 79.7}
+              ]
+             },
+            ]
+           },
+           {
+          time: 79.7,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "왜요 ", start: 79.7, end: 82.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 80.8, end: 82.1},
+                { text: "요 ", start: 81.2, end: 82.1},
+                { text: "왜", start: 81.6, end: 82.1},
+                { text: "\nwhere/", start: 80.8, end: 82.1},
+                { text: "yo/", start: 81.2, end: 82.1},
+                { text: "where", start: 81.6, end: 82.1},
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n為 ", start: 79.7, end: 82.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "什麼 ", start: 80.8, end: 82.1},
+                { text: "為什麼 ", start: 81.2, end: 82.1},
+                { text: "為什麼？", start: 81.6, end: 82.1}
+              ]
+             }
+            ]
+           },
+           {
+          time: 82.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I don't wanna hear anymore ", start: 82.1, end: 87}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(啊啊啊!!)", start: 84.8, end: 87}
+              ]
+             }
+            ]
+           },
+           {
+          time: 87,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Day and night", start: 87, end: 88.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 88.5,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "(Day and night)", start: 88.5, end: 89.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 89.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "언제나 너의 곁에 있을게 (always)\n無論何時都在你身邊 (always)", start: 89.7, end: 96.7}
+              ]
+             }
+            ]
+           },
+           {
+          time: 96.7,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "이런말 하고 싶지 않지만\n這種話雖然不想說出口", start: 96.7, end: 101.4}
+              ]
+             }
+            ]
+           },
+           {
+          time: 101.4,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "널 기다린 나란 말야 ", start: 101.4, end: 106.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(기 ", start: 103.7, end: 106.2},
+                { text: "다 ", start: 104.3, end: 106.2},
+                { text: "릴 ", start: 104.8, end: 106.2},
+                { text: "게)", start: 105.4, end: 106.2}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n널 기다린 나란", start: 101.4, end: 106.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(Key ", start: 103.7, end: 106.2},
+                { text: "帶 ", start: 104.3, end: 106.2},
+                { text: "呢(ne1) ", start: 104.8, end: 106.2},
+                { text: "嘅)", start: 105.4, end: 106.2}
+              ]
+             },
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "\n這是在等待你的我 ", start: 101.4, end: 106.2}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(等 ", start: 103.7, end: 106.2},
+                { text: "待 ", start: 104.3, end: 106.2},
+                { text: "著 ", start: 104.8, end: 106.2},
+                { text: "你)", start: 105.4, end: 106.2}
+              ]
+             }
+            ]
+           },
+           {
+          time: 106.2,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "너 정말 왜요 ", start: 106.2, end: 108.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 107.3, end: 108.6},
+                { text: "요 ", start: 107.6, end: 108.6},
+                { text: "왜", start: 107.8, end: 108.6}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n너 정말 ", start: 106.2, end: 108.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "where/", start: 107.3, end: 108.6},
+                { text: "yo/", start: 107.6, end: 108.6},
+                { text: "where", start: 107.8, end: 108.6}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n你真的 ", start: 106.2, end: 108.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "為什麼 ", start: 107.3, end: 108.6},
+                { text: "為什麼 ", start: 107.6, end: 108.6},
+                { text: "為什麼？", start: 107.8, end: 108.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 108.6,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "왜요 ", start: 108.6, end: 110.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 109.6, end: 110.9},
+                { text: "요 ", start: 110, end: 110.9},
+                { text: "왜", start: 110.3, end: 110.9},
+                { text: "\nwhere/", start: 109.6, end: 110.9},
+                { text: "yo/", start: 110, end: 110.9},
+                { text: "where", start: 110.3, end: 110.9},
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n為 ", start: 108.6, end: 110.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "什麼 ", start: 109.6, end: 110.9},
+                { text: "為什麼 ", start: 110, end: 110.9},
+                { text: "為什麼？", start: 110.3, end: 110.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 110.9,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I don't wanna hear anymore ", start: 110.9, end: 114.9}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(nope, ", start: 113.6, end: 114.9},
+                { text: "nope, ", start: 114.2, end: 114.9},
+                { text: "nope)", start: 114.7, end: 114.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 114.9,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "저한테 왜요 ", start: 114.9, end: 118.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 116.9, end: 118.1},
+                { text: "요 ", start: 117.2, end: 118.1},
+                { text: "왜", start: 117.5, end: 118.1}
+              ]
+             },
+             {
+              color: "transparent",
+              words: [
+                { text: "\n저한테 ", start: 114.9, end: 118.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "where/", start: 116.9, end: 118.1},
+                { text: "yo/", start: 117.2, end: 118.1},
+                { text: "where", start: 117.5, end: 118.1}
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n對我…為", start: 114.9, end: 118.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "什麼 ", start: 116.9, end: 118.1},
+                { text: "為什麼 ", start: 117.2, end: 118.1},
+                { text: "為什麼？", start: 117.5, end: 118.1}
+              ]
+             },
+            ]
+           },
+           {
+          time: 118.1,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "왜요 ", start: 118.1, end: 82.1}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "왜", start: 119.2, end: 120.5},
+                { text: "요 ", start: 119.6, end: 120.5},
+                { text: "왜", start: 119.8, end: 120.5},
+                { text: "\nwhere/", start: 119.2, end: 120.5},
+                { text: "yo/", start: 119.6, end: 120.5},
+                { text: "where", start: 119.8, end: 120.5},
+              ]
+             },
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "\n為 ", start: 118.1, end: 120.5}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "什麼 ", start: 119.2, end: 120.5},
+                { text: "為什麼 ", start: 119.6, end: 120.5},
+                { text: "為什麼？", start: 119.8, end: 120.5}
+              ]
+             }
+            ]
+           },
+           {
+          time: 120.5,
+          segments: [
+             {
+              color: "#8bc1ff",
+              words: [
+                { text: "I don't wanna hear anymore ", start: 120.5, end: 125.6}
+              ]
+             },
+             {
+              color: "#ff962d",
+              words: [
+                { text: "(啊啊啊!!)", start: 122.9, end: 125.6}
+              ]
+             }
+            ]
+           },
+           {
+          time: 125.6,
+          segments: [
+             {
+              color: "#cfa7eb",
+              words: [
+                { text: "Eh, eh, eh, eh-eh-eh", start: 125.6, end: 131.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 131.9,
+          segments: [
+             {
+              color: "#954b01",
+              words: [
+                { text: "3 ", start: 131.9, end: 134.9},
+                { text: "2 ", start: 132.9, end: 134.9},
+                { text: "1", start: 133.9, end: 134.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 134.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "남예준 ", start: 134.9, end: 140.9},
+                { text: "한노아 ", start: 136.1, end: 140.9},
+                { text: "채밤비 ", start: 137.2, end: 140.9},
+                { text: "도은호 ", start: 138.4, end: 140.9},
+                { text: "유하민", start: 139.6, end: 140.9},
+                { text: "\n躝夜轉 ", start: 134.9, end: 140.9},
+                { text: "慳糯也 ", start: 136.1, end: 140.9},
+                { text: "車扮B ", start: 137.2, end: 140.9},
+                { text: "Do䟴呵 ", start: 138.4, end: 140.9},
+                { text: "you夏mean", start: 139.6, end: 140.9},
+                { text: "\n南藝俊 ", start: 134.9, end: 140.9},
+                { text: "韓諾亞 ", start: 136.1, end: 140.9},
+                { text: "蔡斑比 ", start: 137.2, end: 140.9},
+                { text: "都銀虎 ", start: 138.4, end: 140.9},
+                { text: "柳河玟", start: 139.6, end: 140.9}
+              ]
+             }
+            ]
+           },
+           {
+          time: 140.9,
+          segments: [
+             {
+              color: "#ff962d",
+              words: [
+                { text: "사", start: 140.9, end: 146},
+                { text: "랑", start: 141.2, end: 146},
+                { text: "해 ", start: 141.4, end: 146},
+                { text: " 플 ", start: 142.1, end: 146},
+                { text: "레 ", start: 142.7, end: 146},
+                { text: "이 ", start: 143.3, end: 146},
+                { text: "브", start: 143.8, end: 146},
+                { text: "\n沙", start: 140.9, end: 146},
+                { text: "躝", start: 141.2, end: 146},
+                { text: "hea ", start: 141.4, end: 146},
+                { text: " 噗 ", start: 142.1, end: 146},
+                { text: "呢 ", start: 142.7, end: 146},
+                { text: "伊 ", start: 143.3, end: 146},
+                { text: "bu", start: 143.8, end: 146},
+                { text: "\n我", start: 140.9, end: 146},
+                { text: "愛", start: 141.2, end: 146},
+                { text: "你 ", start: 141.4, end: 146},
+                { text: " P ", start: 142.1, end: 146},
+                { text: "L A ", start: 142.7, end: 146},
+                { text: "V ", start: 143.3, end: 146},
+                { text: "E", start: 143.8, end: 146}
               ]
              }
             ]
